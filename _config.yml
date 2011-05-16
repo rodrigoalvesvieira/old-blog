@@ -1,0 +1,8 @@
+source: .
+destination: ./_site
+includes: ./_includes
+server_port: 5000
+markdown: rdiscount
+permalink: /:title
+future: true
+paginate: 10

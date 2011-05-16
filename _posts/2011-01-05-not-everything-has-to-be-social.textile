@@ -1,0 +1,17 @@
+---
+layout: post
+title: Not Everything Has to be Social
+excerpt: |- I agree tapping into my social network makes a lot of things better: Quora, Foursquare, CNN.com, and Flickr are all better if I can find my friends from Facebook using those services.
+---
+
+I agree tapping into my social network makes a lot of things better: Quora, Foursquare, CNN.com, and Flickr are all better if I can find my friends from Facebook using those services.
+
+But some services aren't necessarily better just because you add your social network.
+
+Beyond privacy concerns (for example, Google Health obviously isn't better if all my friends can see my health records), there are services where interacting with strangers is better than interacting with friends.
+
+h3. Examples
+
+A simple example: When I am in a new city looking for a sushi restaurant, I don't really care what my friends liked when they were there. I care what the sushi experts in that city like. While I love seeing what my friends think about businesses in San Francisco when I'm browsing Yelp, I wouldn't necessarily care (or trust) what they think about Boston if I were stuck in a blizzard looking for a quick dinner.
+
+Another example: Most of my friends aren't fashion experts. I don't really care what they recommend on a clothing site. I'd like fashion recommendations curated by people who are passionate about fashion whether I know them or not. While some of those people might be my friends, most of them won't be.
