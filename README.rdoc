@@ -1,0 +1,14 @@
+= O Blog 
+
+Este é o meu blog pessoal (Rodrigo Alves Vieira) que roda com a gem Jekyll e tem seus posts 
+escritos em Textile. Uso intenso de HTML5! Visite: http://rodrigoalvesvieira.com
+
+== Up & Running
+  
+  $ bundle
+  $ jekyll
+  $ jekyll --server
+
+== Copyright
+
+Copyright © 2011 Rodrigo Alves Vieira. Todos os Direitos Reservados.
