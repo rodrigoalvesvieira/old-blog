@@ -1,0 +1,47 @@
+body {
+  background: #000;
+  font-size: 14pt;
+}
+
+#logo {
+  text-align: center;
+  font-size: 28pt;
+  font-family: Times, Riesling, New Yorker;
+  float: left;
+  line-height: 40px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align:center;
+	width: 400px;
+	font-size: 29pt;
+  margin: 0 0 20px 0;
+  line-height: 20px;
+	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+	font-weight: 100;
+	font-style:italic;
+	font-variant:small-caps;
+}
+
+a:link, a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#content {
+  text-align:justify;
+}
+#content a:link:after, #content a:visited:after {
+  content: " (" attr(href) ") ";
+  font-size: 90%;
+}
+
+#content a[href^="/"]:after {
+  content: " (http://www.rodrigoalvesvieira.com" attr(href) ") ";
+}
