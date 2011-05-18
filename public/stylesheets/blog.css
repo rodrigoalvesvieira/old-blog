@@ -44,113 +44,108 @@ body {
 	border-bottom: 2px solid #999;
 }
 
-    #no-sidebar #content {
-        margin: 0 auto 20px auto;
-    }
+#no-sidebar #content {
+  margin: 0 auto 20px auto;
+}
 
-	#main {
-		float: left;
-		width: 400px;
-	}
+#main {
+	float: left;
+	width: 400px;
+}
 	
-		.post {
-			width: 400px;
-			margin: 0 0 40px 0;
-		}
+.post {
+  text-align:justify;
+	width: 400px;
+	margin: 0 0 40px 0;
+}
 		
-	    	.image {
-	    	    margin-bottom: 20px;
-	    	    line-height: 0;
-	    	    padding :0;
-	    	}
+.image {
+  margin-bottom: 20px;
+  line-height: 0;
+  padding :0;
+}
 		    
-		        .image img { margin-bottom: 0; margin-top: 0; line-height: 0; }
-		    
-    		.pull-left img {
-    		    margin-left: -40px;
-    		}
-		
-		.post:last-child { margin: 0; }
-		
-			.meta {
-				float: left;
-				margin: 0 0 0 -180px;
-				width: 100px;
-				line-height: 60px;
-			}
-			
-			.post h2 { float: left; }
-	
-	#resume ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-
-		#resume ul li {
-			margin: 0 0 40px 0;
-		}
-		
-		#resume ul li ul li {
-			margin: 0 0 40px 0;
-		}
-
-		#resume ul li ul li ul {
-			margin: 0 0 0 40px;
-		}
-
-		#resume ul li ul li ul li {
-			margin: 0;
-			list-style: disc;
-		}
-	
-	aside {
-		float: right;
-		width: 260px;
-	}
-	
-	    aside ul {
-	        margin: 0 0 20px 0;
-	    }
+.image img { margin-bottom: 0; margin-top: 0; line-height: 0; }
 	    
-	    aside ul li {
-	        list-style: none;
-	    }
+.pull-left img {
+  margin-left: -40px;
+}
+		
+.post:last-child { margin: 0; }
+		
+.meta {
+	float: left;
+	margin: 0 0 0 -180px;
+	width: 100px;
+	line-height: 60px;
+}
+			
+.post h2 { float: left; }
 	
-	    #post-nav {
-	        margin: 0 0 20px 0;
-	    }
+#resume ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
-footer {
-    font-size: 12px;
-    color: #999;
-    margin: 0 0 40px 0;
+#resume ul li {
+	margin: 0 0 40px 0;
+}
+		
+#resume ul li ul li {
+	margin: 0 0 40px 0;
+}
+
+#resume ul li ul li ul {
+	margin: 0 0 0 40px;
+}
+
+#resume ul li ul li ul li {
+	margin: 0;
+	list-style: disc;
+}
+	
+aside {
+	float: right;
+	width: 260px;
+}
+	
+aside ul {
+  margin: 0 0 20px 0;
+}
+	    
+aside ul li {
+  list-style: none;
+}
+	
+#post-nav {
+  margin: 0 0 20px 0;
 }
 	
 /* Type */
-
 h1 {
-	float: left;
+  text-align:center;
 	width: 400px;
 	font-size: 28px;
-    margin: 0 0 20px 0;
-    line-height: 20px;
+  margin: 0 0 20px 0;
+  line-height: 20px;
 	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
 	font-weight: 100;
+	font-variant:small-caps;
 }
 
-	h1#res { float: none; }
+h1#res { float: none; }
 
 h2 {
-    margin: 0 0 20px 0;
-    line-height: 20px;
+  margin: 0 0 20px 0;
+  line-height: 20px;
 	font-size: 24px;
-    font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-    font-weight: 100;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  font-weight: 100;
 }
 	
-	h2 a { color: #222; text-decoration: none; }
-	h2 a:hover { color: #fd5d13; }
+h2 a { color: #222; text-decoration: none; }
+h2 a:hover { color: #fd5d13; }
 	
 .post h2 { width: 400px; }
 	
@@ -188,6 +183,16 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
+
+/*.post p:first-letter {
+  float:left;
+  font-size:400%;
+  line-height:1em;
+  margin:4px 10px 10px 0;
+  padding:4px 10px;
+  border:2px solid #ccc;
+  background: #eee;
+}*/
 
 .image p { font-size: 11px; color: #999; margin: 0; }
 
@@ -246,6 +251,11 @@ a:hover {
 }
 * html .clearfix { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
-
 ::-moz-selection { color: #000;  background: #f60; }
 ::selection      { color: #000;  background: #f60; }
+
+footer {
+  font-size: 12px;
+  color: #999;
+  margin: 0 0 40px 0;
+}
