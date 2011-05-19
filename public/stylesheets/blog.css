@@ -1,5 +1,6 @@
 @font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
 @font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
+@font-face{font-family:Ballpark Weiner;src:url('/public/ballpark_weiner.ttf');}
 
 body {
   border-top: 2px solid #999;
@@ -11,7 +12,8 @@ body {
 }
 
 .container {
-  width: 800px;
+  box-shadow: 10px 10px 5px #888;
+  width: 850px;
   margin: 0 auto;
   position: relative;;
 }
@@ -32,7 +34,7 @@ body {
   line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 140;
 }
 
 #logo a { color: #222; text-decoration: none; }		
@@ -55,7 +57,7 @@ body {
 	
 .post {
   text-align:justify;
-	width: 400px;
+	width: 430px;
 	margin: 0 0 40px 0;
 }
 		
@@ -82,32 +84,9 @@ body {
 			
 .post h2 { float: left; }
 	
-#resume ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#resume ul li {
-	margin: 0 0 40px 0;
-}
-		
-#resume ul li ul li {
-	margin: 0 0 40px 0;
-}
-
-#resume ul li ul li ul {
-	margin: 0 0 0 40px;
-}
-
-#resume ul li ul li ul li {
-	margin: 0;
-	list-style: disc;
-}
-	
 aside {
 	float: right;
-	width: 260px;
+	width: 245px;
 }
 	
 aside ul {
@@ -184,9 +163,19 @@ p {
   line-height: 20px;
 }
 
+/*.post p:first-child {
+  float:left;
+  font-size:200%;
+  line-height:1em;
+  margin:4px 10px 10px 0;
+  padding:4px 10px;
+  border:2px solid #ccc;
+  background: #eee;
+}*/
+
 /*.post p:first-letter {
   float:left;
-  font-size:400%;
+  font-size:200%;
   line-height:1em;
   margin:4px 10px 10px 0;
   padding:4px 10px;
@@ -251,11 +240,15 @@ a:hover {
 }
 * html .clearfix { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
-::-moz-selection { color: #000;  background: #f60; }
-::selection      { color: #000;  background: #f60; }
+::selection  { color:#000; background: #f60; }
 
 footer {
+  width: 850px;
+  margin: 0 auto;
+  position: relative;;
   font-size: 12px;
   color: #999;
   margin: 0 0 40px 0;
 }
+
+footer span{display:none;}

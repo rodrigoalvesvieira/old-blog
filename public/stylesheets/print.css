@@ -1,3 +1,6 @@
+@font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
+@font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
+
 body {
   background: #000;
   font-size: 14pt;
@@ -5,14 +8,15 @@ body {
 
 #logo {
   text-align: center;
-  font-size: 28pt;
-  font-family: Times, Riesling, New Yorker;
+  font-size: 38pt;
+  font-family: Riesling, New Yorker;
   float: left;
   line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-decoration: none;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -34,6 +38,9 @@ a:link, a:visited {
 	text-decoration: underline;
 }
 
+#logo a {
+  text-decoration: none;
+}
 #content {
   text-align:justify;
 }
@@ -45,3 +52,8 @@ a:link, a:visited {
 #content a[href^="/"]:after {
   content: " (http://www.rodrigoalvesvieira.com" attr(href) ") ";
 }
+
+aside {display:none;}
+
+footer {margin-top: 50pt;}
+footer {text-align:center;}
