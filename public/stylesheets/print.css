@@ -1,6 +1,8 @@
 @font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
 @font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
 
+* {float: none;}
+
 body {
   background: #000;
   font-size: 14pt;
@@ -8,9 +10,8 @@ body {
 
 #logo {
   text-align: center;
-  font-size: 38pt;
+  font-size: 54pt;
   font-family: Riesling, New Yorker;
-  float: left;
   line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
@@ -21,29 +22,25 @@ body {
 
 h1 {
   text-align:center;
-	width: 400px;
-	font-size: 29pt;
+  font-size: 29pt;
   margin: 0 0 20px 0;
   line-height: 20px;
-	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-	font-weight: 100;
-	font-style:italic;
-	font-variant:small-caps;
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  font-weight: 100;
+  font-style:italic;
+  font-variant:small-caps;
+  margin-bottom:25pt;
 }
 
 a:link, a:visited {
-	color: #520;
-	background: transparent;
-	font-weight: bold;
-	text-decoration: underline;
+  color: #520;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
-#logo a {
-  text-decoration: none;
-}
-#content {
-  text-align:justify;
-}
+#logo a {text-decoration: none;color:#000;}
+#content {margin-top:25pt;text-align:justify;}
 #content a:link:after, #content a:visited:after {
   content: " (" attr(href) ") ";
   font-size: 90%;
@@ -52,8 +49,6 @@ a:link, a:visited {
 #content a[href^="/"]:after {
   content: " (http://www.rodrigoalvesvieira.com" attr(href) ") ";
 }
-
-aside {display:none;}
 
 footer {margin-top: 50pt;}
 footer {text-align:center;}
