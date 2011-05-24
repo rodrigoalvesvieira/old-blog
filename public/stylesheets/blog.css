@@ -1,6 +1,7 @@
 @font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
 @font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
 @font-face{font-family:Ballpark Weiner;src:url('/public/ballpark_weiner.ttf');}
+@font-face{font-family:League Gothic;src:url('/public/League_Gothic.otf')};
 
 body {
   border-top: 2px solid #999;
@@ -13,7 +14,7 @@ body {
 
 .container {
   box-shadow: 10px 10px 5px #888;
-  width: 850px;
+  width: 700px;
   margin: 0 auto;
   position: relative;;
 }
@@ -29,7 +30,7 @@ body {
 #logo {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
   font-size: 44px;
-  font-family: Riesling, New Yorker;
+  font-family: League Gothic,Riesling, New Yorker;
   float: left;
   line-height: 40px;
   letter-spacing: 0.05em;
@@ -51,13 +52,13 @@ body {
 }
 
 #main {
-	float: left;
+	/*float: left;*/
 	width: 400px;
 }
 	
 .post {
   text-align:justify;
-	width: 430px;
+	width: 550px;
 	margin: 0 0 40px 0;
 }
 		
@@ -75,16 +76,16 @@ body {
 		
 .post:last-child { margin: 0; }
 		
-.meta {
-	float: left;
-	margin: 0 0 0 -180px;
+time {
+  float: left;
+  margin: 0 0 0 -180px;
 	width: 100px;
 	line-height: 60px;
 }
 			
 .post h2 { float: left; }
 	
-aside {
+/*aside {
 	float: right;
 	width: 245px;
 }
@@ -95,7 +96,7 @@ aside ul {
 	    
 aside ul li {
   list-style: none;
-}
+}*/
 	
 #post-nav {
   margin: 0 0 20px 0;
@@ -240,7 +241,7 @@ a:hover {
 }
 * html .clearfix { zoom: 1; }
 *:first-child+html .clearfix { zoom: 1; }
-::selection  { color:#000; background: #f60; }
+::selection  { color:#fff; background: #000; }
 
 footer {
   width: 850px;
