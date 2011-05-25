@@ -3,6 +3,6 @@ destination: ./_site
 includes: ./_includes
 server_port: 5000
 markdown: rdiscount
-permalink: /:title
+permalink: /:title.html
 future: true
 paginate: 10
