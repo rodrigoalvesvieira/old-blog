@@ -72,5 +72,3 @@ _Are you aware of Community X? I think that's what you want._ Yes, I probably am
 _If people wanted the kind of community site you're describing, don't you think it would exist by now?_ I think it has existed in various places: HN, Reddit, Slashdot, Usenet, etc. Nobody has figured out how to capture this particular herd and get it to settle down. Maybe that's impossible. It's certainly not going to be easy.
 
 _Don't you want to build your own little fiefdom so people can read more of your excruciatingly preachy and self-important blog posts?_ No. I would moderate away my own blog posts on the community I'm proposing. Frankly, they're not technical enough. I also don't submit my own posts to HN, for what it's worth. I write for myself first and foremost.
-
-_What do you have against Paul Graham and Y Combinator?_ Nothing. This is about Hacker News as a community site, not Y Combinator and the people behind it.

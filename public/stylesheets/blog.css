@@ -1,141 +1,89 @@
 @font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
 @font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
 @font-face{font-family:Ballpark Weiner;src:url('/public/ballpark_weiner.ttf');}
-@font-face{font-family:League Gothic;src:url('/public/League_Gothic.otf')};
+@font-face{font-family:League Gothic;src:url('/public/League_Gothic.otf');}
+@font-face{font-family:Lekton Regular;src:url('/public/Lekton_Regular.ttf');}
+@font-face{font-family:Vegur;src:url('/public/Vegur.otf');}
+@font-face{font-family:Britannic;src:url('/public/Britannic_Medium.ttf');}
 
 body {
-  border-top: 2px solid #999;
   padding: 0;
-  background: #e8e8e8;
+  background: #f2d49b;
   background-attachment: fixed;
   line-height: 20px;
-  font-family: "ff-meta-web-pro-1","ff-meta-web-pro-2";
+  font-family: Vegur;
 }
 
-.container {
-  box-shadow: 10px 10px 5px #888;
-  width: 700px;
+article {
+  background: #fff;
+  text-align:justify;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;  
+}
+
+article p {
+  margin: 21px 21px 21px 21px;
+  font-size: 19px;
+}
+
+section {
+  width: 680px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo {
+  width: 680px;
   margin: 0 auto;
   position: relative;;
-}
-
-#header {
+  font-family: Britannic, League Gothic;
   z-index: 9999;
-  width: 100%;
-  font-family: "proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2",sans-serif;
   padding: 10px 0;
-  margin: 20px 0 20px 0;
-}
-
-#logo {
   text-shadow: 0 1px 0 rgba(255,255,255,1);
   font-size: 44px;
-  font-family: League Gothic,Riesling, New Yorker;
-  float: left;
   line-height: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  font-variant: small-caps;
   font-weight: 140;
 }
 
-#logo a { color: #222; text-decoration: none; }		
-#content {
-	margin: 0 0 20px 0;
-	padding: 40px;
-	background: #fff;
-	border-top: 1px solid #999;
-	border-bottom: 2px solid #999;
+article h1 {
+  margin: 20px auto;
+  font-family: League Gothic;
+  font-size: 38px;
+  text-align:center;
+  padding: 50px;
+  padding-bottom: 23px;
 }
 
-#no-sidebar #content {
-  margin: 0 auto 20px auto;
-}
+article h1 a { color: #222;}
 
-#main {
-	/*float: left;*/
-	width: 400px;
-}
-	
-.post {
-  text-align:justify;
-	width: 550px;
-	margin: 0 0 40px 0;
-}
-		
-.image {
-  margin-bottom: 20px;
-  line-height: 0;
-  padding :0;
-}
-		    
-.image img { margin-bottom: 0; margin-top: 0; line-height: 0; }
-	    
-.pull-left img {
-  margin-left: -40px;
-}
-		
-.post:last-child { margin: 0; }
-		
 time {
   float: left;
-  margin: 0 0 0 -180px;
-	width: 100px;
-	line-height: 60px;
+  margin: 0 0 0 -135px;
+  width: 100px;
+  line-height: 60px;
 }
 			
-.post h2 { float: left; }
-	
-/*aside {
-	float: right;
-	width: 245px;
-}
-	
-aside ul {
-  margin: 0 0 20px 0;
-}
-	    
-aside ul li {
-  list-style: none;
-}*/
-	
-#post-nav {
-  margin: 0 0 20px 0;
-}
-	
-/* Type */
-h1 {
-  text-align:center;
-	width: 400px;
-	font-size: 28px;
-  margin: 0 0 20px 0;
-  line-height: 20px;
-	font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
-	font-weight: 100;
-	font-variant:small-caps;
-}
-
-h1#res { float: none; }
-
 h2 {
-  margin: 0 0 20px 0;
+  margin: 25px 0 25px 30px;
   line-height: 20px;
-	font-size: 24px;
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  font-size: 24px;
+  font-family: League Gothic,serif;
   font-weight: 100;
 }
 	
-h2 a { color: #222; text-decoration: none; }
-h2 a:hover { color: #fd5d13; }
-	
-.post h2 { width: 400px; }
-	
+h2 a {color: #222; text-decoration:none;}
+h2 a:hover { color: #000; }
+
 h3 {
-	color: #fd5d13;
-	font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";
-	text-transform: uppercase;
-	font-size: 20px;
-	line-height: 40px;
-	font-weight: normal;
+  color: #fd5d13;
+  font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: normal;
 }
 
 
@@ -164,7 +112,7 @@ p {
   line-height: 20px;
 }
 
-/*.post p:first-child {
+/*article p:before {
   float:left;
   font-size:200%;
   line-height:1em;
@@ -173,29 +121,6 @@ p {
   border:2px solid #ccc;
   background: #eee;
 }*/
-
-/*.post p:first-letter {
-  float:left;
-  font-size:200%;
-  line-height:1em;
-  margin:4px 10px 10px 0;
-  padding:4px 10px;
-  border:2px solid #ccc;
-  background: #eee;
-}*/
-
-.image p { font-size: 11px; color: #999; margin: 0; }
-
-p:last-child { margin: 0; }
-
-p.date, .meta h3 {
-  font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";
-  font-size: 18px;
-  text-align: right;
-  color: rgba(0,0,0,0.3);
-  line-height: 20px;
-  text-transform: uppercase;
-}
 
 blockquote {
   font-style: italic;
@@ -224,32 +149,37 @@ ol {
 }
 
 a {
-  color: #69a; 
-  -webkit-transition: all 0.2s ease-in;
+  border-bottom: 1px dotted #3b2212;
+  text-decoration: none;
+  color: #3b291b; 
 }
+
 a:hover {
   color: #222; 
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
+h1 a {
+  border-bottom: none;
+  text-decoration: none;
+  color: #3b250e;
 }
-* html .clearfix { zoom: 1; }
-*:first-child+html .clearfix { zoom: 1; }
-::selection  { color:#fff; background: #000; }
+
+article h1 a { color: #222;}
+
+h2 a {color: #222; text-decoration:none;}
+h2 a:hover { color: #000; }	
+
+::selection  { color:#fff; background: #b5864c; }
 
 footer {
-  width: 850px;
+  color: #0b0b0b; 
+  text-align:center;
+  width: 680px;
   margin: 0 auto;
-  position: relative;;
+  margin-top: 15px;
+  position: relative;
   font-size: 12px;
   color: #999;
-  margin: 0 0 40px 0;
 }
 
 footer span{display:none;}
