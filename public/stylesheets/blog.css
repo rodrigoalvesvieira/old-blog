@@ -18,7 +18,8 @@ article {
   background: #fff;
   text-align:justify;
   border-left: 1px solid #000;
-  border-right: 1px solid #000;  
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 article p {
@@ -58,6 +59,7 @@ article h1 {
 }
 
 article h1 a { color: #222;}
+article p:last-child { padding: 20px;}
 
 time {
   float: left;
