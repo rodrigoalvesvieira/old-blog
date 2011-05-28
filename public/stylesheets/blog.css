@@ -27,6 +27,20 @@ article p {
   font-size: 19px;
 }
 
+article p:first-letter {
+  text-indent: 15px;
+}
+
+#post p:first-child:first-letter {
+  float:left;
+  font-size:200%;
+  line-height:1em;
+  margin:4px 10px 10px 0;
+  padding:4px 10px;
+  border:2px solid #ccc;
+  background: #eee;
+}
+
 section {
   width: 680px;
   margin: 0 auto;
@@ -59,7 +73,7 @@ article h1 {
 }
 
 article h1 a { color: #222;}
-article p:last-child { padding: 20px;}
+article p:last-child { padding-bottom: 20px;}
 
 time {
   float: left;
@@ -114,15 +128,17 @@ p {
   line-height: 20px;
 }
 
-/*article p:before {
+#sobre h2 {
+  padding-top: 20px;
+}
+
+#drop:first-letter {
+  font-family: Ballpark Weiner, serif;
   float:left;
   font-size:200%;
   line-height:1em;
   margin:4px 10px 10px 0;
-  padding:4px 10px;
-  border:2px solid #ccc;
-  background: #eee;
-}*/
+}
 
 blockquote {
   font-style: italic;
