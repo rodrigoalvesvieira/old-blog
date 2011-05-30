@@ -132,6 +132,8 @@ p {
   padding-top: 20px;
 }
 
+img {margin-left: 110px;}
+
 #drop:first-letter {
   font-family: Ballpark Weiner, serif;
   float:left;
