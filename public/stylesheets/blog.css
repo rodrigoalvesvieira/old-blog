@@ -47,7 +47,7 @@ section {
   position: relative;
 }
 
-.logo {
+#logo {
   width: 680px;
   margin: 0 auto;
   position: relative;;
@@ -137,7 +137,7 @@ img {margin-left: 110px;}
 #drop:first-letter {
   font-family: Ballpark Weiner, serif;
   float:left;
-  font-size:200%;
+  font-size:300%;
   line-height:1em;
   margin:4px 10px 10px 0;
 }
@@ -169,13 +169,16 @@ ol {
 }
 
 a {
-  border-bottom: 1px dotted #3b2212;
   text-decoration: none;
-  color: #3b291b; 
+  color: #a53f1b; 
 }
 
-a:hover {
-  color: #222; 
+a:hover, a:active {
+  color: #dd3f1b; 
+}
+
+#post a:hover, a:active {
+  color: #dd3f1b;
 }
 
 h1 a {
