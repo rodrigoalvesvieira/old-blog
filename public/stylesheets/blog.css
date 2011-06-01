@@ -14,6 +14,41 @@ body {
   font-family: Vegur;
 }
 
+#top {
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 15px 0px 14px;
+  height: 10px;
+  line-height: 1em;
+  position: relative;
+  font-size: 12px;
+  z-index: 15;
+  background: #000;
+}
+
+#top ul {
+  list-style: none;
+  display: inline;
+}
+
+section {
+  background: #fff;
+  text-align:justify;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+section p {
+  margin: 21px 21px 21px 21px;
+  font-size: 19px;
+}
+
+secton p:first-letter {
+  text-indent: 15px;
+}
+
 article {
   background: #fff;
   text-align:justify;
@@ -29,6 +64,14 @@ article p {
 
 article p:first-letter {
   text-indent: 15px;
+}
+
+.apresentacao {font-family: Georgia;}
+
+#apresentacao {
+  background: #fff;
+  text-align:justify;
+  border: none;
 }
 
 #post p:first-child:first-letter {
@@ -132,7 +175,7 @@ p {
   padding-top: 20px;
 }
 
-img {margin-left: 110px;}
+img {margin-left: 85px;}
 
 #drop:first-letter {
   font-family: Ballpark Weiner, serif;
@@ -174,11 +217,12 @@ a {
 }
 
 a:hover, a:active {
-  color: #dd3f1b; 
+  color: #fff;
 }
 
 #post a:hover, a:active {
-  color: #dd3f1b;
+  color: #fff;
+  background: #3B250E;
 }
 
 h1 a {
