@@ -4,7 +4,12 @@ title: Arquivo
 ---
 <h2 id="intro">Lista de todos os {{ site.posts.size }} posts desse blog.</h2>
 
-<div class="post">
+<form action="/search" method="get">
+  <input type="search" name="query" placeholder="Buscar post">
+  <input type="submit" value="Buscar">
+</form>
+
+<article>
   <ul>
   {% for post in site.posts %}
     <li>

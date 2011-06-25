@@ -3,9 +3,9 @@ layout: base_home
 title: Rodrigo Alves Vieira
 ---
 {% for post in site.posts limit:5 %}
-<section class="post">
+<article>
   <time id="time_home" datetime="{{post.date | date: '%Y-%m-%d'}}" pubdate>{{ post.date | date_to_string }}</time>  
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt | textilize }}
-</section>
+</article>
 {% endfor %} 

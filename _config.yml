@@ -6,4 +6,4 @@ server_port: 5000
 markdown: rdiscount
 permalink: /:title
 future: true
-paginate: 4
+paginate: 10

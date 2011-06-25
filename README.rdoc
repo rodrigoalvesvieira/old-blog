@@ -5,7 +5,6 @@ escritos em Textile. Uso intenso de HTML5! Visite: http://www.rodrigoalvesvieira
 
 == Up & Running
   
-  $ bundle
   $ jekyll
   $ jekyll --server
 

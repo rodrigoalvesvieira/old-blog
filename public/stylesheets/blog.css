@@ -4,12 +4,13 @@
    ||      Rodrigo Alves Vieira           ||
    ||   Designer: Rodrigo Alves Vieira	  ||
    ||	Front-end: Rodrigo Alves Vieira   ||
-   ||   Dev: Rodrigo Vieira               ||
+   ||   Dev: Rodrigo Alves Vieira         ||
     \\ ================================== //
 */
 
 @import url('reset.css');
 @import url('tipografia.css');
+@import url('syntax.css');
 
 body {
   padding: 0;
@@ -44,6 +45,13 @@ body {
 }
 
 section {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+
+  width: 638px;
+  margin: 0 auto;
+  position: relative;
   background: #fff;
 }
 
@@ -52,36 +60,20 @@ section p {
   font-size: 19px;
 }
 
-article {
-  background: #fff;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
-}
+article {background: #fff;}
 
 article p {
   margin: 21px 21px 21px 21px;
   font-size: 19px;
 }
 
-#section_home {
-  margin: 0 auto;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000; 
+.drops {font-family: Georgia;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 400%;
 }
 
 .apresentacao {font-family: Georgia;}
-
 #apresentacao {
   background: #fff;
   border: none;
-}
-
-section {
-  width: 640px;
-  margin: 0 auto;
-  position: relative;
 }
 
 article h1 {
@@ -164,7 +156,9 @@ p {
   padding-top: 20px;
 }
 
-img {margin-left: 85px;}
+img {
+  margin: 8px 25px 25px 25px;
+  float: left;}
 
 blockquote {
   font-style: italic;
@@ -192,26 +186,29 @@ ol {
   list-style: decimal;
 }
 
-a {
+header a {
   text-decoration: none;
   color: #a53f1b; 
 }
 
-a:hover, a:active {
+header a:hover, a:active {
   color: #fff;
+  background: none;
+  text-decoration: none;
+  border-bottom: none;
 }
 
-.drops {
-  font-family: Georgia;
-  display: inline;
-  float: left;
-  text-indent: 5px;   
-  margin: 0;
-  padding: .25em .08em 0 0;
-  line-height: .4em;
-  text-transform: capitalize;
-  color: #663F1B; 
-  font-size: 400%;}
+
+a {
+  color: #484848;
+  text-decoration: none;
+  border-bottom: 1px dotted #999892;
+}
+
+a:hover, a:active {
+  color: #484848;
+  border-bottom: 1px solid #999892;
+}
 
 #post p {
   font-family: Vegur;
@@ -234,20 +231,10 @@ h1 a:hover {color: #fff;}
 article h1 a { color: #222;}
 
 h2 a {color: #222; text-decoration:none;}
-h2 a:hover { color: #000; }	
+h2 a:hover, a:active {background-color: #fff;}
 
-::selection  { color:#fff; background: #b5864c; }
+form {margin: 21px 21px 21px 21px;}
 
-footer {
-  font-family: Vegur;
-  color: #0b0b0b; 
-  text-align:center;
-  width: 640px;
-  margin: 0 auto;
-  margin-top: 15px;
-  position: relative;
-  font-size: 12px;
-  color: #777;
-}
-
+::selection {color:#fff;background:#b5864c;}
+footer {font-family:Vegur;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;font-size:12px;color:#777;}
 footer span{display:none;}
