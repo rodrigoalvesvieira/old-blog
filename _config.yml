@@ -1,8 +1,9 @@
+auto: :true
 source: .
 destination: ./_site
 includes: ./_includes
 server_port: 5000
 markdown: rdiscount
-permalink: /:title.html
+permalink: /:title
 future: true
 paginate: 4

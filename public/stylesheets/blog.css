@@ -1,43 +1,50 @@
-@font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
-@font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
-@font-face{font-family:Ballpark Weiner;src:url('/public/ballpark_weiner.ttf');}
-@font-face{font-family:League Gothic;src:url('/public/League_Gothic.otf');}
-@font-face{font-family:Lekton Regular;src:url('/public/Lekton_Regular.ttf');}
-@font-face{font-family:Vegur;src:url('/public/Vegur.otf');}
-@font-face{font-family:Britannic;src:url('/public/Britannic_Medium.ttf');}
+/*
+    // ================================== \\
+   ||     "Rodrigo Alves Vieira"          ||
+   ||      Rodrigo Alves Vieira           ||
+   ||   Designer: Rodrigo Alves Vieira	  ||
+   ||	Front-end: Rodrigo Alves Vieira   ||
+   ||   Dev: Rodrigo Vieira               ||
+    \\ ================================== //
+*/
+
+@import url('reset.css');
+@import url('tipografia.css');
 
 body {
   padding: 0;
   background: #f2d49b;
-  background-attachment: fixed;
   line-height: 20px;
+  font-size: 20px;
   font-family: Vegur;
 }
 
-#top {
-  left: 0;
-  right: 0;
-  top: 0;
-  padding: 15px 0px 14px;
-  height: 10px;
-  line-height: 1em;
-  position: relative;
-  font-size: 12px;
-  z-index: 15;
-  background: #000;
+#topo {
+  border-top: 12px solid #000;
+  background: #663f1b;
+  width: 640px;
+  margin:0 auto;
+  height:88px;
 }
 
-#top ul {
-  list-style: none;
-  display: inline;
+#logo {
+  width: 580px;
+  margin: 0 auto;
+  position: relative;
+  font-family: Fanwood;
+  z-index: 9999;
+  padding: 13px 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,1);
+  font-size: 44px;
+  line-height: 65px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-weight: 140;
 }
 
 section {
   background: #fff;
-  text-align:justify;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
 }
 
 section p {
@@ -45,13 +52,8 @@ section p {
   font-size: 19px;
 }
 
-secton p:first-letter {
-  text-indent: 15px;
-}
-
 article {
   background: #fff;
-  text-align:justify;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -62,52 +64,28 @@ article p {
   font-size: 19px;
 }
 
-article p:first-letter {
-  text-indent: 15px;
+#section_home {
+  margin: 0 auto;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000; 
 }
 
 .apresentacao {font-family: Georgia;}
 
 #apresentacao {
   background: #fff;
-  text-align:justify;
   border: none;
 }
 
-#post p:first-child:first-letter {
-  float:left;
-  font-size:200%;
-  line-height:1em;
-  margin:4px 10px 10px 0;
-  padding:4px 10px;
-  border:2px solid #ccc;
-  background: #eee;
-}
-
 section {
-  width: 680px;
+  width: 640px;
   margin: 0 auto;
   position: relative;
 }
 
-#logo {
-  width: 680px;
-  margin: 0 auto;
-  position: relative;;
-  font-family: Britannic, League Gothic;
-  z-index: 9999;
-  padding: 10px 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,1);
-  font-size: 44px;
-  line-height: 40px;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  font-variant: small-caps;
-  font-weight: 140;
-}
-
 article h1 {
-  margin: 20px auto;
+  margin: 0 auto;
   font-family: League Gothic;
   font-size: 38px;
   text-align:center;
@@ -120,16 +98,28 @@ article p:last-child { padding-bottom: 20px;}
 
 time {
   float: left;
-  margin: 0 0 0 -135px;
+  margin: 0 0 0 -115px;
+  width: 100px;
+  line-height: 125px;
+  font-size: 18px;
+  font-family: Junction;
+}
+
+#time_home {
+  float: left;
+  margin: 0 0 0 -115px;
   width: 100px;
   line-height: 60px;
+  font-size: 18px;
+  font-family: Junction;
 }
 			
 h2 {
-  margin: 25px 0 25px 30px;
+  margin: 0 0 25px 30px;
   line-height: 20px;
+  padding-top: 10px;
   font-size: 24px;
-  font-family: League Gothic,serif;
+  font-family: League Gothic, sans-serif;
   font-weight: 100;
 }
 	
@@ -138,19 +128,18 @@ h2 a:hover { color: #000; }
 
 h3 {
   color: #fd5d13;
-  font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";
+  font-family: Vegur, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   line-height: 40px;
   font-weight: normal;
 }
 
-
 h4 {
   letter-spacing: 0.1em;
   font-size: 14px;
   font-weight: 700;
-  font-family: "pill-gothic-300mg-1","pill-gothic-300mg-2";
+  font-family: Vegur, sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   color:#fd5d13;
@@ -177,20 +166,12 @@ p {
 
 img {margin-left: 85px;}
 
-#drop:first-letter {
-  font-family: Ballpark Weiner, serif;
-  float:left;
-  font-size:300%;
-  line-height:1em;
-  margin:4px 10px 10px 0;
-}
-
 blockquote {
   font-style: italic;
   margin: 0 0 20px 0;
   padding: 0 0 0 20px;
   border-left: 1px solid #ddd;
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  font-family: Vegur, sans-serif;
   color: #333;
 }
 cite { color: #999; }
@@ -220,6 +201,23 @@ a:hover, a:active {
   color: #fff;
 }
 
+.drops {
+  font-family: Georgia;
+  display: inline;
+  float: left;
+  text-indent: 5px;   
+  margin: 0;
+  padding: .25em .08em 0 0;
+  line-height: .4em;
+  text-transform: capitalize;
+  color: #663F1B; 
+  font-size: 400%;}
+
+#post p {
+  font-family: Vegur;
+  line-height: 22px;
+}
+
 #post a:hover, a:active {
   color: #fff;
   background: #3B250E;
@@ -228,8 +226,10 @@ a:hover, a:active {
 h1 a {
   border-bottom: none;
   text-decoration: none;
-  color: #3b250e;
+  color: #ffe3ac;
 }
+
+h1 a:hover {color: #fff;}
 
 article h1 a { color: #222;}
 
@@ -239,14 +239,15 @@ h2 a:hover { color: #000; }
 ::selection  { color:#fff; background: #b5864c; }
 
 footer {
+  font-family: Vegur;
   color: #0b0b0b; 
   text-align:center;
-  width: 680px;
+  width: 640px;
   margin: 0 auto;
   margin-top: 15px;
   position: relative;
   font-size: 12px;
-  color: #999;
+  color: #777;
 }
 
 footer span{display:none;}

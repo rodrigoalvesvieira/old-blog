@@ -13,16 +13,22 @@
     <link rel="stylesheet" href="/public/stylesheets/blog.css" media="screen,projection">
     <link rel="stylesheet" href="/public/stylesheets/print.css" media="print">
     <link rel="alternate" type="application/atom+xml" title="Rodrigo Alves Vieira - Feed do Blog" href="/atom.xml" /> 
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-24121806-1']);
+      _gaq.push(['_setDomainName', '.rodrigoalvesvieira.com']);
+      _gaq.push(['_setAllowHash', 'false']);
+      _gaq.push(['_trackPageview']);
+      
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script> 
+
   </head>
-  <body>
-    <header id="top">
-      <ul>
-        <li><a href="/sobre.html">Sobre o Autor</a></li>
-        <li><a href="/arquivo.html">Arquivo do Blog</a></li>
-        <li><a href="/apresentacoes.html">Apresentações</a></li>
-      </ul>
-    </header>
-    
-    <header>
+  <body>    
+    <header id="topo">
       <h1 id="logo"><a href="/">Rodrigo Alves Vieira</a></h1>
     </header>
