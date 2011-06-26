@@ -5,7 +5,7 @@ title: Rodrigo Alves Vieira
 {% for post in site.posts limit:5 %}
 <article>
   <time id="time_home" datetime="{{post.date | date: '%Y-%m-%d'}}" pubdate>{{ post.date | date_to_string }}</time>  
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2 class="home"><a href="{{ post.url }}">{{ post.title }}</a></h2>
     {{ post.excerpt | textilize }}
 </article>
 {% endfor %} 

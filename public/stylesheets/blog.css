@@ -48,7 +48,6 @@ section {
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
-
   width: 638px;
   margin: 0 auto;
   position: relative;
@@ -86,7 +85,7 @@ article h1 {
 }
 
 article h1 a { color: #222;}
-article p:last-child { padding-bottom: 20px;}
+#post p:last-child { padding-bottom: 20px;}
 
 time {
   float: left;
@@ -101,30 +100,40 @@ time {
   float: left;
   margin: 0 0 0 -115px;
   width: 100px;
-  line-height: 60px;
+  line-height: 115px;
   font-size: 18px;
   font-family: Junction;
 }
 			
 h2 {
-  margin: 0 0 25px 30px;
+  margin: 0 0 25px 21px;
   line-height: 20px;
-  padding-top: 10px;
-  font-size: 24px;
+  font-size: 26px;
   font-family: League Gothic, sans-serif;
   font-weight: 100;
 }
-	
+
+h2.home {
+  margin: 0 0 25px 30px;
+  line-height: 20px;
+  padding-top: 47px;
+  font-size: 26px;
+  font-family: League Gothic, sans-serif;
+  font-weight: 100;
+}
+
+
 h2 a {color: #222; text-decoration:none;}
 h2 a:hover { color: #000; }
 
 h3 {
-  color: #fd5d13;
-  font-family: Vegur, sans-serif;
-  text-transform: uppercase;
+  margin: 0 0 25px 21px;
+  line-height: 20px;
+  padding-top: 7px;
   font-size: 20px;
-  line-height: 40px;
-  font-weight: normal;
+  font-family: League Gothic, sans-serif;
+  font-weight: 100;
+  color: #000;
 }
 
 h4 {
@@ -135,14 +144,6 @@ h4 {
   line-height: 20px;
   text-transform: uppercase;
   color:#fd5d13;
-}
-
-h5 {
-  font-size: 13px;
-  color: #666;
-  font-weight: normal;
-  line-height: 20px;
-  margin: 0 0 10px 0;
 }
 
 p {
@@ -210,11 +211,14 @@ a:hover, a:active {
   border-bottom: 1px solid #999892;
 }
 
+#post h1 {text-transform:uppercase;}
+
 #post p {
   font-family: Vegur;
   line-height: 22px;
 }
 
+.clearfix {margin-bottom: 25px;}
 #post a:hover, a:active {
   color: #fff;
   background: #3B250E;
