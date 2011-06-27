@@ -25,7 +25,7 @@ body {
   background: #663f1b;
   width: 640px;
   margin:0 auto;
-  height:88px;
+  height:96px;
 }
 
 #logo {
@@ -33,15 +33,21 @@ body {
   margin: 0 auto;
   position: relative;
   font-family: Fanwood;
-  z-index: 9999;
-  padding: 13px 0;
+  padding: 11px 0 0;
   text-shadow: 0 1px 0 rgba(255,255,255,1);
-  font-size: 44px;
-  line-height: 65px;
+  font-size: 40px;
+  line-height: 62px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-variant: small-caps;
-  font-weight: 140;
+}
+
+header p {
+  color: #fff;
+  width: 540px;
+  margin: 0 0 2px 30px;
+  font-size: 80%;
+  font-family: Museo;
 }
 
 section {
@@ -104,7 +110,7 @@ time {
   font-size: 18px;
   font-family: Junction;
 }
-			
+
 h2 {
   margin: 0 0 25px 21px;
   line-height: 20px;
@@ -133,7 +139,7 @@ h3 {
   font-size: 20px;
   font-family: League Gothic, sans-serif;
   font-weight: 100;
-  color: #000;
+  color: #222;
 }
 
 h4 {
@@ -173,7 +179,7 @@ cite { color: #999; }
 small { font-size: 12px; color: #999; }
 ul {
   line-height: 20px;
-  font-size: 14px; 
+  font-size: 14px;
   margin: 0 0 20px 40px;
   list-style: disc;
 }
@@ -189,7 +195,7 @@ ol {
 
 header a {
   text-decoration: none;
-  color: #a53f1b; 
+  color: #a53f1b;
 }
 
 header a:hover, a:active {
@@ -221,6 +227,16 @@ a:hover, a:active {
 #post a:hover, a:active {
   color: #fff;
   background: #3B250E;
+}
+
+time a {
+  color: #000;
+  border-bottom: none;
+}
+
+time a:hover {
+  color: #A53F1B;
+  background-color: #fff;
 }
 
 h1 a {
