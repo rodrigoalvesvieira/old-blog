@@ -47,7 +47,7 @@ header p {
   width: 540px;
   margin: 0 0 4px 30px;
   font-size: 72%;
-  font-family: Museo;
+  font-family: "Museo 300";
 }
 
 section {
@@ -99,7 +99,7 @@ time {
   width: 100px;
   line-height: 125px;
   font-size: 14px;
-  font-family: Museo;
+  font-family: "Museo 500";
 }
 
 #time_home {
@@ -108,7 +108,7 @@ time {
   width: 100px;
   line-height: 130px;
   font-size: 14px;
-  font-family: Museo;
+  font-family: "Museo 500";
 }
 
 h2 {
