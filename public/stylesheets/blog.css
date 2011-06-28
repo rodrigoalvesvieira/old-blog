@@ -46,7 +46,7 @@ header p {
   color: #fff;
   width: 540px;
   margin: 0 0 4px 30px;
-  font-size: 80%;
+  font-size: 72%;
   font-family: Museo;
 }
 
@@ -98,7 +98,7 @@ time {
   margin: 0 0 0 -115px;
   width: 100px;
   line-height: 125px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Museo;
 }
 
@@ -107,7 +107,7 @@ time {
   margin: 0 0 0 -115px;
   width: 100px;
   line-height: 130px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: Museo;
 }
 
