@@ -25,7 +25,7 @@ body {
   background: #663f1b;
   width: 640px;
   margin:0 auto;
-  height:96px;
+  height:100px;
 }
 
 #logo {
@@ -45,7 +45,7 @@ body {
 header p {
   color: #fff;
   width: 540px;
-  margin: 0 0 2px 30px;
+  margin: 0 0 4px 30px;
   font-size: 80%;
   font-family: Museo;
 }
@@ -129,7 +129,7 @@ h2.home {
 }
 
 
-h2 a {color: #222; text-decoration:none;}
+h2 a {text-transform: uppercase; color: #222; text-decoration:none;}
 h2 a:hover { color: #000; }
 
 h3 {
