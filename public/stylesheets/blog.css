@@ -47,7 +47,8 @@ header p {
   width: 540px;
   margin: 0 0 4px 30px;
   font-size: 72%;
-  font-family: "Myriad Pro Light Italic", "Museo 300";
+  font-family: Myriad Pro Light, "Museo 300";
+  font-style: italic;
 }
 
 section {
@@ -99,7 +100,8 @@ time {
   width: 100px;
   line-height: 125px;
   font-size: 16px;
-  font-family: "Myriad Pro Light Italic", "Museo 500";
+  font-family: Myriad Pro Light, "Museo 500";
+  font-style: italic;
 }
 
 #time_home {
@@ -108,7 +110,8 @@ time {
   width: 100px;
   line-height: 130px;
   font-size: 16px;
-  font-family: "Myriad Pro Light Italic", "Museo 500";
+  font-family: Myriad Pro Light, "Museo 500";
+  font-style: italic;
 }
 
 h2 {
