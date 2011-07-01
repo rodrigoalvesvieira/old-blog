@@ -2,11 +2,8 @@
 @font-face{font-family:Vegur;src:url('/public/Vegur.otf');}
 @font-face{font-family:Fanwood ;src:url('/public/FanwoodText.otf');}
 @font-face{font-family:Share-Techmono;src:url('/public/Share-Techmono.otf');}
-@font-face{font-family:"Museo 300";src:url('/public/Museo300-Regular.otf');}
-@font-face{font-family:"Museo 500";src:url('/public/Museo500-Regular.otf');}
 @font-face{
-  font-family:Myriad Pro Light;
-  src:url('/public/dmyriadprolightit_opentype.otf');
-  font-weight: 300;
+  font-family: Open Sans Light;
+  src:url('/public/OpenSans-LightItalic.otf');
   font-style: italic;
 }

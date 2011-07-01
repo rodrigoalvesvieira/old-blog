@@ -47,7 +47,7 @@ header p {
   width: 540px;
   margin: 0 0 4px 30px;
   font-size: 72%;
-  font-family: "Museo 300", , "Museo 300";
+  font-family: Open Sans Light, Helvetica;
   font-style: italic;
 }
 
@@ -100,7 +100,7 @@ time {
   width: 100px;
   line-height: 125px;
   font-size: 16px;
-  font-family: "Museo 500", , "Museo 500";
+  font-family: Open Sans Light, Helvetica;
   font-style: italic;
 }
 
@@ -110,7 +110,7 @@ time {
   width: 100px;
   line-height: 130px;
   font-size: 16px;
-  font-family: "Museo 500", , "Museo 500";
+  font-family: Open Sans Light, Helvetica;
   font-style: italic;
 }
 
