@@ -17,7 +17,7 @@ body {
   background: #f2d49b;
   line-height: 20px;
   font-size: 20px;
-  font-family: Vegur;
+  font-family: Georgia;
 }
 
 #topo {
@@ -88,6 +88,7 @@ article h1 {
   font-size: 38px;
   text-align:center;
   padding: 50px;
+  line-height: 40px;
   padding-bottom: 23px;
 }
 
@@ -122,7 +123,7 @@ h2 {
   font-weight: 100;
 }
 
-h2.home {
+.home {
   margin: 0 0 25px 30px;
   line-height: 20px;
   padding-top: 47px;
@@ -131,9 +132,8 @@ h2.home {
   font-weight: 100;
 }
 
-
-h2 a {font-size: 32px; text-transform: uppercase; color: #222; text-decoration:none;}
-h2 a:hover { color: #222; }
+.home a {font-size: 32px; text-transform: uppercase; color: #222;border-bottom:1px #222 dotted}
+.home a:hover { color: #222; border-bottom: 1px #222 solid;}
 
 h3 {
   margin: 0 0 25px 21px;
@@ -149,7 +149,7 @@ h4 {
   letter-spacing: 0.1em;
   font-size: 14px;
   font-weight: 700;
-  font-family: Vegur, sans-serif;
+  font-family: Georgia, sans-serif;
   line-height: 20px;
   text-transform: uppercase;
   color:#fd5d13;
@@ -175,7 +175,7 @@ blockquote {
   margin: 0 0 20px 0;
   padding: 0 0 0 20px;
   border-left: 1px solid #ddd;
-  font-family: Vegur, sans-serif;
+  font-family: Georgia, sans-serif;
   color: #333;
 }
 cite { color: #999; }
@@ -223,7 +223,7 @@ a:hover, a:active {
 #post h1 {text-transform:uppercase;}
 
 #post p {
-  font-family: Vegur;
+  font-family: Georgia;
   line-height: 22px;
 }
 
@@ -252,11 +252,28 @@ h1 a:hover {color: #fff;}
 
 article h1 a { color: #222;}
 
-h2 a {color: #222; text-decoration:none;}
-h2 a:hover, a:active {background-color: #fff;}
+article h2 a {color: #222; text-decoration:none;}
+article h2 a:hover, a:active {background-color: #fff;}
 
 form {margin: 21px 21px 21px 21px;}
 
+article a {
+  background: none;
+  text-decoration: none;
+  border-bottom: none;
+  color: #663f1b;
+}
+
+article a:hover {
+  background: #663f1b;
+  text-decoration: none;
+  border-bottom: none;
+  color: #fff;
+}
+
 ::selection {color:#fff;background:#b5864c;}
-footer {font-family:Vegur;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;font-size:12px;color:#777;}
+footer {font-family: Open Sans, Vegur;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
 footer span{display:none;}
+
+footer p {
+font-size: 13px;}

@@ -1,9 +1,13 @@
 @font-face{font-family:League Gothic;src:url('/public/League-Gothic.otf');}
-@font-face{font-family:Vegur;src:url('/public/Vegur.otf');}
 @font-face{font-family:Fanwood ;src:url('/public/FanwoodText.otf');}
 @font-face{font-family:Share-Techmono;src:url('/public/Share-Techmono.otf');}
 @font-face{
   font-family: Open Sans Light;
   src:url('/public/OpenSans-LightItalic.otf');
   font-style: italic;
+}
+
+@font-face{
+  font-family: Open Sans;
+  src:url('/public/OpenSans-Regular.otf');
 }
