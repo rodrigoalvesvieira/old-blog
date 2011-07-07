@@ -1,4 +1,6 @@
 /*
+ *  Não Copie Meu CSS!
+ *
     // ================================== \\
    ||     "Rodrigo Alves Vieira"          ||
    ||      Rodrigo Alves Vieira           ||
@@ -11,6 +13,11 @@
 @import url('reset.css');
 @import url('tipografia.css');
 @import url('syntax.css');
+
+/* Paletas
+ * http://kuler.adobe.com/index.cfm#themeID/1372133
+ *
+ */
 
 body {
   padding: 0;
@@ -62,16 +69,11 @@ section {
 }
 
 section p {
-  margin: 21px 21px 21px 21px;
+  margin: 21px 21px 18px 21px;
   font-size: 19px;
 }
 
 article {background: #fff;}
-
-article p {
-  margin: 21px 21px 21px 21px;
-  font-size: 19px;
-}
 
 .drops {font-family: Georgia;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 400%;
 }
@@ -220,7 +222,27 @@ a:hover, a:active {
   border-bottom: 1px solid #999892;
 }
 
+address {
+  margin: 25px 21px 21px 21px;
+  text-align: left;
+  color: #333;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+#address {
+  font-size: 18px;
+  text-align: left;
+  color: #333;
+  line-height: 10px;
+  font-family: Georgia;
+  font-style: italic;
+}
 #post h1 {text-transform:uppercase;}
+
+.autor {
+  font-family: Open Sans,
+}
 
 #post p {
   font-family: Georgia;
