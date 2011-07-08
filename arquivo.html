@@ -2,14 +2,18 @@
 layout: base
 title: Arquivo
 ---
-<h2 id="intro">Lista de todos os {{ site.posts.size }} posts desse blog.</h2>
 
-<form action="/search" method="get">
-  <input type="search" name="query" placeholder="Buscar post">
-  <input type="submit" value="Buscar">
-</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"</script>
+<script src="/public/javascripts/jquery-tapir.min.js"></script>
 
 <article>
+  <h1 id="intro">Arquivo do Blog</h1>
+
+  <form action="/busca" method="get">
+    <input type="search" name="query" placeholder="Buscar post"/>
+    <input type="submit" value="Buscar">
+  </form>
+
   <ul>
   {% for post in site.posts %}
     <li>
@@ -17,4 +21,4 @@ title: Arquivo
     </li>
   {% endfor %}
   </ul>
-</div>
+</article>

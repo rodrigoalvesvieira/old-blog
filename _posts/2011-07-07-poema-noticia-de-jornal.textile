@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Poema tirado de uma notícia de jornal
+excerpt: Primeiro post do blog
 ---
 
 <blockquote>

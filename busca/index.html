@@ -1,0 +1,18 @@
+---
+layout: base
+title: Resultados da Busca
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"</script>
+<script src="/public/javascripts/jquery-tapir.min.js"></script>
+
+<article>
+  <img src="/public/images/loading.gif" style="border:none; margin:auto; width:32px; height:32px; box-shadow:none; display: block;"/>
+</article>
+
+<script>
+  $('article').tapir({
+    token: '4e175ffd3f61b00a8d0000cf',
+    complete: function(){ $('article img').remove() }
+  });
+</script>

@@ -117,6 +117,16 @@ time {
   font-style: italic;
 }
 
+time a {
+  color: #000;
+  border-bottom: none;
+}
+
+time a:hover {
+  color: #A53F1B;
+  background-color: #fff;
+}
+
 h2 {
   margin: 0 0 25px 21px;
   line-height: 20px;
@@ -148,13 +158,11 @@ h3 {
 }
 
 h4 {
-  letter-spacing: 0.1em;
+  margin: 0 auto;
+  text-align: center;
   font-size: 14px;
-  font-weight: 700;
   font-family: Georgia, sans-serif;
-  line-height: 20px;
-  text-transform: uppercase;
-  color:#fd5d13;
+  color: #222;
 }
 
 p {
@@ -252,16 +260,6 @@ address {
 #post a:hover, a:active {
   color: #fff;
   background: #3B250E;
-}
-
-time a {
-  color: #000;
-  border-bottom: none;
-}
-
-time a:hover {
-  color: #A53F1B;
-  background-color: #fff;
 }
 
 h1 a {
