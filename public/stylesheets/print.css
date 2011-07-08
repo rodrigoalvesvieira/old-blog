@@ -1,52 +1,64 @@
-@font-face{font-family:New Yorker;src:url('/public/New_Yorker.ttf');}
-@font-face{font-family:Riesling;src:url('/public/riesling.ttf');}
+@import url('tipografia.css');
 
 * {float: none;}
 
 body {
-  background: #000;
   font-size: 14pt;
 }
 
-#logo {
+header h1 {
   text-align: center;
-  font-size: 54pt;
-  font-family: Riesling, New Yorker;
-  line-height: 40px;
+  font-size: 34pt;
+  font-family: Fanwood, Georgia;
+  line-height: 40pt;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 100;
-  margin-bottom: 40px;
+  margin-bottom: 40pt;
+}
+
+header p {
+  text-align:center;
+}
+
+.drops {font-family: Georgia;display: inline;float: left;text-indent: 5pt;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #000;font-size: 400%;
+}
+
+aside a {
+  margin-bottom: 20pt;
 }
 
 h1 {
   text-align:center;
   font-size: 29pt;
-  margin: 0 0 20px 0;
-  line-height: 20px;
-  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2",serif;
+  margin: 0 0 20pt 0;
+  line-height: 20pt;
+  font-family: League Gothic, sans-serif;
   font-weight: 100;
   font-style:italic;
   font-variant:small-caps;
   margin-bottom:25pt;
 }
 
+h1 a {
+  text-decoration: none;
+}
+
 a:link, a:visited {
-  color: #520;
   background: transparent;
   font-weight: bold;
   text-decoration: underline;
 }
 
-#logo a {text-decoration: none;color:#000;}
-#content {margin-top:25pt;text-align:justify;}
-#content a:link:after, #content a:visited:after {
+h1 a {text-decoration: none;color:#222;}
+article {margin-top:25pt;text-align:justify;}
+article a:link:after, #content a:visited:after {
   content: " (" attr(href) ") ";
   font-size: 90%;
 }
 
-#content a[href^="/"]:after {
+article a[href^="/"]:after {
   content: " (http://www.rodrigoalvesvieira.com" attr(href) ") ";
 }
 

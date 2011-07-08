@@ -197,7 +197,9 @@ ul {
   list-style: disc;
 }
 
-ul ul { margin: 0 0 0 20px; }
+ul  li {
+  font-size: 19px;
+}
 
 ol {
   line-height: 20px;
