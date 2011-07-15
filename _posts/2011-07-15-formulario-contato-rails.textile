@@ -13,7 +13,7 @@ Primeiro criei o mailer, com ActionMailer:
   <script src="https://gist.github.com/1084919.js?file=contact_mailer.rb"></script>
 </div>
 
-É importante passar esses parâmetros para o método mail pois eles fazem a 'cara' da mensagem, existem <a href="http://api.rubyonrails.org/classes/ActionMailer/Base.html" title="API do ActionMailer">outros parâmetros</a> disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o <a href="http://www.sendmail.com/sm/open_source/" title="Sendmail">sendmail</a> em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
+É importante passar esses parâmetros para o método <span class="small_code">mail</span> pois eles fazem a 'cara' da mensagem, existem <a href="http://api.rubyonrails.org/classes/ActionMailer/Base.html" title="API do ActionMailer">outros parâmetros</a> disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o <a href="http://www.sendmail.com/sm/open_source/" title="Sendmail">sendmail</a> em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
 
 Você precisa definir no controller a ação que vai despachar o email:
 
