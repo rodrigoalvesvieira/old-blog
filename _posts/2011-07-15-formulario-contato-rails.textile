@@ -1,0 +1,50 @@
+---
+layout: post
+title: Criando um form de contato no Rails
+---
+
+<span class="drops">U</span>mas das funcionalidades mais comuns em sites por toda a internet são os formulários de contato, aqueles que ficam geralmente numa página do seu site dedicada a receber feedback dos usuários.
+
+Essa semana precisei pela primeira vez desenvolver um form desses em um projeto Rails e apanhei um pouco então aqui vai a maneira como eu consegui fazer:
+
+Primeiro criei o mailer, com ActionMailer:
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=contact_mailer.rb"></script>
+</div>
+
+É importante passar esses parâmetros para o método mail pois eles fazem a 'cara' da mensagem, existem <a href="http://api.rubyonrails.org/classes/ActionMailer/Base.html" title="API do ActionMailer">outros parâmetros</a> disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o <a href="http://www.sendmail.com/sm/open_source/" title="Sendmail">sendmail</a> em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
+
+Você precisa definir no controller a ação que vai despachar o email:
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=pages_controller.rb"></script>
+</div>
+
+Vamos mapear a rota de envio do email:
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=routes.rb"></script>
+</div>
+
+Crie então o formulário na página de contato:
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=contact.html.erb"></script>
+</div>
+
+Agora o template do email que vai ser enviado:
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=send_email.html.erb"></script>
+</div>
+
+Por último você deve adicionar mais algumas linhas de configuração ao seu ambiente de produção(altere o host para testar em desenvolvimento):
+
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=production.rb"></script>
+</div>
+
+Vá agora ao seu formulário submeter o email e visite sua caixa de entrada :D
+
+Eu não sei se essa abordagem está suficientemente boa em Rails, mas funcionou como eu quis para mim. Se você conhece uma maneira melhor de fazer isso, me <a href="mailto:rodrigo3n@gmail.com">conte</a> :D. Espero que possa ser útil para você também!
