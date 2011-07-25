@@ -1,0 +1,88 @@
+---
+layout: post
+title: Os Podcasts que acompanho
+---
+
+<span class="drops">P</span>odcasts são para mim uma maneira bem legal de me informar, eu tenho preferência pelos que são feitos por programadores e designers, me dão a sensação de estar num encontro de usuários ou conferência e me ajudam a compreender algumas coisas de um modo bem cômodo :D
+
+Sem mais enrolação, aí vai a lista e a descrição dos, como diz o título, podcasts que eu acompanho:
+
+h2. Railscasts (Video)
+
+Esse tinha que ser o primeiro da lista, foi o primeiro que eu comecei a seguir, gosto muito dele pois nele "Ryan Bates":http://twitter.com/#!/rbates apresenta assuntos relevantes pra a comunidade Ruby/Rails em um tempo curto. O podcast não deve ser novidade pra muita gente que desenvolve mas permanece ótimo e me faz esperar pela segunda-feira para ver o mais novo episódio :D
+
+"http://railscasts.com":http://railscasts.com
+
+h2. The Changelog
+
+O The Changelog é um podcast bem eclético, os episódios abordam temas gerais como deploy, desenvolvimento mobile, novas gems (especialmente) úteis, frameworks JavaScript, plugins jQuery...enfim, ele tenta cobrir o que há de mais novo e útil e promissor pra quem desenvolve. Pra completar, a galera que o apresenta também mantém um "http://thechangelog.com/":blog que faz exatamente o que o podcast faz mas como assuntos diferentes e texto!
+
+"http://changelogshow.com/":http://changelogshow.com/
+
+h2. Pragmatic Podcast
+
+Esse podcast é organizado pela Pragmatic Programmers, que é uma das melhores editoras técnicas existentes. Os episódios são de alto nível e feitos com autores de livros da PragProg.
+
+"http://pragprog.com/podcasts":http://pragprog.com/podcasts
+
+h2. Ruby 5
+
+Ruby 5 é um podcast bastante atualizado de episódios de (quase) 5 minutos de duracão, que tentam cobrir com brevidade o que rola na comunidade Ruby/Rails.
+
+"http://ruby5.envylabs.com/":http://ruby5.envylabs.com/
+
+h2. Ruby Rogues
+
+Esse podcast, me parece, é mais para Rubistas mais avançados, o nível do podcast e das discussões é alto e os convidados dos episódios são geralmente membros conhecidos da comunidade, palestrantes de grandes eventos da linguagem.
+
+"http://rubyrogues.com/":http://rubyrogues.com/
+
+h2. Doctype.tv (Vídeo)
+
+O Doctype.tv é um podcast organizado por dois caras, um designer e um desenvolvedor, que dividem o tempo dos episódios em duas partes, onde cada um apresenta algo interessante no campo em que atuam.
+
+"http://doctype.tv/":http://doctype.tv/
+
+h2. GrokPodcast
+
+Esse é made in Brazil, apresentado por "Carlos Brando":http://twitter.com/#!/carlosbrando e "Rafael Rosa Fu":http://twitter.com/#!/rafaelrosafu, tenho gostado bastante do podcast, dos temas abordados e venho acompanhando desde o primeiro episódio.
+
+"http://grokpodcast.com":http://grokpodcast.com
+
+h2. A Minute with Brendan
+
+Nesse podcast quem fala é o criador do JavaScript, que explica "tricks" da linguagem, fala da história dela e também dos caminhos que ela deve tomar.
+
+"http://www.aminutewithbrendan.com/":http://www.aminutewithbrendan.com/
+
+h2. A Minute with Mobile
+
+Nesse, como o nome sugere, se fala de assuntos relacionados ao desenvolvimento de aplicações móveis, infelizmente ainda não desenvolvi nada focado nesse nicho do mercado, mas pretendo em breve e esse podcast oferece um bom conteúdo.
+
+"http://mobile.minutewith.com/":http://mobile.minutewith.com/
+
+h2. A Minute with Node.js
+
+Esse é mais um da série "A Minute with", focado no Node.js ele disponibiliza informações sobre esta plataforma poderosa com a qual eu ainda sou muito enrolado :p
+
+"http://node.minutewith.com/":http://node.minutewith.com/
+
+h2. Vimcasts (Vídeo)
+
+Até agora só assisti um episódio e já achei legal, recomendo pra ti se já usas o Vim ou se pretendes :D
+
+"http://vimcasts.org":http://vimcasts.org
+
+h2. Webpulp TV (Vídeo)
+
+Nesse os hosts entrevistam pessoas de startups e empresas tech sobre seus desafios em criar bom software além de negócios relacionados a startups, escalabilidade, etc.
+
+"http://webpulp.tv/":http://webpulp.tv/
+
+h2. The Skeptics' Guide to the Universe
+
+Esse é o único podcast não-técnico que eu acompanho, eu gosto de ouví-lo porque seus hosts apresentam assuntos um tanto científico, um tanto filosóficos, se você é cético e curte evolucionismo e ciência em geral, eu recomendo ouvir esse podcast.
+
+"http://www.theskepticsguide.org/":http://www.theskepticsguide.org/
+
+Bom, é isso, parece que o texto ficou um pouco longo mas acho que vale a pena pra quem ainda não conhece, investigar essas fontes :D
