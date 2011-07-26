@@ -33,7 +33,7 @@ Ruby 5 é um podcast bastante atualizado de episódios de (quase) 5 minutos de d
 
 h2. Ruby Rogues
 
-Esse podcast, me parece, é mais para Rubistas mais avançados, o nível do podcast e das discussões é alto e os convidados dos episódios são geralmente membros conhecidos da comunidade, palestrantes de grandes eventos da linguagem.
+Esse podcast, me parece, é mais para Rubistas mais avançados, o nível do podcast e das discussões é alto e os convidados dos episódios são geralmente membros conhecidos da comunidade, palestrantes de grandes eventos da linguagem ou autores de livros sobre Ruby.
 
 "http://rubyrogues.com/":http://rubyrogues.com/
 
