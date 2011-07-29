@@ -23,7 +23,9 @@ Eis como fica o seu irb com essas poucas linhas de código:
 
 !/public/images/irb_wirble.png(IRB com prompt simplificado e Wirble)!
 
-Outro set de melhorias pro IRB são oferecidas pelo projeto "IRB Utility Belt (IRB Utility Belt)":http://utilitybelt.rubyforge.org/ que eu particularmente não uso mais sei que adiciona ainda mais funcionalidades ao IRB e já foi amplamente abordado num post no "Fábio Akita":http://akitaonrails.com/2008/09/21/ruby-irb-utility-belt
+Outro set de melhorias pro IRB são oferecidas pelo projeto "IRB Utility Belt (IRB Utility Belt)":http://utilitybelt.rubyforge.org/ que eu particularmente não uso mais sei que adiciona ainda mais funcionalidades ao IRB e já foi amplamente abordado num post no "Fábio Akita":http://akitaonrails.com/2008/09/21/ruby-irb-utility-belt.
+
+Pronto, já dá pra você ir programar num console mais amigável :D
 
 Isso é tudo, pessoal!
 
