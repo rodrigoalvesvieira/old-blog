@@ -23,6 +23,12 @@
  *
  */
 
+#disqus_thread {
+margin: 0 auto;
+  width: 560px;
+
+}
+
 body {
   padding: 0;
   background: #f2d49b;
