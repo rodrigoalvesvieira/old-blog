@@ -47,4 +47,4 @@ Por último você deve adicionar mais algumas linhas de configuração ao seu am
 
 Vá agora ao seu formulário submeter o email e visite sua caixa de entrada :D
 
-Eu não sei se essa abordagem está suficientemente boa em Rails, mas funcionou como eu quis para mim. Se você conhece uma maneira melhor de fazer isso, me <a href="mailto:rodrigo3n@gmail.com">conte</a> :D. Espero que possa ser útil para você também!
+Eu não sei se essa abordagem está legal em Rails, mas funcionou como esperado para mim. Se você conhece uma maneira melhor de fazer isso, deixe nos comentários :D. Espero que possa ser útil para você também!
