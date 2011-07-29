@@ -26,7 +26,12 @@
 #disqus_thread {
 margin: 0 auto;
   width: 560px;
+}
 
+.dsq-avatar {
+position: absolute;
+left: 10;
+margin-left: -20px;
 }
 
 body {
