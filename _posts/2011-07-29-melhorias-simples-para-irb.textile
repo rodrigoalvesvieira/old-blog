@@ -7,10 +7,10 @@ title: Melhorias simples para o IRB
 
 Uma simples linha de configuração do próprio IRB já deixa o prompt mais enxuto (especialmente útil se você usa a RVM).
 
-Agora instale o "Wirble (Wirble)":https://rubygems.org/gems/wirble para habilitar highlighting de sintaxe no prompt.
+Agora instale o "Wirble (Wirble)":https://rubygems.org/gems/wirble, uma gem para habilitar highlighting de sintaxe no prompt.
 
 <pre class="terminal">
-  gem install wirble
+  $ gem install wirble
 </pre>
 
 Você precisa agora abrir o arquivo .irbrc na home do seu usuário e inserir o código seguinte:
