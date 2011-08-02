@@ -27,6 +27,10 @@ Vamos mapear a rota de envio do email:
   <script src="https://gist.github.com/1084919.js?file=routes.rb"></script>
 </div>
 
+Você não quer receber spam, certo? Então adicione a seguinte linha ao Gemfile do seu app:
+
+<script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
+
 Crie então o formulário na página de contato:
 
 <div class="code">
@@ -39,12 +43,14 @@ Agora o template do email que vai ser enviado:
   <script src="https://gist.github.com/1084919.js?file=send_email.html.erb"></script>
 </div>
 
-Por último você deve adicionar mais algumas linhas de configuração ao seu ambiente de produção(altere o host para testar em desenvolvimento):
+Você precisa ainda adicionar algumas linhas de configuração ao seu ambiente de produção(altere o host para testar em desenvolvimento):
 
 <div class="code">
   <script src="https://gist.github.com/1084919.js?file=production.rb"></script>
 </div>
 
 Vá agora ao seu formulário submeter o email e visite sua caixa de entrada :D
+
+Eis um formulário básico e funcional, ele não possui validações (para isso você vai ter que extender o ActiveModel ou usar um model do ActiveRecord) e logo não possui mensagens de erro, mas funciona que é uma beleza.
 
 Eu não sei se essa abordagem está legal em Rails, mas funcionou como esperado para mim. Se você conhece uma maneira melhor de fazer isso, deixe nos comentários :D. Espero que possa ser útil para você também!
