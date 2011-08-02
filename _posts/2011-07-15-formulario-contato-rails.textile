@@ -29,7 +29,9 @@ Vamos mapear a rota de envio do email:
 
 Você não quer receber spam, certo? Então adicione a seguinte linha ao Gemfile do seu app:
 
-<script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
+<div class="code">
+  <script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
+</div>
 
 Crie então o formulário na página de contato:
 
