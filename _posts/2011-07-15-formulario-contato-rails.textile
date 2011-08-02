@@ -33,6 +33,12 @@ Você não quer receber spam, certo? Então adicione a seguinte linha ao Gemfile
   <script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
 </div>
 
+Não se esqueça de rodar o bundler:
+
+<pre class="terminal">
+  $ bundle
+</pre>
+
 Crie então o formulário na página de contato:
 
 <div class="code">
