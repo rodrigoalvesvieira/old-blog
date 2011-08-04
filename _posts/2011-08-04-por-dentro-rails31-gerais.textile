@@ -5,9 +5,7 @@ title: Por dentro do Rails 3.1: Mudanças Gerais
 
 <span class="drops">O</span> Rails 3.1 está chegando, muita coisa nova já foi anunciada, principalmente em relação ao asset pipeline. Esse é o primeiro post de uma série que eu farei abordando um assunto de cada vez, agora Mudanças Gerais, depois ActiveRecord, ActionPack até o Asset Pipeline.
 
-h2. No Geral
-
-h3. Sintaxe
+h2. Sintaxe
 
 Uma das primeiras mudanças que você nota logo após o <span class="small_code">$ rails new my_app</span> é o uso da nova sintaxe de Hashes do Ruby 1.9 no código gerado, o que eu acho muito legal porque "empurra" os devs pro uso da nova versão.
 
@@ -19,25 +17,25 @@ A diferença é simples e pode ser vista no código abaixo, que fala por si mesm
 
 Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
 
-h3. Resolução de Dependências 'automática'
+h2. Resolução de Dependências 'automática'
 
 Agora quando você cria seu app, após os geradores realizarem seu trabalho o Bundler também é executado. Eu vi alguma discussão nos Issues do Rails no GitHub sobre isso que particularmente acho desnecessário e não sei se vai pro final release.
 
-h3. SCSS gerado via gerador de scaffold
+h2. SCSS gerado via gerador de scaffold
 
 Quando voce gera um scaffold o Rails 3.1 já cria automaticamente um arquivo SCSS com o nome do controller em <span class="small_code">app/assets/stylesheets</span>
 
 Além disso o gerador ja cria arquivos .coffee e .scss correspondentes, se voce nao quiser isso passe a opção <span class="small_code">--skip-assets</span> ao comando.
 
-h3. jQuery é default
+h2. jQuery é default
 
 Depois de muito tempo de insistancia da comunidade, o framework JavaScript finalmente é padrao.
 
-h3. JSON no lugar de XML
+h2. JSON no lugar de XML
 
 Até o Rails 3.1 os controllers gerados criavam blocos de renderização de formatos HTML e XML, agora e HTML e JSON.
 
-h3. Output mais bonito de testes unitários
+h2. Output mais bonito de testes unitários
 
 Uma das dependências de desenvolvimento default dos apps no Rails 3.1 a a gem <a href="https://github.com/TwP/turn" title="Gem Turn">turn</a> que colore a saída dos seus testes.
 
