@@ -1,0 +1,52 @@
+---
+layout: post
+title: Por dentro do Rails 3.1: Mudanças Gerais
+---
+
+<span class="drops">O</span> Rails 3.1 está chegando, muita coisa nova já foi anunciada, principalmente em relação ao asset pipeline. Esse é o primeiro post de uma série que eu farei abordando um assunto de cada vez, agora Mudanças Gerais, depois ActiveRecord, ActionPack até o Asset Pipeline.
+
+h2. No Geral
+
+h3. Sintaxe
+
+Uma das primeiras mudanças que você nota logo após o <span class="small_code">$ rails new my_app</span> é o uso da nova sintaxe de Hashes do Ruby 1.9 no código gerado, o que eu acho muito legal porque "empurra" os devs pro uso da nova versão.
+
+A diferença é simples e pode ser vista no código abaixo, que fala por si mesmo :D
+
+<div class="code">
+  <script src="https://gist.github.com/1085241.js?file=sintaxe.rb"></script>
+</div>
+
+Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
+
+h3. Resolução de Dependências 'automática'
+
+Agora quando você cria seu app, após os geradores realizarem seu trabalho o Bundler também é executado. Eu vi alguma discussão nos Issues do Rails no GitHub sobre isso que particularmente acho desnecessário e não sei se vai pro final release.
+
+h3. SCSS gerado via gerador de scaffold
+
+Quando você gera um scaffold o Rails 3.1 já cria automaticamente um arquivo SCSS com o nome do controller em <span class="small_code">app/assets/stylesheets</span>
+
+Além disso o gerador já cria arquivos .coffee e .scss correspondentes, se você não quiser isso passe a opção <span class="small_code">--skip-assets</span> ao comando.
+
+h3. jQuery é default
+
+Depois de muito tempo de insistência da comunidade, o framework JavaScript finalmente é padrão.
+
+h3. JSON no lugar de XML
+
+Até o Rails 3.1 os controllers gerados criavam blocos de renderização de formatos HTML e XML, agora é HTML e JSON.
+
+h3. Output mais bonito de testes unitários
+
+Uma das dependências de desenvolvimento default dos apps no Rails 3.1 é a gem <a href="https://github.com/TwP/turn" title="Gem Turn">turn</a> que colore a saída dos seus testes.
+
+h2. Depreciações
+
+Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens para atualizar seu código no log de sua aplicação enquanto você desenvolve, aí vai a breve lista:
+
+* Agora é definitivo: Templates .rhtml que já não eram habituais desde o Rails 2.1 agora não são mais válidos.
+* Pra quem usa Fixtures, o formato CSV está depreciado mas só será totalmente removido no Rails 3.2.
+* Não há mais suporte pra acesso de atributos via <span class="small_code">has_and_belongs_to_many</span>, esse associador tem seu uso desencorajado há muito tempo. Use o <span class="small_code">has_many :through</span>
+
+Até o próximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. <a href="http://twitter.com/#!/rodrigoalvieira" title="Siga-me no Twitter">Siga-me no Twitter</a> ou <a href="http://www.rodrigoalvesvieira.com/atom.xml" title="assine o feed do blog">assine o feed do blog</a> pra receber o post "fresquinho" :D
