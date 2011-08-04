@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Por dentro do Rails 3.1
+title: Por dentro do Rails 3.1 - Novidades Gerais
 ---
 
 <span class="drops">O</span> Rails 3.1 está chegando, muita coisa nova já foi anunciada, principalmente em relação ao asset pipeline. Esse é o primeiro post de uma série que eu farei abordando um assunto de cada vez, agora Mudanças Gerais, depois ActiveRecord, ActionPack até o Asset Pipeline.
