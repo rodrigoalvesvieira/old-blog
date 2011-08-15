@@ -48,15 +48,15 @@ h2. Depreciações
 
 Segue a lista de coisas que se aposentaram no Rails 3.1:
 
-p. * Fixtures no formato CSV. (Eu nunca vi ninguém fazer isso anyway, mas agora você não pode mais. YAML é o único formato aceito.)
+* Fixtures no formato CSV. (Eu nunca vi ninguém fazer isso anyway, mas agora você não pode mais. YAML é o único formato aceito.)
 
-p. * Não se pode mais interpolar strings SQL em associacões e condicões, agora você tem que usar um <span class="small_code">proc</span>, exemplo:
+* Não se pode mais interpolar strings SQL em associacões e condicões, agora você tem que usar um <span class="small_code">proc</span>, exemplo:
 
 <div class="code">
   <script src="https://gist.github.com/1085241.js?file=house.rb"></script>
 </div>
 
-p. * Passar hash de opcões contendo <span class="small_code">conditions</span>, <span class="small_code">group</span>, <span class="small_code">include</span>, <span class="small_code">joins</span>, <span class="small_code">offset</span>, <span class="small_code">limit</span>, <span class="small_code">order</span>, <span class="small_code">lock</span>, <span class="small_code">select</span>, <span class="small_code">from</span>, <span class="small_code">having</span>, <span class="small_code">readonly</span>, enfim, toda essa API de consulta que <a href="http://m.onkey.org/active-record-query-interface">um dia foi nova</a> está depreciada no novo AR onde tudo isso foi minimizado e simplificado, toda a responsabilidade de filtragem por hash dos opções passa para o método <span class="small_code">where</span>:
+* Passar hash de opcões contendo <span class="small_code">conditions</span>, <span class="small_code">group</span>, <span class="small_code">include</span>, <span class="small_code">joins</span>, <span class="small_code">offset</span>, <span class="small_code">limit</span>, <span class="small_code">order</span>, <span class="small_code">lock</span>, <span class="small_code">select</span>, <span class="small_code">from</span>, <span class="small_code">having</span>, <span class="small_code">readonly</span>, enfim, toda essa API de consulta que <a href="http://m.onkey.org/active-record-query-interface">um dia foi nova</a> está depreciada no novo AR onde tudo isso foi minimizado e simplificado, toda a responsabilidade de filtragem por hash dos opções passa para o método <span class="small_code">where</span>:
 
 <div class="code">
   <script src="https://gist.github.com/1085241.js?file=gallery.rb"></script>
