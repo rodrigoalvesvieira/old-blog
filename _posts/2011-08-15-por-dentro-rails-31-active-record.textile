@@ -21,6 +21,15 @@ Sempre foi possível visualizar as consultas ao banco feitas pelo Rails no log d
 
 !/public/images/rails_console.png(Visualização da query SQL no console)!
 
+h2. update_collumn
+
+Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a tabela da classe onde ele é chamado) e o valor a ser salvo. 
+
+<script src="https://gist.github.com/1085241.js?file=car.rb"></script>
+
+Importante: esse método ignora todos os callbacks, incluindo validacões, portanto tome cuidado!
+
+
 h2. Default scope
 
 Escopos (<span class="small_code">scope</span>) são uma mão na roda para o programador no Rails, a versão 3.1 traz* uma funcionalidade chamada <span class="small_code">default_scope</span>, demonstrada a seguir: 
@@ -34,18 +43,7 @@ A partir de agora o <span class="small_code">User.all</span> já retorna os dado
 P.S: Esse método já havia sido incorporado ao Rails em outros tempos mas foi removido e agora está de volta.
 
 
-h2. Método update_collumn
-
-
-Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a tabela da classe onde ele é chamado) e o valor a ser salvo. 
-
-<script src="https://gist.github.com/1085241.js?file=car.rb"></script>
-
-Importante: esse método ignora todos os callbacks, incluindo validacões, portanto tome cuidado!
-
-
 h2. Depreciações
-
 
 Segue a lista de coisas que se aposentaram no Rails 3.1:
 
