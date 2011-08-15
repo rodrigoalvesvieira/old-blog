@@ -2,7 +2,7 @@ auto: :true
 source: .
 destination: ./_site
 includes: ./_includes
-server_port: 5000
+server_port: 5005
 markdown: rdiscount
 permalink: /:title
 future: true
