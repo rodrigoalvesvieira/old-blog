@@ -44,7 +44,6 @@ A partir de agora o <span class="small_code">User.all</span> já retorna os dado
 
 P.S: Esse método já havia sido incorporado ao Rails em outros tempos mas foi removido e agora está de volta.
 
-
 h2. Depreciações
 
 Segue a lista de coisas que se aposentaram no Rails 3.1:
