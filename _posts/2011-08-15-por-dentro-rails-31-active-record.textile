@@ -33,7 +33,9 @@ A partir de agora o <span class="small_code">User.all</span> já retorna os dado
 
 P.S: Esse método já havia sido incorporado ao Rails em outros tempos mas foi removido e agora está de volta.
 
+
 h2. Método update_collumn
+
 
 Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a tabela da classe onde ele é chamado) e o valor a ser salvo. 
 
@@ -41,7 +43,9 @@ Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a 
 
 Importante: esse método ignora todos os callbacks, incluindo validacões, portanto tome cuidado!
 
+
 h2. Depreciações
+
 
 Segue a lista de coisas que se aposentaram no Rails 3.1:
 
