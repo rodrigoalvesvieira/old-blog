@@ -29,7 +29,7 @@ Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a 
   <script src="https://gist.github.com/1085241.js?file=car.rb"></script>
 </div>
 
-Importante: esse método ignora todos os callbacks, incluindo validacões, portanto tome cuidado!
+Importante: esse método ignora todos os callbacks, incluindo validacões. Tome cuidado!
 
 
 h2. Default scope
