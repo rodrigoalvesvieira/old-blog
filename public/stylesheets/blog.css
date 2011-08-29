@@ -34,6 +34,7 @@ left: 10;
 margin-left: -20px;
 }
 
+
 body {
   padding: 0;
   background: #f2d49b;
@@ -62,6 +63,15 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   font-variant: small-caps;
+}
+
+.arquivo_nav {
+	float: right;
+	color: #f2d49b;
+}
+
+.arquivo_nav:hover {
+	color: #fff;
 }
 
 header p {
