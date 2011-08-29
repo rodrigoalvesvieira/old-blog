@@ -65,9 +65,8 @@ body {
   font-variant: small-caps;
 }
 
-.arquivo_nav {
+ul.arquivo_nav {
 	float: right;
-	color: #f2d49b;
 }
 
 .arquivo_nav:hover {
