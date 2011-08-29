@@ -27,13 +27,10 @@ header h1 {
 }
 
 article h1 {
-  margin: 0 auto;
   font-family: League Gothic;
-  font-size: 38pt;
+  font-size: 32pt;
   text-align:center;
-  padding: 50pt;
-  line-height: 40pt;
-  padding-bottom: 23pt;
+	text-transform: uppercase;
 }
 header p {
   text-align:center;
