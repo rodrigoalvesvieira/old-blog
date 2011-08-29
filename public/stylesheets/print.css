@@ -26,6 +26,15 @@ header h1 {
   margin-bottom: 40pt;
 }
 
+article h1 {
+  margin: 0 auto;
+  font-family: League Gothic;
+  font-size: 38pt;
+  text-align:center;
+  padding: 50pt;
+  line-height: 40pt;
+  padding-bottom: 23pt;
+}
 header p {
   text-align:center;
 }
