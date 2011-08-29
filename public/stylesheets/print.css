@@ -2,9 +2,17 @@
 
 * {float: none;}
 
-body {
-  font-size: 14pt;
+body {font-size: 14pt;}
+
+#disqus_thread {
+margin: 0 auto;
+  display: none;
 }
+
+.dsq-avatar {
+	display: none;
+}
+
 
 header h1 {
   text-align: center;
@@ -61,6 +69,8 @@ article a:link:after, #content a:visited:after {
 article a[href^="/"]:after {
   content: " (http://www.rodrigoalvesvieira.com" attr(href) ") ";
 }
+
+
 
 footer {margin-top: 50pt;}
 footer {text-align:center;}
