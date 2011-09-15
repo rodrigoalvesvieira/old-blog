@@ -5,7 +5,7 @@ title: Developing your JSON API in Rails with Rabl
 
 <span class="drops">I</span>nterchanging data is something important in many web applications. In most cases you need this to set data available to a native mobile app, or to another web application (or even many applications!). Generally you serve it all as JSON, because it's cool to use and works fine with JavaScript and a bunch of other languages.
 
-This post about building a simple API only for fetching data, not persisting. And I'll not mention REST here.
+This post about building a simple API is only for fetching data, not persisting. And I'll not mention REST here.
 
 The "Rabl (Rabl)":http://github.com/nesquena/rabl gem let's you easily make data available as JSON, using this gem is a real straightforward process. All you need to do is pass <span class="small_code">respond_to :json</span> on the controller of the resource you wanna set available as JSON.
 
