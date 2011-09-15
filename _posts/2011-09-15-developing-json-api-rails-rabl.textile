@@ -31,6 +31,8 @@ When I pass <span class="small_code">:major</span> to the <span class="small_cod
 
 The coolest stuff is that all these related data gets nested just right in the output. Neat and pretty.
 
+Now go get it!
+
 <pre class="terminal">
   $ curl -X GET http://localhost:3000/cities.json
 </pre>
