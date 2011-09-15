@@ -43,7 +43,7 @@ body {
   font-family: Georgia;
 }
 
-#topo {
+#top {
   border-top: 12px solid #000;
   background: #663f1b;
   width: 640px;
@@ -65,12 +65,12 @@ body {
   font-variant: small-caps;
 }
 
-ul.arquivo_nav {
-	float: right;
+ul.archive_nav {
+  float: right;
 }
 
-.arquivo_nav:hover {
-	color: #fff;
+.archive_nav:hover {
+  color: #fff;
 }
 
 header p {
