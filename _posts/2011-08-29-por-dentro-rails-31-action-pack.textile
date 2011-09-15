@@ -1,6 +1,0 @@
----
-layout: post
-title: Por dentro do Rails 3.1 - ActionPack
----
-
-<span class="drops">H</span>
