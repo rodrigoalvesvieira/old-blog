@@ -1,2 +1,0 @@
-Node é um conjunto de bibliotecas e APIS para desenvolvimento de sistemas de alta performance feita em JavaScript
-
