@@ -1,24 +1,24 @@
 /*
- *  Não Copie Meu CSS!
+ *  This is mine! Write yours!
  *
-    // ================================== \\
-   ||     "Rodrigo Alves Vieira"          ||
-   ||      Rodrigo Alves Vieira           ||
-   ||   Designer: Rodrigo Alves Vieira	  ||
-   ||	Front-end: Rodrigo Alves Vieira   ||
-   ||   Dev: Rodrigo Alves Vieira         ||
-    \\ ================================== //
+    // =========================== \\
+   ||     "Rodrigo Vieira"          ||
+   ||      Rodrigo Vieira           ||
+   ||   Designer: Rodrigo Vieira    ||
+   ||	Front-end: Rodrigo Vieira   ||
+   ||   Dev: Rodrigo Vieira         ||
+    \\ =========================== //
 */
 
 @import url('reset.css');
-@import url('tipografia.css');
+@import url('tipography.css');
 
 #code {
   font-size: 16px;
   margin: 0 auto;
   width: 560px;
 }
-/* Paletas
+/* Palettes
  * http://kuler.adobe.com/index.cfm#themeID/1372133
  *
  */
