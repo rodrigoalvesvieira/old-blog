@@ -21,7 +21,7 @@ Now you have to create the template that determines how the JSON objects will be
 
 Explaining what happens in this file:
 
-* The <span class="small_code">collection</span> method takes the instance variable containing the objects you want to display, in my example, <span class="small_code">@city</span>
+* The <span class="small_code">collection</span> method takes the instance variable containing the objects you want to display, in my example, <span class="small_code">@cities</span>
 * The <span class="small_code">attributes</span> method is for specifing which attributes of your model you want in the JSON output (you seldom wanna show all)
 * The <span class="small_code">child</span> method takes a block for a collection or a single object you want to nest to the parent object.
 
