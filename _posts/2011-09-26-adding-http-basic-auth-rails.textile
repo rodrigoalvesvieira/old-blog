@@ -3,7 +3,7 @@ layout: post
 title: Adding HTTP basic authentication to Rails 3
 ---
 
-<span class="drops">W</span>e generally maintain at least a staging version of our web applications in order to _actually_ test them in production mode before releasing new features to the public. If you don't think it's cool to don't encrypt access to your Rails site because it just won't appear in Google, bear with me, there's how to do it, easily:
+<span class="drops">W</span>e generally maintain at least a staging version of our web applications in order to _actually_ test them in production mode before releasing new features to the public. If you don't think it's cool to don't encrypt access to your Rails site because it just won't appear in Google, bear with me, here's how to do it, easily:
 
 Firstly, make a copy of your production.rb file and call it staging.rb, and of course it should be in RAILS_ROOT/config/environments/.
 
