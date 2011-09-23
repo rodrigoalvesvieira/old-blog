@@ -1,0 +1,26 @@
+---
+layout: post
+title: Adding HTTP basic authentication to Rails 3
+---
+
+<span class="drops">W</span>e generally maintain staging version of our web applications in order to _actually_ test them in production mode before releasing new features to the public. If you don't think it's cool to don't encrypt access to your Rails site because it just won't appear in Google, bear with me, there's how to do it, easily:
+
+Firstly, make a copy of your production.rb file and call it staging.rb, and of course it should be in RAILS_ROOT/config/environments/.
+
+<div class="code">
+  <script src="https://gist.github.com/1237972.js?file=staging.rb"></script>
+</div>
+
+Of course, you must now make sure your staging server knows you want it to load Rails within the staging environment.
+
+Now implement the actual code, fortunately, Rails itself already has a method called <span class="small_code">authenticate_or_request_with_http_basic</span>:
+
+<div class="code">
+  <script src="https://gist.github.com/1237972.js?file=application_controller.rb"></script>
+</div>
+
+As you can see, here I'm assuming you have an <span class="small_code">Admin</span> model whose authentication parameters are login and password.
+
+Now when you request the page the browser will prompt you a small window for you to login or you can just hit login:password@example.com.
+
+That's all. Hope this was helpful. See you in the next post!
