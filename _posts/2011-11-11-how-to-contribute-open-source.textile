@@ -39,4 +39,4 @@ Now it's when GitHub makes a difference:
 
 Fill the form, tell the author what you just did, explain your changes to the code and wait for the merge!
 
-That's it, of course there may be a specific project that demands more procedures for accepting contributions but the one I explained here must be sufficient to most projects.
+That's it, of course there may be a specific project that demands more procedures for accepting contributions but the one I explained here will do the job for most projects.
