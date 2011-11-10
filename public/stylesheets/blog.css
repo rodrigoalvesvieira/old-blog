@@ -13,25 +13,6 @@
 @import url('reset.css');
 @import url('tipography.css');
 
-#blog_nav {
-  float: right;
-  margin-top: -50px;
-  padding-right: 20px;
-  list-style:none;
-}
-
-#blog_nav li {
-  display: inline;
-}
-
-#blog_nav a {
-  text-decoration: none;
-}
-
-#blog_nav a:hover {
-  color: #fff;
-}
-
 
 #code {
   font-size: 16px;
@@ -333,6 +314,25 @@ article a:hover {
   background: #663f1b;
   text-decoration: none;
   border-bottom: none;
+  color: #fff;
+}
+
+#blog_nav {
+  float: right;
+  margin-top: -50px;
+  padding-right: 20px;
+  list-style:none;
+}
+
+#blog_nav li {
+  display: inline;
+}
+
+#blog_nav a {
+  text-decoration: none;
+}
+
+#blog_nav a:hover {
   color: #fff;
 }
 
