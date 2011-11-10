@@ -15,6 +15,21 @@
 
 #blog_nav {
   float: right;
+  margin-top: -50px;
+  padding-right: 20px;
+  list-style:none;
+}
+
+#blog_nav li {
+  display: inline;
+}
+
+#blog_nav a {
+  text-decoration: none;
+}
+
+#blog_nav a:hover {
+  color: #fff;
 }
 
 
