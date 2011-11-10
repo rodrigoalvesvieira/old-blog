@@ -31,7 +31,7 @@ You'll then fork the project on GitHub and tell git where your remote repo is:
 
 Obviously you'll then push your code to your remote repo:
 
-<pre class="terminal">  $ git push my_hpricot my_patch </span>
+<pre class="terminal">  $ git push my_hpricot my_patch </pre>
 
 Now it's when GitHub makes a difference:
 
