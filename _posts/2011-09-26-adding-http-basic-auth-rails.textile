@@ -5,7 +5,7 @@ title: Adding HTTP basic authentication to Rails 3
 
 <span class="drops">W</span>e generally maintain at least a staging version of our web applications in order to _actually_ test them in production mode before releasing new features to the public. If you definitely want to hide your Rails app from the public, bear with me, here's how to do it, easily:
 
-Firstly, make a copy of your production.rb file and call it staging.rb, and of course it should be in <span class="small_code>Rails.root/config/environments/</span>.
+Firstly, make a copy of your production.rb file and call it staging.rb, and of course it should be in Rails.root/config/environments/.
 
 <div class="code">
   <script src="https://gist.github.com/1237972.js?file=staging.rb"></script>
