@@ -15,7 +15,7 @@ Then <span class="small_code">cd</span> into the repo and create a branch where 
 
 Now comes the most important part, when you CODE.
 
-After making your changes and WRITING THE TESTS (I'm making sure you won't forget it), then add the tweaked and/or new files and <span class="small_code">git commit</span> 'em.
+After making your changes and WRITING THE TESTS (I'm making sure you won't forget it), add the tweaked and/or new files and <span class="small_code">git commit</span> 'em.
 
 Now, get back to the master branch and run <span class="small_code">git pull</span>, so you make sure you're getting the latest version of the origin before submitting your code:
 
