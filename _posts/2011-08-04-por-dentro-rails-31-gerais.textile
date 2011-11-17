@@ -17,7 +17,7 @@ A diferença é simples e pode ser vista no código abaixo, que fala por si mesm
 
 Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
 
-h2. Resolução de Dependências 'automática'
+h2. Resolução 'automática' de Dependências
 
 Agora quando você cria seu app, após os geradores realizarem seu trabalho o Bundler também é executado. Eu vi alguma discussão nos Issues do Rails no GitHub sobre isso que particularmente acho desnecessário e não sei se vai pro final release.
 
@@ -25,11 +25,11 @@ h2. SCSS gerado via gerador de scaffold
 
 Quando voce gera um scaffold o Rails 3.1 já cria automaticamente um arquivo SCSS com o nome do controller em <span class="small_code">app/assets/stylesheets</span>
 
-Além disso o gerador ja cria arquivos .coffee e .scss correspondentes, se voce nao quiser isso passe a opção <span class="small_code">--skip-assets</span> ao comando.
+Além disso o gerador já cria arquivos .coffee e .scss correspondentes, se voce não quiser isso passe a opção <span class="small_code">--skip-assets</span> ao comando.
 
 h2. jQuery é default
 
-Depois de muito tempo de insistancia da comunidade, o framework JavaScript finalmente é padrao.
+Depois de muito tempo de insistência da comunidade, o framework JavaScript finalmente é padrão.
 
 h2. JSON no lugar de XML
 
@@ -41,10 +41,10 @@ Uma das dependências de desenvolvimento default dos apps no Rails 3.1 a a gem <
 
 h2. Depreciações
 
-Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens para atualizar seu código no log de sua aplicação enquanto você desenvolve, ai vai a breve lista:
+Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens para atualizar seu código no log de sua aplicação enquanto você desenvolve, aí vai a breve lista:
 
-* Agora é definitivo: Templates .rhtml que já nao eram habituais desde o Rails 2.1 agora nao sao mais validos.
-* Pra quem usa Fixtures, o formato CSV esta depreciado mas so sera totalmente removido no Rails 3.2.
+* Agora é definitivo: Templates .rhtml que já nao eram habituais desde o Rails 2.1 agora não são mais válidos.
+* Pra quem usa Fixtures, o formato CSV está depreciado mas só será totalmente removido no Rails 3.2.
 * Não há mais suporte pra acesso de atributos via <span class="small_code">has_and_belongs_to_many</span>, esse associador tem seu uso desencorajado há muito tempo. Use o <span class="small_code">has_many :through</span>
 
 Até o proximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. <a href="http://twitter.com/#!/rodrigoalvieira" title="Siga-me no Twitter">Siga-me no Twitter</a> ou <a href="http://www.rodrigoalvesvieira.com/atom.xml" title="assine o feed do blog">assine o feed do blog</a> pra receber o post "fresquinho" :D
