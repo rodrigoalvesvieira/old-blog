@@ -10,7 +10,7 @@ layout: nil
  <id>http://www.rodrigoalvesvieira.com/</id>
  <author>
    <name>Rodrigo Vieira</name>
-   <email>rodrigo3n@gmail.com</email>
+   <email>rodrigovieira1994@gmail.com</email>
  </author>
  {% for post in site.posts limit:10 %}
  <entry>
@@ -21,7 +21,7 @@ layout: nil
    <content type="html">{{ post.content | xml_escape }}</content>
    <author>
      <name>Rodrigo Vieira</name>
-     <uri>http://www.rodrigoalvesvieira.com/sobre.html</uri>
+     <uri>http://www.rodrigoalvesvieira.com/about</uri>
    </author>
  </entry>
  {% endfor %}
