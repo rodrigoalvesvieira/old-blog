@@ -22,3 +22,7 @@ and now:
 <pre class="terminal"> $ ./encoding file1.rb file2.js file3.html </pre>
 
 This may be useful. See you in the next post!
+
+UPDATE (December 21, 2011): I released a <s>stupid</s> small gem that works as a command-line tool, "check it out (encodingof gem on RubyGems.org)":https://rubygems.org/gems/encodingof. 
+
+
