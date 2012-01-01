@@ -9,7 +9,7 @@ title: Use Ruby to find out some file's encoding
   <script src="https://gist.github.com/1377242.js?file=encoding.rb"></script>
 </div>
 
-And use like this:
+And use it like this:
 
 <pre class="terminal"> $ ruby encoding.rb file1.rb file2.js file3.html </pre>
 
