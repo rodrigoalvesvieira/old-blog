@@ -2,7 +2,7 @@
 layout: base_home
 title: Rodrigo Vieira
 ---
-{% for post in site.posts limit:6 %}
+{% for post in site.posts limit:8 %}
 <article>
   <time id="time_home" datetime="{{post.date | date: '%Y-%m-%d'}}" pubdate>{{ post.date | date_to_string }}</time>
   <h2 class="home"><a href="{{ post.url }}" title="Permalink de {{ post.title }}">{{ post.title }}</a></h2>
