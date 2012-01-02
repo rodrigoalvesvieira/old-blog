@@ -1,0 +1,23 @@
+---
+layout: post
+title: Unix Goodies #1: cal
+---
+
+<span class="drops">T</span>his is the first post of a series called _"Unix Goodies"_. In this series I will write a ton of blog posts, each one about a specific Unix program that may save your life. This one is about <span class="small_code">cal</span>, the tiny calendar program, that seems to be quite unpopular.
+
+It's built into every Unix box, so if you're using one, just fire up the terminal and run:
+
+<pre class="terminal">
+  $ cal
+</pre>
+
+It displays the current month calendar. I've noticed a weird behavior: on Ubuntu it highlights the current day but on the Mac, it doesn't :(
+
+You can also consult a specific month of a specific year by passing the month number - 10 for December, for example - and the year.
+
+<pre class="terminal">
+  $ cal 12 1994
+</pre>
+
+This is just the basic usage of the <span class="small_code">cal</span> utility. More can be found in it's manual page. 
+
