@@ -3,7 +3,7 @@ layout: post
 title: Unix Goodies 1: cal
 ---
 
-<span class="drops">T</span>his is the first post of a series called _Unix Goodies_. In this series I will write a ton of blog posts, each one about a specific Unix program that may save your life. This one is about <span class="small_code">cal</span>, the tiny calendar program, that seems to be quite unpopular.
+<span class="drops">T</span>his is the first post of a series called Unix Goodies. In this series I will write a ton of blog posts, each one about a specific Unix program that may save your life. This one is about <span class="small_code">cal</span>, the tiny calendar program, that seems to be quite unpopular.
 
 It's built into every Unix box, so if you're using one, just fire up the terminal and run:
 
