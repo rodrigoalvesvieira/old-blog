@@ -5,15 +5,13 @@
    ||     "Rodrigo Vieira"          ||
    ||      Rodrigo Vieira           ||
    ||   Designer: Rodrigo Vieira    ||
-   ||	Front-end: Rodrigo Vieira   ||
+   ||	 Front-end: Rodrigo Vieira    ||
    ||   Dev: Rodrigo Vieira         ||
     \\ =========================== //
 */
 
 @import url('reset.css');
 @import url('tipography.css');
-
-
 #code {
   font-size: 16px;
   margin: 0 auto;
@@ -169,8 +167,8 @@ h2 {
   font-weight: 100;
 }
 
-.home a {font-size: 32px; text-transform: uppercase; color: #222;border-bottom:1px #222 dotted}
-.home a:hover { color: #222; border-bottom: 1px #222 solid;}
+.home a{font-size:32px;text-transform:uppercase;color:#222;border-bottom:1px #222 dotted}
+.home a:hover{ color:#222;border-bottom:1px #222 solid;}
 
 h3 {
   margin: 0 0 25px 21px;
@@ -194,14 +192,14 @@ p {
   clear: both;
   margin: 0 0 20px 0;
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
 }
 
 .code {font-size: 16px; margin: 0 auto;width: 560px;}
 .small_code {font-family: Monaco, monospace;font-size: 15px;}
 .terminal {margin: 0 auto; width: 560px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
 
-img {margin: 8px 25px 25px 25px;float: left;}
+img{margin:8px 25px 25px 25px;float:left;}
 
 blockquote {
   font-style: italic;
@@ -212,8 +210,8 @@ blockquote {
   color: #333;
 }
 
-cite { color: #999; }
-small { font-size: 12px; color: #999; }
+cite{color:#999;}
+small{font-size:12px;color: #999;}
 ul {
   line-height: 20px;
   font-size: 14px;
@@ -330,19 +328,9 @@ article a:hover {
   font-size: 16px;
 }
 
-#blog_nav li a {
-  color: #FFE3AC;
-  text-decoration: none;
-  border-bottom: none;
-}
-
-#blog_nav a:hover {
-  color: #fff;
-}
-
-::selection {color:#fff;background:#b5864c;}
-footer {font-family: Open Sans, Vegur;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
+#blog_nav li a{color:#FFE3AC;text-decoration:none;border-bottom:none;}
+#blog_nav a:hover{color: #fff;}
+::selection{color:#fff;background:#b5864c;}
+footer{font-family:Open Sans, Vegur;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
 footer span{display:none;}
-
-footer p {
-font-size: 13px;}
+footer p{font-size:13px;}
