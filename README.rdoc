@@ -9,4 +9,4 @@ This is my personal blog made with Jekyll and marked up with Textile. Browse at 
 
 == Copyright
 
-Copyright © 2011 Rodrigo Vieira. All Rights Reserved.
+Copyright © 2011-2012 Rodrigo Vieira. All Rights Reserved.
