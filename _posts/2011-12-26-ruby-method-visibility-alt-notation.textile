@@ -19,4 +19,6 @@ There is nothing wrong with the approach taken in the <span class="small_code">G
 
 Notice that we did not pass the <span class="small_code">alpha</span> method to neither <span class="small_code">protected</span> nor <span class="small_code">private</span> and so it's public.
 
-Maybe you prefer this second notation, too. See you in the next post!
+h2. A final note
+
+Actually, the two notations aren't two different things. In fact, these three functions work by setting their visibility state to all the subsequently defined methods, *or* to those passed directly to it as symbols. A similar behavior may be observed in the method <span class="small_code">Module#module_function</span>.
