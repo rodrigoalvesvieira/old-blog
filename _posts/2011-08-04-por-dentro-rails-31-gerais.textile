@@ -47,4 +47,4 @@ Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens par
 * Pra quem usa Fixtures, o formato CSV está depreciado mas só será totalmente removido no Rails 3.2.
 * Não há mais suporte pra acesso de atributos via <span class="small_code">has_and_belongs_to_many</span>, esse associador tem seu uso desencorajado há muito tempo. Use o <span class="small_code">has_many :through</span>
 
-Até o proximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. <a href="http://twitter.com/#!/rodrigoalvieira" title="Siga-me no Twitter">Siga-me no Twitter</a> ou <a href="http://www.rodrigoalvesvieira.com/atom.xml" title="assine o feed do blog">assine o feed do blog</a> pra receber o post "fresquinho" :D
+Até o proximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. <a href="http://twitter.com/#!/_rodrigoavieira" title="Siga-me no Twitter">Siga-me no Twitter</a> ou <a href="http://www.rodrigoalvesvieira.com/atom.xml" title="assine o feed do blog">assine o feed do blog</a> pra receber o post "fresquinho" :D
