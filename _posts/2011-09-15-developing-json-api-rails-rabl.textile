@@ -41,4 +41,4 @@ Now you have the JSON of your dreams, totally valid, semantic and formatted.
 
 More documentation on Rabl can be found at the gem's "README":https://github.com/nesquena/rabl/blob/master/README.md and "Wiki":https://github.com/nesquena/rabl/wiki on GitHub.
 
-Rabl is very robust, if JSON is the problem, this gem solves it. Of course what I showed here is just a small part of what Rabl lets you do, I hope this blog post helps you out when you need to develop your own API. If you have something to add please leave it in the comments.
+Rabl is very robust. If JSON is the problem, this gem solves it. Of course what I showed here is just a small part of what Rabl lets you do and I hope this blog post helps you out when you need to develop your own API. If you have something to add please leave it in the comments.
