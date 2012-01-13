@@ -3,7 +3,7 @@ layout: post
 title: On Software and Generalism
 ---
 
-<span class="drops">R</span>ecently I had a brief discussion with my coworkers/chiefs regarding the importance of generalism in a Software company and/or to an individual developer. For example, let's say you develop web applications: you write Python code that deals with the database and the server, sends the HTML to the browser when the request finishes. You also write the HTML itself and the JavaScript for the AJAX-based features. Should you also write the CSS, know how to place the elements, set the backgrounds of the pages, know what grid system to use?
+<span class="drops">T</span>oday I had a brief discussion with my coworkers/chiefs regarding the importance of generalism in a Software company and/or to an individual developer. For example, let's say you develop web applications: you write Python code that deals with the database and the server, sends the HTML to the browser when the request finishes. You also write the HTML itself and the JavaScript for the AJAX-based features. Should you also write the CSS, know how to place the elements, set the backgrounds of the pages, know what grid system to use?
 
 My short answer is *no*. Generalism isn't a requirement, nor should it be. 
 
