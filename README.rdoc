@@ -7,6 +7,10 @@ This is my personal blog made with Jekyll and marked up with Textile. Browse at 
   $ jekyll
   $ jekyll --server
 
+== Writing patterns
+  
+  * Italic - File and directory names.
+
 == Copyright
 
 Copyright © 2011-2012 Rodrigo Vieira. All Rights Reserved.
