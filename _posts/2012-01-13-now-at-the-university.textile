@@ -3,7 +3,7 @@ layout: post
 title: Now at the University
 ---
 
-<span class="drops">I</span>'ve been programming for over 3 years now. Until now, it was all about "autodidactism", as I never participated in any course related to programming. Actually, no course at all.
+<span class="drops">I</span>'ve been programming for almost 3 years now. Until now, it was all about "autodidactism", as I never participated in any course related to programming. Actually, no course at all.
 
 h2. TL;DR 
 
