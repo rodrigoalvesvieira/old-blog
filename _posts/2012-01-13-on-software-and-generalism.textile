@@ -35,3 +35,7 @@ This discussion also reminds me of a tweet by "Chris Dixon":http://cdixon.org/ w
 I think there is no problem for a Programmer to know Web Design, or to master it. But he/she must want it, as it is a *plus*, not a basic/must-have skill. 
 
 * This argument was translated from Portuguese and I think it's a precise translation. Anyway, my chief and coworker (author of the argument) has already been notified about the post and invited to read and reply (I promise I'll post his answer).
+
+h2. UPDATE
+
+He "has already replied":/my-chiefs-anwser-to-my-post-on-generalism to this post.
