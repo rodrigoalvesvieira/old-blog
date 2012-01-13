@@ -21,6 +21,6 @@ Now implement the actual code, fortunately, Rails itself already has a method ca
 
 As you can see, here I'm assuming you have an <span class="small_code">Admin</span> model whose authentication parameters are login and password.
 
-Now when you request the page the browser will prompt you a small window for you to login or you can just hit login:password@example.com.
+Now when you request the page the browser will prompt you a small window for you to login or you can just hit _login:password@example.com_.
 
 That's all. Hope this was helpful. See you in the next post!
