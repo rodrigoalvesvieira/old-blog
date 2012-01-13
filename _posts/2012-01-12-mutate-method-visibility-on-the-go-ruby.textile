@@ -11,6 +11,6 @@ Look at the following code snippet:
   <script src="https://gist.github.com/1593901.js?file=father_and_son.rb"></script>
 </div>
 
-In the <span class="small_code">ShamelessSon</span> class, we told Ruby to mark the <span class="small_code">bank_account</span> method as public, making it available to the class' (<span class="small_code">ShamelessSon</span>) instances to use, in this case, <span class="small_code">dillinger</span>.
+In the <span class="small_code">ShamelessSon</span> class, we told Ruby to mark the <span class="small_code">bank_account</span> method as public, making it available to this class' instances to use, in this case, <span class="small_code">dillinger</span>.
 
 Needless to say, this technique is dangerous. Use it wisely, only redefining visibility of the methods from the classes that you *know* and *trust*. 
