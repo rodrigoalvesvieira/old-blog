@@ -68,8 +68,7 @@ IBM is got a "very complete article":http://www.ibm.com/developerworks/java/libr
 
 h2. Deployment
 
-"Heroku announced":http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/
-, several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
+"Heroku announced":http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/, several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
 
 h2. More
 
