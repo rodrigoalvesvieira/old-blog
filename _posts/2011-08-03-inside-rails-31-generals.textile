@@ -21,6 +21,7 @@ If you're old-school you can still force Rails to generate hash in the Ruby 1.8 
   $ rails g scaffold Post title:string body:text author_id:integer --old-style-hash
 </pre>
 
+
 h2. Automatic dependency resolution
 
 One of the first changes that you notice after running <span class="small_code">$ rails new my_app</span> in new Rails is that it automatically runs <span class="small_code">bundle install</span> right after the generators finish their work. I've seen some discussion going on the Rails' Issue space on GitHub about it, something that I think is unnecessary. The discussion is now over and I don't know if it's going to the final release.
