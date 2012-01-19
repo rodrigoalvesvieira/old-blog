@@ -62,6 +62,6 @@ Segue a lista de coisas que se aposentaram no Rails 3.1:
   <script src="https://gist.github.com/1085241.js?file=gallery.rb"></script>
 </div>
 
-Essas parecem ter sido as maiores mudancas no ActiveRecord 3.1 até agora, sabendo que mais coisas podem vir até a final release, pensada pro final desse mês de Agosto. 
+Essas parecem ter sido as maiores mudanças no ActiveRecord 3.1 até agora, sabendo que mais coisas podem vir até a final release, pensada pro final desse mês de Agosto. 
 
-De qualquer forma atualizarei esse post se descobrir mais algo importante, me siga no <a href="http://twitter.com/rodrigoalvieira" title="Siga-me no Twitter">Twitter</a> e assine o <a hreg="http://www.rodrigoalvesvieira.com/atom.xml" title="Assine o feed do blog">feed do blog</a> para ficar por dentro.
+De qualquer forma, atualizarei esse post se descobrir mais algo importante, me siga no <a href="http://twitter.com/rodrigoalvieira" title="Siga-me no Twitter">Twitter</a> e assine o <a hreg="http://www.rodrigoalvesvieira.com/atom.xml" title="Assine o feed do blog">feed do blog</a> para ficar por dentro.
