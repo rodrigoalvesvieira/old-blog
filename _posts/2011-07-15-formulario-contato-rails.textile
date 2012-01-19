@@ -63,5 +63,5 @@ Eis um formulário básico e funcional, ele não possui validações (para isso 
 
 Eu não sei se essa abordagem está legal em Rails, mas funcionou como esperado para mim. Se você conhece uma maneira melhor de fazer isso, deixe nos comentários :D. Espero que possa ser útil para você também!
 
-Read "this article in English (Creating a contact form in Rails 3)":creating-contact-form-rails-3
+Read "this article in English (Creating a contact form in Rails 3)":/creating-contact-form-rails-3
 
