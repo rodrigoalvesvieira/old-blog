@@ -67,4 +67,4 @@ Now submit the form and go look at your inbox!
 
 There you have it. A basic, working contact form. It doesn't validate input (you'd have extend ActiveModel for this particular approach, or use a Model with the Mailer, or/and use JavaScript in the client side) and thus it doesn't handle error messages, for example, but it works just fine.
 
-This is <s>certainly</s> probably not the best approach in Rails, but it worked as expected. If you know a better way of achieving this very goal, leave it in the comments. I hope this post was useful to you!
+This is <s>certainly</s> not the best approach in Rails, but it worked as expected. If you know a better way of achieving this very goal, leave it in the comments. I hope this post was useful to you!
