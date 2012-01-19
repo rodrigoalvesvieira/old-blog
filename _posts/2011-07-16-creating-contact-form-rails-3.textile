@@ -16,7 +16,7 @@ h2. Step-to-step
 First you should create the mailer:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=contact_mailer.rb"></script>
+  <script src="https://gist.github.com/1641448.js?file=contact_mailer.rb"></script>
 </div>
 
 It's important to pass those parameters to the <span class="small_code">mail</span> method because they will be the contents of the mail you're about to send. There are "other parameters (ActionMailer API)":http://api.rubyonrails.org/classes/ActionMailer/Base.html available. It's also very important to use the <span class="small_code">headers</span> method because "sendmail (Sendmail)":http://www.sendmail.com/sm/open_source/" in some web hosts only deliver mail when <span class="small_code">Return-Path</span> is present.
@@ -24,19 +24,19 @@ It's important to pass those parameters to the <span class="small_code">mail</sp
 Now define the action in your controller:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=pages_controller.rb"></script>
+  <script src="https://gist.github.com/1641448.js?file=pages_controller.rb"></script>
 </div>
 
 Now open the _routes.rb_ file and map the <span class="small_code">dispatch_email</span> action:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=routes.rb"></script>
+<script src="https://gist.github.com/1641448.js?file=routes.rb"></script>
 </div>
 
 I bet you don't enjoy getting spammed a lot, so add the following to your _Gemfile_:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
+  <script src="https://gist.github.com/1641448.js?file=Gemfile"></script>
 </div>
 
 And do not forget to run Bundler:
@@ -48,19 +48,19 @@ And do not forget to run Bundler:
 Then create the contact form:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=contact.html.erb"></script>
+  <script src="https://gist.github.com/1641448.js?file=contact.html.erb"></script>
 </div>
 
 Now, write the mail template that's going to be sent:
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=send_email.html.erb"></script>
+  <script src="https://gist.github.com/1641448.js?file=send_email.html.erb"></script>
 </div>
 
 You still need to tweak some configuration lines in your production environment (and change the host to test in development mode):
 
 <div class="code">
-  <script src="https://gist.github.com/1084919.js?file=production.rb"></script>
+  <script src="https://gist.github.com/1641448.js?file=production.rb"></script>
 </div>
 
 Now submit the form and go look at your inbox!
