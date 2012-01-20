@@ -1,6 +1,6 @@
-= The Blog 
+= Rodrigo Vieira's Technical Blog  
 
-This is my personal blog made with Jekyll and marked up with Textile. Browse at http://www.rodrigoalvesvieira.com
+This is my personal blog made with Jekyll, marked up with Textile & hosted on GitHub pages. Browse at http://www.rodrigoalvesvieira.com
 
 == Up & Running
   
@@ -10,7 +10,18 @@ This is my personal blog made with Jekyll and marked up with Textile. Browse at 
 == Writing patterns
   
   * Italic - File and directory names.
-
+  * Bold - Expressions worth focusing.
+  
+=== Typography
+  
+  * Blog title: Fanwood
+  * Headers: League Gothic
+  * Tagline and ate indicators: Open Sans Light Italic
+  * Normal text: Georgia
+  * Special words: Georgia Italic
+  * Code & command-line snippets: Monaco
+  
 == Copyright
 
 Copyright © 2011-2012 Rodrigo Vieira. All Rights Reserved.
+
