@@ -2,8 +2,10 @@ auto: :true
 source: .
 destination: ./_site
 includes: ./_includes
+plugins: ./jekyll_plugins
 server_port: 5005
 markdown: rdiscount
 permalink: /:title
 future: true
 paginate: 10
+pygments: true
