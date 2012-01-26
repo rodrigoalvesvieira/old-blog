@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wirble: - a small addition to IRB
+title: Wirble - a small addition to IRB
 ---
 
 <span class="drops">R</span>uby's Interactive Console - IRB- is the language programmer's playground, be on it's bare version or within the Rails _console_, if you're a Rubyist you probably spend a significant amount of your time inside it.
