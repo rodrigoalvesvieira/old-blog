@@ -8,4 +8,3 @@ markdown: rdiscount
 permalink: /:title
 future: true
 paginate: 10
-pygments: true
