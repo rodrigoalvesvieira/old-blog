@@ -20,10 +20,6 @@ alias clojure="java -jar ~/Library/iclojure-1.0-SNAPSHOT.jar"
 
 {% endhighlight %}
 
-<div class="code">
-  <script src="https://gist.github.com/1633098.js?file=gistfile1.sh"></script>
-</div>
-
 Leiningen
 ---------
 
