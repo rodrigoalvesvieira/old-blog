@@ -5,9 +5,13 @@ title: Now at the University
 
 <span class="drops">I</span>'ve been programming for almost 3 years now. Until now, it was all about "autodidactism", as I never participated in any course related to programming. Actually, no course at all.
 
-h2. TL;DR 
+TL;DR 
+-----
 
 This is not a technical post. 
+
+Why am I so excited for Computer Science
+----------------------------------------
 
 I've been working professionally for one year and a half now, and sometimes I feel the lack of formal education. My coworkers notice that too, and gently report to me.
 

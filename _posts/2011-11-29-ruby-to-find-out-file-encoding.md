@@ -23,6 +23,6 @@ and now:
 
 This may be useful. See you in the next post!
 
-UPDATE (December 21, 2011): I released a <s>stupid</s> small gem that works as a command-line tool, "check it out (encodingof gem on RubyGems.org)":https://rubygems.org/gems/encodingof. 
+UPDATE (December 21, 2011): I released a <s>stupid</s> small gem that works as a command-line tool, [check it out].
 
-
+[check it out]:https://rubygems.org/gems/encodingof

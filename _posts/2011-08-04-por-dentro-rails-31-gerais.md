@@ -5,7 +5,8 @@ title: Por dentro do Rails 3.1 - Novidades Gerais
 
 <span class="drops">O</span> Rails 3.1 está chegando, muita coisa nova já foi anunciada, principalmente em relação ao asset pipeline. Esse é o primeiro post de uma série que eu farei abordando um assunto de cada vez, agora Mudanças Gerais, depois ActiveRecord, ActionPack até o Asset Pipeline.
 
-h2. Sintaxe
+Sintaxe
+-------
 
 Uma das primeiras mudanças que você nota logo após o <span class="small_code">$ rails new my_app</span> é o uso da nova sintaxe de Hashes do Ruby 1.9 no código gerado, o que eu acho muito legal porque "empurra" os devs pro uso da nova versão.
 
@@ -17,29 +18,35 @@ A diferença é simples e pode ser vista no código abaixo, que fala por si mesm
 
 Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
 
-h2. Resolução 'automática' de Dependências
+Resolução 'automática' de Dependências
+--------------------------------------
 
 Agora quando você cria seu app, após os geradores realizarem seu trabalho o Bundler também é executado. Eu vi alguma discussão nos Issues do Rails no GitHub sobre isso que particularmente acho desnecessário e não sei se vai pro final release.
 
-h2. SCSS gerado via gerador de scaffold
+SCSS gerado via gerador de scaffold
+-----------------------------------
 
 Quando voce gera um scaffold o Rails 3.1 já cria automaticamente um arquivo SCSS com o nome do controller em <span class="small_code">app/assets/stylesheets</span>
 
 Além disso o gerador já cria arquivos .coffee e .scss correspondentes, se voce não quiser isso passe a opção <span class="small_code">--skip-assets</span> ao comando.
 
-h2. jQuery é default
+jQuery é default
+----------------
 
 Depois de muito tempo de insistência da comunidade, o framework JavaScript finalmente é padrão.
 
-h2. JSON no lugar de XML
+JSON no lugar de XML
+--------------------
 
 Até o Rails 3.1 os controllers gerados criavam blocos de renderização de formatos HTML e XML, agora e HTML e JSON.
 
-h2. Output mais bonito de testes unitários
+Output mais bonito de testes unitários
+--------------------------------------
 
-Uma das dependências de desenvolvimento default dos apps no Rails 3.1 a a gem <a href="https://github.com/TwP/turn" title="Gem Turn">turn</a> que colore a saída dos seus testes.
+Uma das dependências de desenvolvimento default dos apps no Rails 3.1 a a gem [turn] que colore a saída dos seus testes.
 
-h2. Depreciações
+Depreciações
+------------
 
 Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens para atualizar seu código no log de sua aplicação enquanto você desenvolve, aí vai a breve lista:
 
@@ -47,4 +54,8 @@ Algumas coisas foram depreciadas no Rails 3.1 e você vai vendo as mensagens par
 * Pra quem usa Fixtures, o formato CSV está depreciado mas só será totalmente removido no Rails 3.2.
 * Não há mais suporte pra acesso de atributos via <span class="small_code">has_and_belongs_to_many</span>, esse associador tem seu uso desencorajado há muito tempo. Use o <span class="small_code">has_many :through</span>
 
-Até o proximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. <a href="http://twitter.com/#!/_rodrigoavieira" title="Siga-me no Twitter">Siga-me no Twitter</a> ou <a href="http://www.rodrigoalvesvieira.com/atom.xml" title="assine o feed do blog">assine o feed do blog</a> pra receber o post "fresquinho" :D
+Até o proximo post, onde eu vou abordar as novidades no ActiveRecord 3.1. [Siga-me no Twitter] e/ou [assine o feed do blog] pra receber o post "fresquinho" :D
+
+[turn]: https://github.com/TwP/turn
+[Siga-me no Twitter]: http://twitter.com/#!/rdrgov
+[assine o feed do blog]: http://www.rodrigoalvesvieira.com/atom.xml

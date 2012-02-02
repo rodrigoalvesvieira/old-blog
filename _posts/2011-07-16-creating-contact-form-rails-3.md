@@ -7,11 +7,13 @@ title: Creating a contact form in Rails 3
 
 This week I needed for the first time to develop such form in a Rails project and had a bad time doing it, so there goes the way I had to make it to work:
 
-h2. TL;DR
+TL;DR
+-----
 
 The code is this post only works when using _sendmail_ as the delivering method. It wasn't tested with _SMTP_ which is more widely adopted.
 
-h2. Step-to-step
+Step-to-step
+------------
 
 First you should create the mailer:
 
@@ -19,7 +21,7 @@ First you should create the mailer:
   <script src="https://gist.github.com/1641448.js?file=contact_mailer.rb"></script>
 </div>
 
-It's important to pass those parameters to the <span class="small_code">mail</span> method because they will be the contents of the mail you're about to send. There are "other parameters (ActionMailer API)":http://api.rubyonrails.org/classes/ActionMailer/Base.html available. It's also very important to use the <span class="small_code">headers</span> method because "sendmail (Sendmail)":http://www.sendmail.com/sm/open_source/" in some web hosts only deliver mail when <span class="small_code">Return-Path</span> is present.
+It's important to pass those parameters to the <span class="small_code">mail</span> method because they will be the contents of the mail you're about to send. There are [other parameters] available. It's also very important to use the <span class="small_code">headers</span> method because [sendmail] in some web hosts only deliver mail when <span class="small_code">Return-Path</span> is present.
 
 Now define the action in your controller:
 
@@ -39,7 +41,7 @@ I bet you don't enjoy getting spammed a lot, so add the following to your _Gemfi
   <script src="https://gist.github.com/1641448.js?file=Gemfile"></script>
 </div>
 
-And do not forget to run Bundler:
+And do not forget to run _Bundler_:
 
 <pre class="terminal">
   $ bundle
@@ -68,3 +70,6 @@ Now submit the form and go look at your inbox!
 There you have it. A basic, working contact form. It doesn't validate input (you'd have extend ActiveModel for this particular approach, or use a Model with the Mailer, or/and use JavaScript in the client side) and thus it doesn't handle error messages, for example, but it works just fine.
 
 This is <s>certainly</s> not the best approach in Rails, but it worked as expected. If you know a better way of achieving this very goal, leave it in the comments. I hope this post was useful to you!
+
+[sendmail]:http://www.sendmail.com/sm/open_source/
+[other parameters]: http://api.rubyonrails.org/classes/ActionMailer/Base.html
