@@ -9,3 +9,4 @@ rdiscount:
   extensions: [smart]
 permalink: /:title
 future: true
+pygments: true
