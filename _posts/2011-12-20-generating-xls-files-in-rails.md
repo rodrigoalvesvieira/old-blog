@@ -7,21 +7,54 @@ title: Generating XLS files in Rails
 
 We must precede everything adding the gem to the _Gemfile_:
 
-<div class="code">
-  <script src="https://gist.github.com/1499221.js?file=Gemfile"></script>
-</div>
+{% highlight ruby %}
+
+source 'http://rubygems.org'
+
+gem "to_xls"
+# ...
+
+{% endhighlight %}
 
 Then, tell Rails that you need another _Mime Type_ for the XLS files:
 
-<div class="code">
-  <script src="https://gist.github.com/1499221.js?file=mime_types.rb"></script>
-</div>
+
+{% highlight ruby %}
+
+Mime::Type.register "application/vnd.ms-excel", :xls
+
+{% endhighlight %}
 
 Now we start having fun. In the <span class="small_code">reports</span> method, we define how our (XLS) document should look like. Since we probably don't want all the attributes of our objects to be displayed, we pass to the <span class="small_code">columns</span> option only those that we want in the file:
 
-<div class="code">
-  <script src="https://gist.github.com/1499221.js?file=cities_controller.rb"></script>
-</div>
+{% highlight ruby %}
+
+class CitiesController < ApplicationController
+  #...
+  
+  def reports    
+    @city = City.find params[:id]
+    t = Time.now.strftime("%d-%m-%Y")
+    
+    file = @city.reports.to_xls(
+      columns: 
+        [:created_at, :author_name, :author_email, :subject, :urgent, :text],
+      headers: 
+        ["Date", "Author Name", "Author Email", "Subject", "Urgent?", "Text"]
+    )
+    
+    respond_to do |format|
+      format.html
+      format.xls { 
+        send_data file,
+        filename: "#{@city.name}-reports-#{t}.xls"
+      }
+    end
+  end
+
+end
+
+{% endhighlight %}
 
 Use the <span class="small_code">headers</span> option to specify the text that we want the headers to display, as shown in line 10 of the file above.
 
@@ -31,9 +64,16 @@ Also, pass the <span class="small_code">filename</span> option to customize - gu
 
 Now let's go to our view and add a link to download the report:
 
-<div class="code">
-  <script src="https://gist.github.com/1499221.js?file=reports.html.erb"></script>
-</div>
+{% highlight erb %}
+...
+
+<% unless @city.reports.length.zero? %>
+  <%= link_to "Download XLS", reports_city_path(format: :xls) %>
+<% end %>
+
+...
+
+{% endhighlight %}
 
 Done! Now go generate some XLS! 
 
