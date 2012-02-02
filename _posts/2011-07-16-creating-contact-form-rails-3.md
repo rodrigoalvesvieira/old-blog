@@ -59,9 +59,9 @@ class PagesController < ApplicationController
   def dispatch_email
     user_info = params[:user_info]
     if ContactMailer.send_email(user_info).deliver
-      flash[:notice] = "Message sent!"
+      flash[:notice] = "Sent!"
     else
-      flash[:notice] = "Oops. Your message could not be sent."
+      flash[:notice] = "Could't send you message."
     end
     redirect_to contact_url
   end
@@ -136,7 +136,9 @@ You still need to tweak some configuration lines in your production environment 
 {% highlight ruby %}
 
 MyApp::Application.configure do
-  config.action_mailer.default_url_options = {host: 'www.myapp.com' }
+  config.action_mailer.default_url_options = {
+    host: 'www.myapp.com'
+  }
   config.action_mailer.perform_deliveries = true
   config.action_mailer.delivery_method = :sendmail
   config.action_mailer.sendmail_settings = {
