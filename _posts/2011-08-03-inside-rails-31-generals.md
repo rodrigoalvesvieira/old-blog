@@ -22,10 +22,6 @@ match "submit", to: "talks#submit_proposal", as: "submit", method: :post
 
 {% endhighlight %}
 
-<div class="code">
-  <script src="https://gist.github.com/1085241.js?file=sintaxe.rb"></script>
-</div>
-
 If you're old-school you can still force Rails to generate hash in the Ruby 1.8 style, passing <span class="small_code">--old-style-hash</span> as an option, for example:
 
 <pre class="terminal">
