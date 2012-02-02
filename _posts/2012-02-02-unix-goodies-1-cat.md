@@ -30,9 +30,3 @@ While reading files, it's very useful to know where a given line is located (its
 <pre class="terminal">
   $ cat -n file.rb
 </pre>
-
-<script type="text/javascript">
-  $(document).ready(function() {
-    $("article h1").text("Unix Goodies #1 - Cat");
-  });
-</script>
