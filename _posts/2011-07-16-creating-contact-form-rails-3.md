@@ -76,7 +76,8 @@ Now open the _routes.rb_ file and map the <span class="small_code">dispatch_emai
 
 MyApp::Application.routes.draw do
   match "contact", to: "pages#contact", as: "contact"
-  match "dispatch_email", to: "pages#dispatch_email", as: "dispatch_email", method: :post
+  match "dispatch_email", to: "pages#dispatch_email", 
+  as: "dispatch_email", method: :post
 end
 
 {% endhighlight %}
@@ -108,7 +109,7 @@ Then create the contact form, <span class="small_code">contact.html.erb</span>:
   <%= label_tag "user_info[email]", "Email" %>
   <%= text_field_tag "user_info[email]" %>
   <%= label_tag "user_info[message]", "Message" %>
-  <%= text_area_tag "user_info[message]", "", size: "60x10" %>
+  <%= text_area_tag "user_info[message]", "" %>
   <%= recaptcha_tags %>
   <%= submit_tag "Send" %>
 <% end %>
