@@ -7,7 +7,7 @@ title: Wirble a small addition to IRB
 
 The _irb_ prompt sometimes comes clumsy and prefixed by information that you don't want to see there. 
 
-Now install the  instale o "Wirble (Wirble)":https://rubygems.org/gems/wirble, uma gem para habilitar highlighting de sintaxe no prompt.
+Now install the  instale o [Wirble], uma gem para habilitar highlighting de sintaxe no prompt.
 
 <pre class="terminal">
   $ gem install wirble
@@ -21,8 +21,11 @@ Now, just open your _.irbrc_ file and type the following:
 
 And that's how your _irb_ will be after a few lines of code:
 
-!/public/images/irb_wirble.png(IRB with Wirble and a simplified prompt)!
+![IRB with Wirble and a simplified prompt](/public/images/irb_wirble.png "IRB with Wirble and a simplified prompt")
 
-Another set of additions to _irb_ is provided by the "IRB Utility Belt (IRB Utility Belt)":http://utilitybelt.rubyforge.org/ project, which I don't particularly like because it adds too many things, IMO. Go check this project out and find out yourself if it fits your needs
+Another set of additions to _irb_ is provided by the [IRB Utility Belt] project, which I don't particularly like because it adds too many things, IMO. Go check this project out and find out yourself if it fits your needs
 
 That's it. Now you've got a more friendly console to type code in!
+
+[IRB Utility Belt]: http://utilitybelt.rubyforge.org/
+[Wirble]: https://rubygems.org/gems/wirble
