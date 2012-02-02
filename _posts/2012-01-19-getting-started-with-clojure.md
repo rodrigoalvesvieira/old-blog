@@ -47,7 +47,7 @@ A more in-depth look at ClojureScript is provided by "this blog post":http://clo
 Web Development
 ---------------
 
-The current _de facto_ web framework for Clojure is "Noir":http://www.webnoir.org/. Noir is very straightforward and easy to use, it also seems to be inspired in Ruby's "Sinatra":http://www.sinatrarb.com so if you come from Ruby you'll have a good time using it.
+The current _de facto_ web framework for Clojure is [Noir]. Noir is very straightforward and easy to use, it also seems to be inspired in Ruby's [Sinatra] so if you come from Ruby you'll have a good time using it.
 
 Alternatively, "composure":https://github.com/weavejester/compojure is another web framework that apparently was inspired by Sinatra, too. 
 
@@ -68,23 +68,33 @@ Of all these, Korma is the one that amazes me more. What a beautiful API it prov
 Concurrency
 -----------
 
-You may already have heard about how Clojure approaches concurrency. You may have heard good things ;). In fact, one of the goals of the language is to offer full multi-threaded  programming ability, via its functional programming techniques and other features like "Atoms":http://clojure.org/atoms and "Refs":http://clojure.org/refs.
-
-IBM is got a "very complete article":http://www.ibm.com/developerworks/java/library/wa-clojure/index.html on Clojure's concurrency model.
+You may already have heard about how Clojure approaches concurrency. You may have heard good things ;). In fact, one of the goals of the language is to offer full multi-threaded  programming ability, via its functional programming techniques and other features like [Atoms] and [Refs].
+IBM is got a [very complete article] on Clojure's concurrency model.
 
 Deployment
 ----------
 
-"Heroku announced":http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/, several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
+[Heroku announced], several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
 
 More
 ----
 
 If you read this post until here, then I assume you're kind of excited with Clojure, too. So I have here some links to resources on the Internet that will help you:
 
-* [clojure-koans]: https://github.com/functional-koans/clojure-koans - A set of exercises for learning Clojure
-* [disclojure]: http://disclojure.org/ - A website about all things clojure
-* [planet clojure]:http://planet.clojure.in/ - A blog that indexes many posts on Clojure from all over the Internet
-* [Clojure Blog]:http://clojure.com/blog/ - The Clojure official blog
+* [clojure-koans] - A set of exercises for learning Clojure
+* [disclojure] - A website about all things clojure
+* [planet clojure] - A blog that indexes many posts on Clojure from all over the Internet
+* [Clojure Blog]: - The Clojure official blog
 
 I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
+
+[Atoms] :http://clojure.org/atoms
+[Refs]: http://clojure.org/refs
+[very complete article]: http://www.ibm.com/developerworks/java/library/wa-clojure/index.html
+[Noir]: http://www.webnoir.org/
+[Sinatra]: http://www.sinatrarb.com
+[Heroku announced]: http://blog.heroku.com/archives/2011/7/5/clojure_on_heroku/
+[clojure-koans]: https://github.com/functional-koans/clojure-koans
+[disclojure]: http://disclojure.org/
+[planet clojure]:http://planet.clojure.in/
+[Clojure Blog]:http://clojure.com/blog/
