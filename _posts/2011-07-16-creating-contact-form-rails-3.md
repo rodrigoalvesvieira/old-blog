@@ -61,7 +61,7 @@ class PagesController < ApplicationController
     if ContactMailer.send_email(user_info).deliver
       flash[:notice] = "Message sent!"
     else
-      flash[:notice] = "Oops. Something bad happened and your message could not be sent."
+      flash[:notice] = "Oops. Your message could not be sent."
     end
     redirect_to contact_url
   end
@@ -103,13 +103,13 @@ Then create the contact form, <span class="small_code">contact.html.erb</span>:
 <p>Send us your message through the following form</p>
 
 <%= form_tag dispatch_email_path, method: :post do %>
-  <%= label_tag "user_info[name]", "Name" %><br/>
-  <%= text_field_tag "user_info[name]" %><br />
-  <%= label_tag "user_info[email]", "Email" %><br/>
-  <%= text_field_tag "user_info[email]" %><br />
-  <%= label_tag "user_info[message]", "Message" %><br/>
-  <%= text_area_tag "user_info[message]", "", size: "60x10" %><br/>
-  <%= recaptcha_tags %><br/>
+  <%= label_tag "user_info[name]", "Name" %>
+  <%= text_field_tag "user_info[name]" %>
+  <%= label_tag "user_info[email]", "Email" %>
+  <%= text_field_tag "user_info[email]" %>
+  <%= label_tag "user_info[message]", "Message" %>
+  <%= text_area_tag "user_info[message]", "", size: "60x10" %>
+  <%= recaptcha_tags %>
   <%= submit_tag "Send" %>
 <% end %>
 
@@ -120,11 +120,11 @@ Now, write the mail template that's going to be sent:
 
 {% highlight erb %}
 
-MyApp's contact form
+<h1>MyApp's contact form</h1>
 
-Name: <%= @user_info["name"] %>
-Email: <%= @user_info["email"] %>
-Message: <%= @user_info["message"] %>
+<p>Name: <%= @user_info["name"] %></p>
+<p>Email: <%= @user_info["email"] %></p>
+<p>Message: <%= @user_info["message"] %></p>
 
 {% endhighlight %}
 
