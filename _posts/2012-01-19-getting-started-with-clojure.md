@@ -10,7 +10,7 @@ First, Clojure runs on the JVM. Yes, it means you can use Java libraries (includ
 REPL
 ----
 
-Clojure comes with a read/eval/print loop tool called <span class="small_code">clj</span> that lets you evaluate code instantly. Unfortunately, the _REPL_ doesn't come with some handy features like historic and tab completion by default, but you can add these via "IClojure (IClojure project on GitHub)":https://github.com/cosmin/IClojure.
+Clojure comes with a read/eval/print loop tool called <span class="small_code">clj</span> that lets you evaluate code instantly. Unfortunately, the _REPL_ doesn't come with some handy features like historic and tab completion by default, but you can add these via [IClojure].
 
 I couldn't resist the idea of aliasing the _REPL_ as _clojure_ to call it via the command-line, so here's what I did:
 
@@ -23,7 +23,7 @@ Leiningen
 
 There's a build and automation tool for Clojure projects called Leiningen, or _lein_. Leiningen may be used for open source and private code. It's widely adopted throughout the community and is very mature.
 
-Clojure open source projects are often shared as Java Archives in the "Clojars":http://clojars.org/ repository. 
+Clojure open source projects are often shared as Java Archives in the [Clojars] repository. 
 
 A project using _lein_ must have its specification defined within a file called _project.clj_ similar to a _package.json_ in Node.js projects or to a _.gemspec_ file in a Ruby Gem.
 
@@ -33,37 +33,37 @@ Here is a sample _project.clj_ from Leiningen's README:
   <script src="https://gist.github.com/1633098.js?file=project.clj"></script>
 </div>
 
-There was also another build tool for Clojure called "cake":https://github.com/flatland/cake. But apparently it has been discontinued.
+There was also another build tool for Clojure called [cake]. But apparently it has been discontinued.
 
 ClojureScript
 -------------
 
 ClojureScript is a compiler for JavaScript, it's intended to generate highly optimized JS code, based on Google Closure compiler. It can also target other JavaScript environments other than browsers like Node.js.
 
-The project's GitHub Wiki has a "Start Guide":https://github.com/clojure/clojurescript/wiki/Quick-Start with detailed information about the compilation methods and options.
+The project's GitHub Wiki has a [Start Guide] with detailed information about the compilation methods and options.
 
-A more in-depth look at ClojureScript is provided by "this blog post":http://clojure.com/blog/2011/07/22/introducing-clojurescript.html by Stuart Sierra on the Clojure Blog.
+A more in-depth look at ClojureScript is provided by [this blog post] by Stuart Sierra on the Clojure Blog.
 
 Web Development
 ---------------
 
 The current _de facto_ web framework for Clojure is [Noir]. Noir is very straightforward and easy to use, it also seems to be inspired in Ruby's [Sinatra] so if you come from Ruby you'll have a good time using it.
 
-Alternatively, "composure":https://github.com/weavejester/compojure is another web framework that apparently was inspired by Sinatra, too. 
+Alternatively, [composure] is another web framework that apparently was inspired by Sinatra, too.
 
-Also, there is "clj-http":https://github.com/dakrone/clj-http, a HTTP library with a very concise API. If you want to send request to web pages, get response and etc, I highly recommend you to use it.
+Also, there is [clj-http], a HTTP library with a very concise API. If you want to send request to web pages, get response and etc, I highly recommend you to use it.
 
 ORMs
 ----
 
 Clojure has some good ORMs, at the time of this writing, there are already  mature libraries for connection to many databases:
 
-* "Korma":http://sqlkorma.com/ - for Postgres, MySQL, Oracle, Microsoft SQL
-* "congomongo":https://github.com/aboekhoff/congomongo - for MongoDB
-* "clj-redis":https://github.com/djhworld/clj-redis and "redis-clojure":https://github.com/tavisrudd/redis-clojure - for Redis
-* "":https://github.com/clojure-clutch/clutch - for CouchDB
+* [Korma] - for Postgres, MySQL, Oracle, Microsoft SQL
+* [congomongo] - for MongoDB
+* [clj-redis] and "redis-clojure" - for Redis
+* [clutch] - for CouchDB
 
-Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the "riak-java-client":https://github.com/basho/riak-java-client by Basho. 
+Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the [riak-java-client] by Basho. 
 
 Concurrency
 -----------
@@ -88,7 +88,20 @@ If you read this post until here, then I assume you're kind of excited with Cloj
 
 I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
 
-[Atoms] :http://clojure.org/atoms
+[Clojars]: http://clojars.org/
+[IClojure]: https://github.com/cosmin/IClojure.
+[cake]:https://github.com/flatland/cake
+[Start Guide]: https://github.com/clojure/clojurescript/wiki/Quick-Start
+[this blog post]: http://clojure.com/blog/2011/07/22/introducing-clojurescript.html
+[Korma]: http://sqlkorma.com/
+[congomongo]: https://github.com/aboekhoff/congomongo
+[clj-redis]: https://github.com/djhworld/clj-redis
+[redis-clojure]: https://github.com/tavisrudd/redis-clojure
+[clutch]: https://github.com/clojure-clutch/clutch
+[clj-http]: https://github.com/dakrone/clj-http
+[riak-java-client]: https://github.com/basho/riak-java-client
+[Atoms]: http://clojure.org/atoms
+[composure]:https://github.com/weavejester/compojure
 [Refs]: http://clojure.org/refs
 [very complete article]: http://www.ibm.com/developerworks/java/library/wa-clojure/index.html
 [Noir]: http://www.webnoir.org/
