@@ -2,9 +2,10 @@ auto: :true
 source: .
 destination: ./_site
 includes: ./_includes
-plugins: ./jekyll_plugins
-server_port: 5005
+server: true
+server_port: 5000
 markdown: rdiscount
+rdiscount:
+  extensions: [smart]
 permalink: /:title
 future: true
-paginate: 10

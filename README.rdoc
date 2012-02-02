@@ -7,6 +7,10 @@ This is my personal blog made with Jekyll, marked up with Textile & hosted on Gi
   $ jekyll
   $ jekyll --server
 
+== Post
+
+Write in http://dillinger.io/
+
 == Writing patterns
   
   * Italic - File and directory names.
