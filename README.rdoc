@@ -1,5 +1,7 @@
 = Rodrigo Vieira's Technical Blog  
 
+Writings on Software Engineering & Development
+
 This is my personal blog made with Jekyll, marked up with Textile & hosted on GitHub pages. Browse at http://www.rodrigoalvesvieira.com
 
 == Up & Running

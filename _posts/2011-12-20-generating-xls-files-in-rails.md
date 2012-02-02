@@ -38,9 +38,9 @@ class CitiesController < ApplicationController
     
     file = @city.reports.to_xls(
       columns: 
-        [:created_at, :author_name, :author_email, :subject, :urgent, :text],
+        [:created_at, :author, :subject, :urgent, :text],
       headers: 
-        ["Date", "Author Name", "Author Email", "Subject", "Urgent?", "Text"]
+        ["Date", "Author Info", "Subject", "Urgent?", "Text"]
     )
     
     respond_to do |format|
