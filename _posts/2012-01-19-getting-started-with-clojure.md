@@ -14,6 +14,12 @@ Clojure comes with a read/eval/print loop tool called <span class="small_code">c
 
 I couldn't resist the idea of aliasing the _REPL_ as _clojure_ to call it via the command-line, so here's what I did:
 
+{% highlight sh %}
+
+alias clojure="java -jar ~/Library/iclojure-1.0-SNAPSHOT.jar"
+
+{% endhighlight %}
+
 <div class="code">
   <script src="https://gist.github.com/1633098.js?file=gistfile1.sh"></script>
 </div>
@@ -29,9 +35,16 @@ A project using _lein_ must have its specification defined within a file called 
 
 Here is a sample _project.clj_ from Leiningen's README:
 
-<div class="code">
-  <script src="https://gist.github.com/1633098.js?file=project.clj"></script>
-</div>
+{% highlight clojure %}
+
+(defproject myproject "0.5.0-SNAPSHOT"
+  :description "A project for doing things."
+  :url "http://github.com/me/myproject"
+  :dependencies [[org.clojure/clojure "1.2.1"]
+                 [org.clojure/clojure-contrib "1.2.0"]]
+  :plugins [[lein-ring "0.4.5"]])
+
+{% endhighlight %}
 
 There was also another build tool for Clojure called [cake]. But apparently it has been discontinued.
 

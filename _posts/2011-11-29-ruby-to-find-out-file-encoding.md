@@ -5,9 +5,13 @@ title: Use Ruby to find out some file's encoding
 
 <span class="drops">S</span>ometimes you may wanna know how a file is encoded. You can quickly accomplish that in Ruby by creating a file named, let's say, <span class="small_code">encoding.rb</span> with the following content:
 
-<div class="code">
-  <script src="https://gist.github.com/1377242.js?file=encoding.rb"></script>
-</div>
+{% highlight ruby %}
+
+ARGV.each do |source_file|
+  puts "#{File.basename(source_file)} encoded with #{File.open(source_file).read.encoding}"
+end
+
+{% endhighlight %}
 
 And use it like this:
 
