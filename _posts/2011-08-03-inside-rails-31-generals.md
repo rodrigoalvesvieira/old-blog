@@ -12,6 +12,16 @@ Rails 3.1 generates code with the new (1.9) [Ruby hash notation], I think this i
 
 A difference is subtle and can be seen in following code snippet, which talks for itself :D
 
+{% highlight ruby %}
+
+# Old syntax (Ruby <= 1.8)
+match "submit", to: "talks#submit_proposal", :as => "submit", method: :post
+
+# New syntax (Ruby 1.9)
+match "submit", to: "talks#submit_proposal", as: "submit", method: :post
+
+{% endhighlight %}
+
 <div class="code">
   <script src="https://gist.github.com/1085241.js?file=sintaxe.rb"></script>
 </div>

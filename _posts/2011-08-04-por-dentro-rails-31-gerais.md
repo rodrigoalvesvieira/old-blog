@@ -12,9 +12,15 @@ Uma das primeiras mudanças que você nota logo após o <span class="small_code"
 
 A diferença é simples e pode ser vista no código abaixo, que fala por si mesmo :D
 
-<div class="code">
-  <script src="https://gist.github.com/1085241.js?file=sintaxe.rb"></script>
-</div>
+{% highlight ruby %}
+
+# Velha sintaxe (Ruby <= 1.8)
+match "submit", to: "talks#submit_proposal", :as => "submit", method: :post
+
+# Nova sintaxe (Ruby 1.9)
+match "submit", to: "talks#submit_proposal", as: "submit", method: :post
+
+{% endhighlight %}
 
 Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
 
