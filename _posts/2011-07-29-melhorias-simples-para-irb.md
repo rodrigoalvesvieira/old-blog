@@ -15,9 +15,29 @@ Agora instale o [Wirble], uma gem para habilitar highlighting de sintaxe no prom
 
 Você precisa agora abrir o arquivo .irbrc na home do seu usuário e inserir o código seguinte:
 
-<div class="code">
-  <script src="https://gist.github.com/1108134.js?file=gistfile1.rb"></script>
-</div>
+{% highlight ruby %}
+
+require 'irb/completion'
+
+IRB.conf[:PROMPT_MODE] = :SIMPLE
+
+# O código abaixo assume o Ruby 1.9 como default 
+# (que já tem o RubyGems no $LOAD_PATH), se não 
+# ele da um 'fallback' e requer o rubygems 
+# explicitamente.
+
+begin
+  require 'wirble'
+rescue LoadError
+  require 'rubygems'
+  require 'wirble'
+end
+
+# Ativar a coloração do console
+
+Wirble.colorize
+
+{% endhighlight %}
 
 Eis como fica o seu _irb_ com essas poucas linhas de código:
 

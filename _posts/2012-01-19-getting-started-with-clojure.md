@@ -20,6 +20,8 @@ alias clojure="java -jar ~/Library/iclojure-1.0-SNAPSHOT.jar"
 
 {% endhighlight %}
 
+<br/>
+
 Leiningen
 ---------
 

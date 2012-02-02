@@ -9,29 +9,77 @@ Essa semana precisei pela primeira vez desenvolver um form desses em um projeto 
 
 Primeiro criei o mailer, com ActionMailer:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=contact_mailer.rb"></script>
-</div>
+{% highlight ruby %}
+
+# coding: utf-8
+class ContactMailer < ActionMailer::Base
+
+  attr_accessor :name, :email, :message
+
+  default to: "nome@dominio.com",
+          from: "contato@dominio.com"
+
+  headers = {'Return-Path' => 'contato@dominio.com'}
+
+  def send_email(user_info)
+    @user_info = user_info
+
+    mail(
+      to: "nome@dominio.com",
+      subject: "Formulário de Contato da Minha Aplicação",
+      from: "Aplicação <contato@dominio.com>",
+      return_path: "contato@dominio.com",
+      date: Time.now,
+      content_type: "text/html"
+    )
+  end
+end
+
+{% endhighlight %}
 
 É importante passar esses parâmetros para o método <span class="small_code">mail</span> pois eles fazem a 'cara' da mensagem, existem [outros parâmetros] disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o [sendmail] em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
 
 Você precisa definir no controller a ação que vai despachar o email:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=pages_controller.rb"></script>
-</div>
+{% highlight ruby %}
+
+class PagesController < ApplicationController
+
+  def contact
+  end
+
+  def dispatch_email
+    user_info = params[:user_info]
+    if ContactMailer.send_email(user_info).deliver
+      flash[:notice] = "Mensagem enviada."
+    else
+      flash[:notice] = "Oops. Houve algum problema, sua mensagem não pôde ser enviada."
+    end
+    redirect_to contact_url
+  end
+
+end
+
+{% endhighlight %}
 
 Vamos mapear a rota de envio do email:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=routes.rb"></script>
-</div>
+{% highlight ruby %}
+
+MyApp::Application.routes.draw do
+  match "contact", to: "pages#contact", as: "contact"
+  match "dispatch_email", to: "pages#dispatch_email", as: "dispatch_email", method: :post
+end
+
+{% endhighlight %}
 
 Você não quer receber spam, certo? Então adicione a seguinte linha ao _Gemfile_ do seu app:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
-</div>
+{% highlight ruby %}
+
+gem "recaptcha", require: "recaptcha/rails"
+
+{% endhighlight %}
 
 Não se esqueça de rodar o bundler:
 
@@ -41,21 +89,51 @@ Não se esqueça de rodar o bundler:
 
 Crie então o formulário na página de contato:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=contact.html.erb"></script>
-</div>
+{% highlight erb %}
+
+<h1>Entre em Contato</h1>
+<p>Mande sua mensagem para nós através do formulário abaixo</p>
+
+<%= form_tag dispatch_email_path, method: :post do %>
+  <%= label_tag "user_info[name]", "Nome" %><br/>
+  <%= text_field_tag "user_info[name]" %><br />
+  <%= label_tag "user_info[email]", "Email" %><br/>
+  <%= text_field_tag "user_info[email]" %><br />
+  <%= label_tag "user_info[message]", "Mensagem" %><br/>
+  <%= text_area_tag "user_info[message]", "", size: "60x10" %><br/>
+  <%= recaptcha_tags %><br/>
+  <%= submit_tag "Enviar" %>
+<% end %>
+
+{% endhighlight %}
 
 Agora o template do email que vai ser enviado:
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=send_email.html.erb"></script>
-</div>
+{% highlight erb %}
+
+<h1>Formulário da Minha Aplicação</h1>
+
+<p>Nome: <%= @user_info["name"] %></p>
+<p>Email: <%= @user_info["email"] %></p>
+<p>Mensagem: <%= @user_info["message"] %></p>
+
+{% endhighlight %}
 
 Você precisa ainda adicionar algumas linhas de configuração ao seu ambiente de produção(altere o host para testar em desenvolvimento):
 
-<div class="code">
-  <script src="https://gist.github.com/1084919.js?file=production.rb"></script>
-</div>
+{% highlight ruby %}
+
+MyApp::Application.configure do
+  config.action_mailer.default_url_options = {host: 'www.dominio.com' }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.sendmail_settings = {
+    location: '/usr/sbin/sendmail',
+    arguments: "-i -t -f contato@dominio.com"
+  }
+end
+
+{% endhighlight %}
 
 Vá agora ao seu formulário submeter o email e visite sua caixa de entrada :D
 

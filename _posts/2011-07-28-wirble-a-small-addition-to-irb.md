@@ -15,9 +15,29 @@ Now install the  instale o [Wirble], uma gem para habilitar highlighting de sint
 
 Now, just open your _.irbrc_ file and type the following:
 
-<div class="code">
-  <script src="https://gist.github.com/1649311.js?file=gistfile1.rb"></script>
-</div>
+{% highlight ruby %}
+
+require 'irb/completion'
+
+IRB.conf[:PROMPT_MODE] = :SIMPLE
+
+# The following code assumes you are using Ruby 1.9 
+# (which already pushes RubyGems do $LOADPATH), if 
+# you're not with Ruby 1.9 the code falls back and
+# explicitly requires RubyGems
+
+begin
+  require 'wirble'
+rescue LoadError
+  require 'rubygems'
+  require 'wirble'
+end
+
+# Enables console colorization
+
+Wirble.colorize
+
+{% endhighlight %}
 
 And that's how your _irb_ will be after a few lines of code:
 
