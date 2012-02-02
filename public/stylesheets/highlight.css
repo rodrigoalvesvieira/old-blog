@@ -17,7 +17,7 @@ width: 560px;
   font-size:16px
 }
 
-.highlight pre code{padding:0.8em 1em}
+.highlight pre code{padding:1em 0 0 0;}
 
 .highlight{background-color:#f0f3f3}
 
