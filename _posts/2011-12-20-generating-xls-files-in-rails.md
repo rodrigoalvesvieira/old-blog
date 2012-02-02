@@ -3,15 +3,15 @@ layout: post
 title: Generating XLS files in Rails
 ---
 
-<span class="drops">O</span>ften we want to export data from our Rails apps in the form of external (and downloadable) documents. If XLS (Microsoft Excel) is the format you need, a gem called "to_xls (to_xls)":https://github.com/splendeo/to_xls lets you do that without too much effort. Let's get started!
+<span class="drops">O</span>ften we want to export data from our Rails apps in the form of external (and downloadable) documents. If XLS (Microsoft Excel) is the format you need, a gem called [to_xls] lets you do that without too much effort. Let's get started!
 
-We must precede everything adding the gem to the Gemfile:
+We must precede everything adding the gem to the _Gemfile_:
 
 <div class="code">
   <script src="https://gist.github.com/1499221.js?file=Gemfile"></script>
 </div>
 
-Then, tell Rails that you need another Mime Type for the XLS files:
+Then, tell Rails that you need another _Mime Type_ for the XLS files:
 
 <div class="code">
   <script src="https://gist.github.com/1499221.js?file=mime_types.rb"></script>
@@ -36,3 +36,5 @@ Now let's go to our view and add a link to download the report:
 </div>
 
 Done! Now go generate some XLS! 
+
+[to_xls]: https://github.com/splendeo/to_xls

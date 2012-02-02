@@ -17,7 +17,7 @@ It can even print the contents of multiple files:
   $ cat html_file.html ruby_file.rb python_file.py
 </pre>
 
-The "Cat" name comes from "con*cat*enate". Are you asking yourself why? Read on, turns out _cat_ actually concatenates stuff!!
+The "Cat" name comes from con**cat**enate. Are you asking yourself why? Read on, turns out _cat_ actually concatenates stuff!!
 
 <pre class="terminal">
   $ cat first_name.txt last_name.txt > full_name.text
