@@ -7,7 +7,7 @@ title: Melhorias simples para o IRB #1
 
 Uma simples linha de configuração do próprio IRB já deixa o prompt mais enxuto (especialmente útil se você usa a RVM).
 
-Agora instale o "Wirble (Wirble)":https://rubygems.org/gems/wirble, uma gem para habilitar highlighting de sintaxe no prompt.
+Agora instale o [Wirble], uma gem para habilitar highlighting de sintaxe no prompt.
 
 <pre class="terminal">
   $ gem install wirble
@@ -19,14 +19,19 @@ Você precisa agora abrir o arquivo .irbrc na home do seu usuário e inserir o c
   <script src="https://gist.github.com/1108134.js?file=gistfile1.rb"></script>
 </div>
 
-Eis como fica o seu irb com essas poucas linhas de código:
+Eis como fica o seu _irb_ com essas poucas linhas de código:
 
-!/public/images/irb_wirble.png(IRB com prompt simplificado e Wirble)!
+![IRB com prompt simplificado e Wirble](/public/images/irb_wirble.png "IRB com prompt simplificado e Wirble")
 
-Outro set de melhorias pro IRB são oferecidas pelo projeto "IRB Utility Belt (IRB Utility Belt)":http://utilitybelt.rubyforge.org/ que eu particularmente não uso mais sei que adiciona ainda mais funcionalidades ao console e já foi amplamente abordado num post no "Fábio Akita":http://akitaonrails.com/2008/09/21/ruby-irb-utility-belt.
+Outro set de melhorias pro IRB são oferecidas pelo projeto [IRB Utility Belt] que eu particularmente não uso mais sei que adiciona ainda mais funcionalidades ao console e já foi amplamente abordado num [post do Fábio Akita].
 
 Pronto, já dá pra você ir programar num console mais amigável :D
 
 Isso é tudo, pessoal!
 
-Read "this post in English (Wirble: A Small Addition to IRB)":/wirble-a-small-addition-to-irb
+Read [this post in English].
+
+[IRB Utility Belt]: http://utilitybelt.rubyforge.org/
+[post do Fábio Akita]: http://akitaonrails.com/2008/09/21/ruby-irb-utility-belt
+[this post in English]: /wirble-a-small-addition-to-irb
+[Wirble]: https://rubygems.org/gems/wirble
