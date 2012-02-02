@@ -19,6 +19,8 @@ end
 
 {% endhighlight %}
 
+<br/>
+
 
 SQL query visualization in the console
 --------------------------------------

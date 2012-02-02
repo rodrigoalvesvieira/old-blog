@@ -20,13 +20,15 @@ end
 
 {% endhighlight %}
 
+<br/>
+
 Visualização da query SQL no console
 ------------------------------------
 
 
 Sempre foi possível visualizar as consultas ao banco feitas pelo Rails no log do seu projeto e agora você visualiza essas consultas no console do Rails também:
 
-![Visualização da query SQL no console](/public/images/rails_console.png "Visualização da query SQL no console)
+![Visualização da query SQL no console](/public/images/rails_console.png "Visualização da query SQL no console")
 
 update_collumn
 --------------
