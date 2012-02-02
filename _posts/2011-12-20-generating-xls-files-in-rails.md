@@ -38,9 +38,13 @@ class CitiesController < ApplicationController
     
     file = @city.reports.to_xls(
       columns: 
-        [:created_at, :author_name, :author_email, :subject, :urgent, :text],
+        [:created_at, :author_name, 
+        :author_email, :subject, 
+        :urgent, :text],
       headers: 
-        ["Date", "Author Name", "Author Email", "Subject", "Urgent?", "Text"]
+        ["Date", "Author Name",
+        "Author Email", "Subject",
+        "Urgent?", "Text"]
     )
     
     respond_to do |format|
@@ -67,9 +71,7 @@ Now let's go to our view and add a link to download the report:
 {% highlight erb %}
 ...
 
-<% unless @city.reports.length.zero? %>
-  <%= link_to "Download XLS", reports_city_path(format: :xls) %>
-<% end %>
+<%= link_to "Get XLS", reports_city_path(format: :xls) %>
 
 ...
 
