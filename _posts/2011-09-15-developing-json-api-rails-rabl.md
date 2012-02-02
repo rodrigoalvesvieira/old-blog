@@ -9,15 +9,46 @@ This post about building a simple API is only for fetching data, not persisting.
 
 The [Rabl] gem let's you easily make data available as JSON, using this gem is a real straightforward process. All you need to do is pass <span class="small_code">respond_to :json</span> in the controller of the resource you wanna set available as JSON.
 
-<div class="code">
-  <script src="https://gist.github.com/1219892.js?file=cities_controller.rb"></script>
-</div>
+{% highlight ruby %}
+
+class CitiesController < ApplicationController
+  respond_to :html, :json
+
+  def index
+    @cities = City.all
+  end
+  
+  #...
+end
+
+{% endhighlight %}
 
 Now you have to create the template that determines how the JSON objects will be displayed, the file name follows the Rails convention having the name of it's equivalent controller action and ends in .rabl:
 
-<div class="code">
-  <script src="https://gist.github.com/1219892.js?file=gistfile1.rb"></script>
-</div>
+{% highlight ruby %}
+# index.json.rabl
+
+collection @cities
+
+attributes :name, :population, :flag, :climate, :area
+
+child :city_hall do
+  attributes :id, :name, :region, :location
+end
+
+child :neighborhoods do
+  attributes :id, :name, :area, :population
+end
+
+child :inhabitants => :people do
+  attributes :id, :name, :age, :profile_picture_url
+end
+
+child :major do
+  attributes :id, :name, :mandate_start_date, :mandate_finish_date
+end
+
+{% endhighlight %}
 
 Explaining what happens in this file:
 
