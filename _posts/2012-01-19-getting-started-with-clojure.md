@@ -60,7 +60,7 @@ Clojure has some good ORMs, at the time of this writing, there are already  matu
 
 * [Korma] - for Postgres, MySQL, Oracle, Microsoft SQL
 * [congomongo] - for MongoDB
-* [clj-redis] and "redis-clojure" - for Redis
+* [clj-redis] and [redis-clojure] - for Redis
 * [clutch] - for CouchDB
 
 Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the [riak-java-client] by Basho. 
@@ -84,7 +84,7 @@ If you read this post until here, then I assume you're kind of excited with Cloj
 * [clojure-koans] - A set of exercises for learning Clojure
 * [disclojure] - A website about all things clojure
 * [planet clojure] - A blog that indexes many posts on Clojure from all over the Internet
-* [Clojure Blog]: - The Clojure official blog
+* [Clojure Blog] - The Clojure official blog
 
 I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
 
