@@ -32,7 +32,7 @@ While reading files, it's very useful to know where a given line is located (its
 </pre>
 
 <script type="text/javascript">
-  $(document).ready() {
+  $(document).ready(function() {
     $("article h1").text("Unix Goodies #1 - Cat");
-  }
+  });
 </script>
