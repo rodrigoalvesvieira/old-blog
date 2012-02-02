@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Unix Goodies #1 - Cat
+title: Unix Goodies \#1 - Cat
 ---
 
-<span class="drops">U</span>nix gives us tools that let us perform any simple task we can do with a Computer. 
+<span class="drops">U</span>nix gives us tools that let us perform any simple task we can do with a Computer. These tools generally follows Unix Philosophy and perform specific tasks with **mastery**.
 
 _Cat_ is one of these tools, when called, from the command line, it sends the contents of the given file to _STDOUT_:
 
@@ -23,7 +23,7 @@ The "Cat" name comes from "con*cat*enate". Are you asking yourself why? Read on,
   $ cat first_name.txt last_name.txt > full_name.text
 </pre>
 
-The previous command gets the contents of the <i>first_name.txt</i> and <i>last_name.txt</i> files and writes it to a new file called <i>full_name.txt</i>. Now you see that you can also write files from _cat_.
+The previous command gets the contents of the <span class="small_code">first_name.txt</span> and <span class="small_code">last_name.txt</span> files and writes it to a new file called <span class="small_code">full_name.txt</span>. Now you see that you can also write files from _cat_.
 
 While reading files, it's very useful to know where a given line is located (its line number), thus _cat_ gives you the _-n_ option:
 
