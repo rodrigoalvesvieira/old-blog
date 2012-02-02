@@ -28,6 +28,7 @@ If you're old-school you can still force Rails to generate hash in the Ruby 1.8 
   $ rails g scaffold Post title:string body:text author_id:integer --old-style-hash
 </pre>
 
+<br/>
 
 Automatic dependency resolution
 -------------------------------

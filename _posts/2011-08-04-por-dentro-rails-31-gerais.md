@@ -24,6 +24,12 @@ match "submit", to: "talks#submit_proposal", as: "submit", method: :post
 
 Se você for old-school ainda pode gerar o código no estilo Ruby 1.8 passando <span class="small_code">--old-style-hash</span> como opção.
 
+<pre class="terminal">
+  $ rails g scaffold Post title:string body:text author_id:integer --old-style-hash
+</pre>
+
+<br/>
+
 Resolução 'automática' de Dependências
 --------------------------------------
 
