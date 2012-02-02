@@ -19,32 +19,6 @@ First you should create the mailer:
   <script src="https://gist.github.com/1641448.js?file=contact_mailer.rb"></script>
 </div>
 
-<pre>
-# coding: utf-8
-class ContactMailer < ActionMailer::Base
-
-  attr_accessor :name, :email, :message
-
-  default to: "name@myapp.com",
-          from: "contact@myapp.com"
-
-  headers = {'Return-Path' => 'contact@myapp.com'}
-
-  def send_email(user_info)
-    @user_info = user_info
-
-    mail(
-      to: "name@myapp.com",
-      subject: "MyApp's Contact Form",
-      from: "MyApp <contact@myapp.com>",
-      return_path: "contact@myapp.com",
-      date: Time.now,
-      content_type: "text/html"
-    )
-  end
-end
-</pre>
-
 It's important to pass those parameters to the <span class="small_code">mail</span> method because they will be the contents of the mail you're about to send. There are "other parameters (ActionMailer API)":http://api.rubyonrails.org/classes/ActionMailer/Base.html available. It's also very important to use the <span class="small_code">headers</span> method because "sendmail (Sendmail)":http://www.sendmail.com/sm/open_source/" in some web hosts only deliver mail when <span class="small_code">Return-Path</span> is present.
 
 Now define the action in your controller:

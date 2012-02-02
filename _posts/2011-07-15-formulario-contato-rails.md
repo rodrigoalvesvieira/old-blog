@@ -13,7 +13,7 @@ Primeiro criei o mailer, com ActionMailer:
   <script src="https://gist.github.com/1084919.js?file=contact_mailer.rb"></script>
 </div>
 
-É importante passar esses parâmetros para o método <span class="small_code">mail</span> pois eles fazem a 'cara' da mensagem, existem <a href="http://api.rubyonrails.org/classes/ActionMailer/Base.html" title="API do ActionMailer">outros parâmetros</a> disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o <a href="http://www.sendmail.com/sm/open_source/" title="Sendmail">sendmail</a> em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
+É importante passar esses parâmetros para o método <span class="small_code">mail</span> pois eles fazem a 'cara' da mensagem, existem [outros parâmetros] disponíveis. Também é muito importante o uso do método <span class="small_code">headers</span> pois o [sendmail] em hosts, como a Locaweb(não sei nos outros), só envia emails com a presença do <span class="small_code">Return-Path</span> no cabeçalho.
 
 Você precisa definir no controller a ação que vai despachar o email:
 
@@ -27,7 +27,7 @@ Vamos mapear a rota de envio do email:
   <script src="https://gist.github.com/1084919.js?file=routes.rb"></script>
 </div>
 
-Você não quer receber spam, certo? Então adicione a seguinte linha ao Gemfile do seu app:
+Você não quer receber spam, certo? Então adicione a seguinte linha ao _Gemfile_ do seu app:
 
 <div class="code">
   <script src="https://gist.github.com/1084919.js?file=Gemfile"></script>
@@ -63,5 +63,9 @@ Eis um formulário básico e funcional, ele não possui validações (para isso 
 
 Eu não sei se essa abordagem está legal em Rails, mas funcionou como esperado para mim. Se você conhece uma maneira melhor de fazer isso, deixe nos comentários :D. Espero que possa ser útil para você também!
 
-Read "this article in English (Creating a contact form in Rails 3)":/creating-contact-form-rails-3
+Read [this article in English].
+
+[sendmail]: http://www.sendmail.com/sm/open_source/
+[outros parâmetros]: http://api.rubyonrails.org/classes/ActionMailer/Base.html
+[this article in English]: /creating-contact-form-rails-3
 
