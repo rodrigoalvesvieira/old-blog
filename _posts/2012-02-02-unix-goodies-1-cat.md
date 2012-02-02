@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unix Goodies \#1 - Cat
+title: Unix Goodies \# 1 - Cat
 ---
 
 <span class="drops">U</span>nix gives us tools that let us perform any simple task we can do with a Computer. These tools generally follows Unix Philosophy and perform specific tasks with **mastery**.
