@@ -30,3 +30,11 @@ While reading files, it's very useful to know where a given line is located (its
 <pre class="terminal">
   $ cat -n file.rb
 </pre>
+
+That's it, this is the first post of a series in which I plan to write about dozens of Unix tools, subscribe to the [blog feed] to get them as soon as they are published.
+
+[blog feed]: /atom.xml
+
+
+
+
