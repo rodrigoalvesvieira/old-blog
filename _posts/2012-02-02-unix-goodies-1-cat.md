@@ -3,7 +3,7 @@ layout: post
 title: Unix Goodies Part 1 - Cat
 ---
 
-<span class="drops">U</span>nix gives us tools that let us perform any simple task we can do with a Computer. These tools generally follows Unix Philosophy and perform specific tasks with **mastery**.
+<span class="drops">U</span>nix gives us tools that let us perform any simple task we can do with a Computer. These tools generally follows the platform's philosophy of performing specific tasks with **mastery**.
 
 _Cat_ is one of these tools, when called, from the command line, it sends the contents of the given file to _STDOUT_:
 
