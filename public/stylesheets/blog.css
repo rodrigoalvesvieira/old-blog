@@ -14,11 +14,6 @@
 @import url('tipography.css');
 @import url('highlight.css');
 
-#code {
-  font-size: 16px;
-  margin: 0 auto;
-  width: 560px;
-}
 /* Palettes
  * http://kuler.adobe.com/index.cfm#themeID/1372133
  *
@@ -26,7 +21,7 @@
 
 #disqus_thread {
 margin: 0 auto;
-  width: 560px;
+  width: 680px;
 }
 
 .dsq-avatar {
@@ -38,7 +33,7 @@ margin-left: -20px;
 
 body {
   padding: 0;
-  background: #f2d49b;
+  background: #fff;
   line-height: 20px;
   font-size: 20px;
   font-family: Georgia;
@@ -47,7 +42,7 @@ body {
 #top {
   border-top: 12px solid #000;
   background: #663f1b;
-  width: 640px;
+  width: 100%;
   margin:0 auto;
   height:100px;
 }
@@ -77,17 +72,15 @@ ul.archive_nav {
 header p {
   color: #fff;
   width: 540px;
-  margin: 0 0 4px 30px;
+  margin: 0 0 4px 330px;
   font-size: 72%;
   font-family: Open Sans Light, Helvetica;
   font-style: italic;
 }
 
 section {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
   border-bottom: 1px solid #000;
-  width: 638px;
+  width: 758px;
   margin: 0 auto;
   position: relative;
   background: #fff;
@@ -239,7 +232,7 @@ article h2 a:hover, a:active{background-color:#fff;}
 form {margin: 21px 21px 21px 21px;}
 article a{background:none;text-decoration:none;border-bottom:none;color:#663f1b;}
 article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color:#fff;}
-#blog_nav{font-family:Open Sans,Helvetica;float:right;margin:-25px 52px 0 0;list-style:none;}
+#blog_nav{font-family:Open Sans,Helvetica;float:right;margin:-25px 285px 0 0;list-style:none;}
 #blog_nav li{padding-left:10px;display:inline;font-size:16px;}
 #blog_nav li a{color:#FFE3AC;text-decoration:none;border-bottom:none;}
 #blog_nav a:hover{color: #fff;}
