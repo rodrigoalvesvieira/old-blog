@@ -221,7 +221,7 @@ a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
 a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
 address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Georgia;font-style:italic;}
 #address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Georgia;font-style:italic;}
-#post h1{text-transform:uppercase;}
+#post h1{font-variant:small-caps;font-weight:normal;}
 #post p{font-family:Georgia;line-height:22px;}
 #post a:hover, a:active{color:#fff;background:#3B250E;}
 h1 a{border-bottom:none;text-decoration:none;color:#ffe3ac;}
