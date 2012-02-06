@@ -48,7 +48,7 @@ body {
 }
 
 #logo {
-  width: 580px;
+  width: 700px;
   margin: 0 auto;
   position: relative;
   font-family: Fanwood;
@@ -72,7 +72,7 @@ ul.archive_nav {
 header p {
   color: #fff;
   width: 540px;
-  margin: 0 0 4px 330px;
+  margin: 0 0 4px 270px;
   font-size: 72%;
   font-family: Open Sans Light, Helvetica;
   font-style: italic;
