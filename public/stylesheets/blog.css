@@ -162,7 +162,7 @@ h2 {
   font-weight: 100;
 }
 
-.home a{font-size:32px;text-transform:uppercase;color:#222;border-bottom:1px #222 dotted}
+.home a{font-size:28px;font-family:Georgia;font-variant: small-caps;color:#222;border-bottom:1px #222 dotted}
 .home a:hover{ color:#222;border-bottom:1px #222 solid;}
 
 h3 {
