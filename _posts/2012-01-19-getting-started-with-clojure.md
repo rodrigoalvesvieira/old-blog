@@ -3,6 +3,8 @@ layout: post
 title: Getting Started With Clojure
 ---
 
+![Clojure](/public/images/clojure-icon.gif "Clojure")
+
 <span class="drops">I</span>'ve been playing with Clojure for a little while and, although it seems *very* new to me (due to its Lisp ancestry, and I come from a Ruby and JavaScript background), I'm eager to learn it and to start building software with it. This post is a guide and overview of the language for beginners.
 
 First, Clojure runs on the JVM. Yes, it means you can use Java libraries (including the standard library) from inside your Clojure projects, pack them as _jars_, etc.

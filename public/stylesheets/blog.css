@@ -150,7 +150,7 @@ time a:hover {
 h2 {
   margin: 0 0 25px 21px;
   line-height: 20px;
-  font-size: 28px;
+  font-size: 22px;
   font-variant: small-caps;
   font-family: Georgia, League Gothic, sans-serif;
   font-weight: normal;
@@ -197,7 +197,16 @@ p {
 .small_code{font-family:Monaco,monospace;font-size:18px;background:#F0F3F3;padding:2px;}
 .terminal {margin: 0 auto; width: 680px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
 
-img{margin:8px 25px 25px 25px;float:left;}
+img#left_picture{margin:8px 25px 25px 25px;float:left;}
+
+article img {
+  text-align: center;
+  max-width: 300px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 blockquote {
   font-style: italic;
