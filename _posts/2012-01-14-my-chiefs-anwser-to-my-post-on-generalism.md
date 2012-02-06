@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Chief's answer to my post on Generalism
+title: My Chief's Answer to My Post on Generalism
 ---
 
 <span class="drops">Y</span>esterday I wrote a [post about Generalism on Software Development], that was a reply to an argument of my chief and coworker. I wrote the post, sent it to him and asked for his answer, and there it is, as promised:

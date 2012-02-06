@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Melhorias simples para o IRB #1
+title: Melhorias Simples Para o IRB
 ---
 
 <span class="drops">O</span> console interativo do Ruby - IRB - é o playground do programador Ruby, seja nele puro ou no console do Rails, se você desenvolve nessa plataforma provavelmente passa uma parte do seu dia de trabalho escrevendo código nele. Não seria legal se algumas configurações básicas o deixassem mais parecido com seu editor de texto?

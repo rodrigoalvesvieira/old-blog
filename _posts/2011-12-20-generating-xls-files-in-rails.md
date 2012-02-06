@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generating XLS files in Rails
+title: Generating XLS Files in Rails
 ---
 
 <span class="drops">O</span>ften we want to export data from our Rails apps in the form of external (and downloadable) documents. If XLS (Microsoft Excel) is the format you need, a gem called [to_xls] lets you do that without too much effort. Let's get started!

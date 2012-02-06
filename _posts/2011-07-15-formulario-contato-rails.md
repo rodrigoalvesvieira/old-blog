@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Criando um form de contato no Rails
+title: Criando um Form de Contato no Rails
 ---
 
 <span class="drops">U</span>mas das funcionalidades mais comuns em sites por toda a internet são os formulários de contato, aqueles que ficam geralmente numa página do seu site dedicada a receber feedback dos usuários.

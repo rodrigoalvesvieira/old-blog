@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Use Ruby to find out some file's encoding
+title: Use Ruby to Find Out Some File's Encoding
 ---
 
 <span class="drops">S</span>ometimes you may wanna know how a file is encoded. You can quickly accomplish that in Ruby by creating a file named, let's say, <span class="small_code">encoding.rb</span> with the following content:

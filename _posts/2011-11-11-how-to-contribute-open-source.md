@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to contribute to an open source project with Git and GitHub
+title: How to Contribute to an Open Source Project with Git and GitHub
 ---
 
 <span class="drops">O</span>ne of the most awesome things an open source developer can do is give back to the community. With git and GitHub it's easier than ever. However, I spent some time trying to figure out how to do it properly, without ruining my work or messing up with the VCS. This post is the compilation of the steps I had to take before submitting my patch.

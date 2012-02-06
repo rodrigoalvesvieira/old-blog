@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting started with Clojure
+title: Getting Started With Clojure
 ---
 
 <span class="drops">I</span>'ve been playing with Clojure for a little while and, although it seems *very* new to me (due to its Lisp ancestry, and I come from a Ruby and JavaScript background), I'm eager to learn it and to start building software with it. This post is a guide and overview of the language for beginners.

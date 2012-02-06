@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Por dentro do Rails 3.1 - ActiveRecord
+title: Por Dentro do Rails 3.1 - ActiveRecord
 ---
 
 <span class="drops">H</span>á duas semanas comecei uma série de posts explicando as novidades no Ruby on Rails com [um post sobre mudanças gerais]. Nesse novo post estarei mergulhando no que há de novo com o ActiveRecord 3.1.  

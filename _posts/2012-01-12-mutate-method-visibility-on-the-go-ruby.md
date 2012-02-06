@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mutate method visibility on the go in Ruby
+title: Mutate Method Visibility on the Go in Ruby
 ---
 
 <span class="drops">R</span>uby is extremely flexible - for programmer´s joy or madness - it lets you change almost anything at will. Well, method visibility too.

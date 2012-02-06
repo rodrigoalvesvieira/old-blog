@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a contact form in Rails 3
+title: Creating a Contact Form in Rails 3
 ---
 
 <span class="drops">O</span>ne of the more common little things present in websites all over the Internet are the contact forms, those you make available for your users to get in touch.
