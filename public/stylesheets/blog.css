@@ -105,6 +105,8 @@ article {background: #fff;}
 article h1 {
   margin: 0 auto;
   font-family: Georgia;
+  font-variant: small-caps;
+  font-weight: normal;
   font-size: 28px;
   text-align:center;
   padding: 50px;
@@ -149,8 +151,9 @@ h2 {
   margin: 0 0 25px 21px;
   line-height: 20px;
   font-size: 28px;
-  font-family: League Gothic, sans-serif;
-  font-weight: 100;
+  font-variant: small-caps;
+  font-family: Georgia, League Gothic, sans-serif;
+  font-weight: normal;
 }
 
 .home {
