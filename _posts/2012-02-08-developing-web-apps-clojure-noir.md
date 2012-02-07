@@ -48,10 +48,11 @@ This command generates a simple but ready-to-go code structure for the app as a 
 
 Now start the server with and visit _http://localhost:8080/_:
 
-<br/>
 <pre class="terminal">
   $ lein run
 </pre>
+
+<br/>
 
 Adding Dependencies
 -------------------
