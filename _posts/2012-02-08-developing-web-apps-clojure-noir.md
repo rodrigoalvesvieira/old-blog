@@ -3,7 +3,7 @@ layout: post
 title: Developing for The Web With Clojure and Noir
 ---
 
-<span class="small_code">N</span>oir is a small, neat, sinatra-based web application framework for Clojure written by [Chris Granger] that amazed me when I first tried to exercise my Clojure skills for Web Development. In this blog post I'm gonna help you get started with this library, already assuming that you're a [little familiar to the language's ecosystem].
+<span class="drops">N</span>oir is a small, neat, sinatra-based web application framework for Clojure written by [Chris Granger] that amazed me when I first tried to exercise my Clojure skills for Web Development. In this blog post I'm gonna help you get started with this library, already assuming that you're a [little familiar to the language's ecosystem].
 
 First steps
 -----------
