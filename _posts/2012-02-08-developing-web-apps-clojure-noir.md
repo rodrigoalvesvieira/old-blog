@@ -23,7 +23,6 @@ And then generate the app's structure with:
 This command generates a simple but ready-to-go code structure for the app as a _Git_ repository, creates its README and _project.clj_ file among the directories for the dependencies, tests, views, assets, etc. The generated directory for the app will be like this:
 
 <pre class="terminal">
-  
   $ tree
     .
     |-- README.md
@@ -49,6 +48,7 @@ This command generates a simple but ready-to-go code structure for the app as a 
 
 Now start the server with and visit _http://localhost:8080/_:
 
+<br/>
 <pre class="terminal">
   $ lein run
 </pre>
