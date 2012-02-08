@@ -17,20 +17,12 @@
 /* Palettes
  * http://kuler.adobe.com/index.cfm#themeID/1372133
  *
- */
+*/
 
-#disqus_thread {
-margin: 0 auto;
-  width: 680px;
-}
-
-.dsq-avatar {
-position: absolute;
-left: 10;
-margin-left: -20px;
-}
-
-
+#disqus_thread{margin:0 auto;width:680px;}
+#disqus_thread h3{font-size:15px !important;}
+.dsq-avatar{position:absolute;left:10;margin-left:-20px;}
+#dsq-account-dropdown a {font-size:15px;}
 body {
   padding: 0;
   background: #fff;
