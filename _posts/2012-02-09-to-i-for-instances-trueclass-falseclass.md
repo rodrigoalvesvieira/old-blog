@@ -24,4 +24,4 @@ false.to_i # => 0
 
 {% endhighlight %}
 
-That's it, I can't see - at least now - the reason why this ins't implemented in Ruby and I'm most certainly gonna ask somebody why. 
+It seems very reasonable to me to have <span class="small_code">true</span> and <span class="small_code">false</span> represented also as integers, I can't see - at least now - the reason why this ins't implemented in Ruby and I'm most certainly gonna ask somebody why. 
