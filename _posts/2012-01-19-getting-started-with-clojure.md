@@ -27,7 +27,7 @@ alias clojure="java -jar ~/Library/iclojure-1.0-SNAPSHOT.jar"
 Leiningen
 ---------
 
-There's a build and automation tool for Clojure projects called Leiningen, or _lein_. Leiningen may be used for open source and private code. It's widely adopted throughout the community and is very mature.
+There's a build and automation tool for Clojure projects called [Leiningen], or _lein_. Leiningen may be used for open source and private code. It's widely adopted throughout the community and is very mature.
 
 Clojure open source projects are often shared as Java Archives in the [Clojars] repository. 
 
@@ -89,6 +89,13 @@ Deployment
 
 [Heroku announced], several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
 
+Finding Libraries
+-----------------
+
+There are known places where the community hosts open source Clojure code, one of them is the already mentioned [Clojars] and the other is [The Clojure Toolbox], which is organized by sections/categories...reminding me of [The Ruby oolbox]. Also, don't forget that GitHub keeps a directory for listing repos by their dominant language, and [Clojure is also featured]!
+
+[The Clojure Toolbox]
+
 More
 ----
 
@@ -101,6 +108,8 @@ If you read this post until here, then I assume you're kind of excited with Cloj
 
 I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
 
+[Clojure is also featured]: https://github.com/languages/Clojure
+[The Clojure Toolbox]: http://www.clojure-toolbox.com/
 [Clojars]: http://clojars.org/
 [IClojure]: https://github.com/cosmin/IClojure.
 [cake]:https://github.com/flatland/cake
