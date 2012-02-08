@@ -92,9 +92,7 @@ Deployment
 Finding Libraries
 -----------------
 
-There are known places where the community hosts open source Clojure code, one of them is the already mentioned [Clojars] and the other is [The Clojure Toolbox], which is organized by sections/categories...reminding me of [The Ruby oolbox]. Also, don't forget that GitHub keeps a directory for listing repos by their dominant language, and [Clojure is also featured]!
-
-[The Clojure Toolbox]
+There are known places where the community hosts open source Clojure code, one of them is the already mentioned [Clojars] and the other is [The Clojure Toolbox], which is organized by sections/categories...reminding me of [The Ruby Toolbox]. Also, don't forget that GitHub keeps a directory for listing repos by their dominant language, and [Clojure is also featured]!
 
 More
 ----
@@ -108,6 +106,7 @@ If you read this post until here, then I assume you're kind of excited with Cloj
 
 I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
 
+[The Ruby Toolbox]: https://www.ruby-toolbox.com/
 [Clojure is also featured]: https://github.com/languages/Clojure
 [The Clojure Toolbox]: http://www.clojure-toolbox.com/
 [Clojars]: http://clojars.org/
