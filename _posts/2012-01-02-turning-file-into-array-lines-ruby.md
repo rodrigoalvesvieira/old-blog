@@ -24,4 +24,4 @@ puts lines_array[3].chomp
 
 {% endhighlight %}
 
-That's it. So simple and beautiful, yet powerful.
+That's it. Simple, beautiful and yet, powerful.
