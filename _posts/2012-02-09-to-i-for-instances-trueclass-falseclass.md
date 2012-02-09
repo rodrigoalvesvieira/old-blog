@@ -40,6 +40,6 @@ var == 0 # => true
 
 {% endhighlight %}
 
-I think this explains why Ruby doesn't implement this method. 
+I think this explains why Ruby doesn't implement this method. If you have any additional info on this topic, please leave it in the comments!
 
 [Nathan Proença]: https://twitter.com/#!/_na2th
