@@ -23,6 +23,7 @@
 #disqus_thread h3{font-size:15px !important;}
 .dsq-avatar{position:absolute;left:10;margin-left:-20px;}
 #dsq-account-dropdown a {font-size:15px;}
+#dsq-subscribe li{font-size:14px !important;}
 body {
   padding: 0;
   background: #fff;
