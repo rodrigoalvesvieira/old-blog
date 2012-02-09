@@ -7,20 +7,20 @@ title: Turning a File Into an Array of Lines in Ruby
 <br/>
 {% highlight ruby %}
 
-lines_array = IO.readlines("names.txt")
+lines_array = IO.readlines("/usr/share/dict/words")
 
-lines_array.length
+lines_array.length # => 235886
 
-puts lines_array.first
+puts lines_array.first # => "A\n"
 
-puts lines_array[5]
+puts lines_array[1000] # => "accordantly\n"
 
-puts lines_array.last
+puts lines_array.last # => "Zyzzogeton\n"
 
 # The lines are print with an ending newline (\n)
 # Use the String#chomp method to remove it.
 
-puts lines_array[3].chomp
+puts lines_array[2000].chomp # => actinomeric
 
 {% endhighlight %}
 
