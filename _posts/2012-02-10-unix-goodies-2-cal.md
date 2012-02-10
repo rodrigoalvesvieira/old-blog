@@ -13,7 +13,7 @@ To try it out, simply fire up the _console_, and run _cal_:
 
 This is - as you may have guessed - the basic command, which prints out the current month calendar.
 
-Note: I noticed that, on Ubuntu, this command highlights the current day while Mac OS doesn't.
+Note: I noticed that, on Ubuntu, this command highlights the current day while Mac OS, it doesn't.
 
 Specifying dates
 ----------------
