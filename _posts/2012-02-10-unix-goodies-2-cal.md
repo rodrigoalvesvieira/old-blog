@@ -37,6 +37,6 @@ Prints the calendar of January, 1994.
 ncal
 ----
 
-Bonus info! there is this other program for printing dates called **ncat**. The only difference between _ncal_ and _cal_ is the way the week days are print, for _ncal_ prints them vertically while _cal_ does it horizontally.  
+Bonus info! there is this other program for printing dates called **ncal**. The only difference between _ncal_ and _cal_ is the way the week days are print, for _ncal_ prints them vertically while _cal_ does it horizontally.  
 
 That's it, folks! Wait for the next post!
