@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unix Goodies Part 2 - Cal
+title: Unix Goodies Part 2 - cal
 ---
 
 <span class="drops">L</span>ast week I started a series called **Unix Goodies** in which I write a post on a single tool of this platform. In this post I'll write about this little program called **cal**, the Unix's tiny calendar.
