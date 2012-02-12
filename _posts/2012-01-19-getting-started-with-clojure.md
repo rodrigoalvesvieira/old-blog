@@ -110,7 +110,7 @@ I hope this blog post not only left you enthusiastic about Clojure but also help
 [Clojure is also featured]: https://github.com/languages/Clojure
 [The Clojure Toolbox]: http://www.clojure-toolbox.com/
 [Clojars]: http://clojars.org/
-[IClojure]: https://github.com/cosmin/IClojure.
+[IClojure]: https://github.com/cosmin/IClojure
 [cake]:https://github.com/flatland/cake
 [Start Guide]: https://github.com/clojure/clojurescript/wiki/Quick-Start
 [this blog post]: http://clojure.com/blog/2011/07/22/introducing-clojurescript.html
