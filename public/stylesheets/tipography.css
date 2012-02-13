@@ -11,3 +11,8 @@
   font-family: Open Sans;
   src:url('/public/OpenSans-Regular.otf');
 }
+
+@font-face{
+  font-family: Cardo;
+  src:url('/public/Cardo104s.ttf');
+}
