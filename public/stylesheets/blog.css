@@ -29,7 +29,7 @@ body {
   background: #fff;
   line-height: 20px;
   font-size: 20px;
-  font-family: Cardo;
+  font-family: Helvetica;
 }
 
 #top {
@@ -81,15 +81,15 @@ section {
 
 section p {
   margin: 21px 21px 18px 21px;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 article {background: #fff;}
 
-.drops {font-family: Cardo;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 400%;
+.drops {font-family: Helvetica;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 400%;
 }
 
-.apresentacao {font-family: Cardo;}
+.apresentacao {font-family: Helvetica;}
 #apresentacao {
   background: #fff;
   border: none;
@@ -97,7 +97,7 @@ article {background: #fff;}
 
 article h1 {
   margin: 0 auto;
-  font-family: Cardo;
+  font-family: Helvetica;
   font-variant: small-caps;
   font-weight: normal;
   font-size: 28px;
@@ -145,7 +145,7 @@ h2 {
   line-height: 20px;
   font-size: 22px;
   font-variant: small-caps;
-  font-family: Cardo, League Gothic, sans-serif;
+  font-family: Helvetica, League Gothic, sans-serif;
   font-weight: normal;
 }
 
@@ -158,7 +158,7 @@ h2 {
   font-weight: 100;
 }
 
-.home a{font-size:28px;font-family:Cardo;font-variant: small-caps;color:#222;border-bottom:1px #222 dotted}
+.home a{font-size:28px;font-family:Helvetica;font-variant: small-caps;color:#222;border-bottom:1px #222 dotted}
 .home a:hover{ color:#222;border-bottom:1px #222 solid;}
 
 h3 {
@@ -166,7 +166,7 @@ h3 {
   line-height: 20px;
   padding-top: 7px;
   font-size: 20px;
-  font-family: Cardo, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 100;
   color: #222;
 }
@@ -175,7 +175,7 @@ h4 {
   margin: 0 auto;
   text-align: center;
   font-size: 14px;
-  font-family: Cardo, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #222;
 }
 
@@ -207,7 +207,7 @@ blockquote {
   margin: 20px 20px 20px 20px;
   padding: 0 0 0 20px;
   border-left: 1px solid #ddd;
-  font-family: Cardo, sans-serif;
+  font-family: Helvetica, sans-serif;
   color: #333;
 }
 
@@ -219,16 +219,16 @@ ul {
   margin:0 0 20px 40px;
   list-style:disc;}
 
-ul li{font-size:19px;}
+ul li{font-size:18px;}
 ol{line-height:20px;font-size:14px;margin:0 0 20px 40px;list-style:decimal;}
 header a{text-decoration:none;color:#a53f1b;}
 header a:hover, a:active{color:#fff;background:none;text-decoration:none;border-bottom:none;}
 a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
 a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
-address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Cardo;font-style:italic;}
-#address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Cardo;font-style:italic;}
+address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Helvetica;font-style:italic;}
+#address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Helvetica;font-style:italic;}
 #post h1{font-variant:small-caps;font-weight:normal;}
-#post p{font-family:Cardo;line-height:22px;}
+#post p{font-family:Helvetica;line-height:22px;}
 #post a:hover, a:active{color:#fff;background:#3B250E;}
 h1 a{border-bottom:none;text-decoration:none;color:#ffe3ac;}
 h1 a:hover{color:#fff;}
@@ -243,6 +243,6 @@ article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color
 #blog_nav li a{color:#FFE3AC;text-decoration:none;border-bottom:none;}
 #blog_nav a:hover{color: #fff;}
 ::selection{color:#fff;background:#b5864c;}
-footer{font-family:Cardo,Georgia,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
+footer{font-family:Helvetica,Georgia,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
 footer span{display:none;}
 footer p{font-size:15px;}
