@@ -34,15 +34,16 @@ body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:'Helv
 }
 
 #logo {
-  width: 700px;
-  margin: 0 auto;
-  position: relative;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  padding: 11px 0 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,1);
-  font-size: 34px;
-  line-height: 62px;
-  letter-spacing: 0.05em;
+  width:700px;
+  margin:0 auto;
+  position:relative;
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
+  padding:11px 0 0;
+  text-shadow:0 1px 0 rgba(255,255,255,1);
+  font-size:34px;
+  line-height:62px;
+  font-weight:300;
+  letter-spacing:0.05em;
 }
 
 ul.archive_nav {
@@ -210,7 +211,7 @@ a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
 address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:'Helvetica Neue', Helvetica;font-style:italic;}
 #address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:'Helvetica Neue', Helvetica;font-style:italic;}
 #post h1{font-weight:normal;}
-#post p{font-family:'Helvetica Neue', Helvetica;line-height:22px;}
+#post p{font-family:'Helvetica Neue',Helvetica;line-height:22px;font-weight:300}
 #post a:hover, a:active{color:#fff;background:#3B250E;}
 h1 a{border-bottom:none;text-decoration:none;color:#ffe3ac;}
 h1 a:hover{color:#fff;}
