@@ -56,10 +56,11 @@ ul.archive_nav {
 
 header p {
   color: #fff;
+  font-weight: 100;
   width: 540px;
-  margin: 0 0 4px 270px;
+  margin: 0 0 4px 285px;
   font-size: 72%;
-  font-family: Open Sans Light, 'Helvetica Neue', Helvetica;
+  font-family: 'Helvetica Neue', Helvetica;
   font-style: italic;
 }
 
@@ -107,7 +108,7 @@ time {
   width: 100px;
   line-height: 125px;
   font-size: 16px;
-  font-family: Open Sans Light, 'Helvetica Neue', Helvetica;
+  font-family: 'Helvetica Neue', Helvetica;
   font-style: italic;
 }
 
@@ -117,7 +118,7 @@ time {
   width: 100px;
   line-height: 130px;
   font-size: 16px;
-  font-family: Open Sans Light, 'Helvetica Neue', Helvetica;
+  font-family: 'Helvetica Neue', Helvetica;
   font-style: italic;
 }
 
@@ -221,7 +222,7 @@ article h2 a:hover, a:active{background-color:#fff;}
 form {margin: 21px 21px 21px 21px;}
 article a{background:none;text-decoration:none;border-bottom:none;color:#663f1b;}
 article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color:#fff;}
-#blog_nav{font-family:Open Sans,'Helvetica Neue', Helvetica;float:right;margin:-25px 285px 0 0;list-style:none;}
+#blog_nav{font-family:'Helvetica Neue', Helvetica;float:right;margin:-25px 285px 0 0;list-style:none;}
 #blog_nav li{padding-left:10px;display:inline;font-size:16px;}
 #blog_nav li a{color:#FFE3AC;text-decoration:none;border-bottom:none;}
 #blog_nav a:hover{color: #fff;}
