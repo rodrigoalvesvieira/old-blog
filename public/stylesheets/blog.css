@@ -222,8 +222,8 @@ article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color
 #blog_nav{font-family:'Helvetica Neue', Helvetica;float:right;margin:-25px 285px 0 0;list-style:none;}
 #blog_nav li{padding-left:10px;display:inline;font-size:16px;}
 #blog_nav li a{color:#FFE3AC;text-decoration:none;border-bottom:none;}
-#blog_nav a:hover{color: #fff;}
+#blog_nav a:hover{color:#fff;}
 ::selection{color:#fff;background:#b5864c;}
-footer{font-family:'Helvetica Neue', Helvetica,Georgia,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
+footer{font-family:'Helvetica Neue',Helvetica,Georgia,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
 footer span{display:none;}
 footer p{font-size:15px;}
