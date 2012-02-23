@@ -5,9 +5,9 @@ title: Unix Goodies Part 4 - xargs
 
 ![Terminal](/public/images/computer_terminal.jpg "Terminal")
 
-<span class="drops">O</span>ften, in the command-line, we need to pass the output of a program as arguments to another. Pipe (<span class="small_code">|</span>) may do the trick, but pipe alone passes only one argument. When you need to pass multiple items, you can use pipe with <span class="small_code">xargs<span>, which solves your problems.
+<span class="drops">O</span>ften, in the command-line, we need to pass the output of a program as arguments to another. Pipe (<span class="small_code">|</span>) may do the trick, but pipe alone passes only one argument. When you need to pass multiple items, you can use pipe with <span class="small_code">xargs</span>, which solves your problems.
 
-To illustrate <span class="small_code">xargs<span> in action, I show you the following command:
+To illustrate <span class="small_code">xargs</span> in action, I show you the following command:
 
 <pre class="terminal">
   $ pidof emacs | xargs kill
