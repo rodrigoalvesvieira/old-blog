@@ -51,7 +51,7 @@ Note: Use 8080 or whatever, notice that Noir defines the in <span class="small_c
 Then, ask Heroku to launch your app:
 
 <pre class="terminal">
-  $ heroku scale web=1
+  $ heroku restart
 </pre>
 
 And that's it!
