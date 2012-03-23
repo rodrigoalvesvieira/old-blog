@@ -18,7 +18,7 @@ LoadError: cannot infer basepath
 
 {% endhighlight %}
 
-So, I needed this an implemented this method, nothing complex, but I found it useful still:
+So, I needed this an implemented this method and added it to the <span class="small_code">.irbrc</span> file, nothing complex, but I found it useful still:
 
 {% highlight ruby %}
 
