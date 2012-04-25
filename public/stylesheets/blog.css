@@ -65,9 +65,14 @@ header p {
 }
 
 header nav {
+  display: inline-block;
   /*background: #FBFBFB;
   border-top: 1px solid #EAEAEA;
   border-bottom: 1px solid #EAEAEA;*/
+  
+}
+
+header nav ul li {
   
 }
 
@@ -85,7 +90,7 @@ section p {
   font-weight:200;
 }
 
-article {background: #fff;}
+article {background: #fff;margin-top:50px;}
 
 .drops {font-family: Georgia;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 330%;
 }
