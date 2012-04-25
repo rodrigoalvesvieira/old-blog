@@ -55,13 +55,20 @@ ul.archive_nav {
 }
 
 header p {
-  color: #fff;
+  color: #222;
   font-weight: 100;
   width: 540px;
-  margin: 0 0 4px 245px;
+  margin: 0 0 4px 440px;
   font-size: 72%;
   font-family: Georgia;
   font-style: italic;
+}
+
+header nav {
+  /*background: #FBFBFB;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;*/
+  
 }
 
 section {
@@ -89,14 +96,7 @@ article {background: #fff;}
   border: none;
 }
 
-article ul {
-  
-}
-
-header nav {
-  background: #FBFBFB;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
+article ul { 
 }
 
 article h1 {
