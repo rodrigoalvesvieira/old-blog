@@ -15,10 +15,12 @@ title: Archive
     <input type="submit" value="Search">
   </form>
 
+  <h2 id="low_line">Recent Articles</h2>
+  
   <ul>
   {% for post in site.posts %}
-    <li> 
-      {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{{ post.url }}">{{ post.title }}</a>
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.date | date: "%b %d, %Y"  }}</p>
     </li>
   {% endfor %}
   </ul>
