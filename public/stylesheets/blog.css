@@ -89,6 +89,16 @@ article {background: #fff;}
   border: none;
 }
 
+article ul {
+  
+}
+
+header nav {
+  background: #FBFBFB;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+}
+
 article h1 {
   margin: 0 auto;
   font-family: Georgia;
