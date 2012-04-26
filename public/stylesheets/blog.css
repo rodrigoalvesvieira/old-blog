@@ -76,6 +76,7 @@ header nav ul{
   border-top: 1px solid #EAEAEA;
   border-bottom: 1px solid #EAEAEA;
   width: 360px;
+  text-align:center;
 }
 
 header nav ul li{
