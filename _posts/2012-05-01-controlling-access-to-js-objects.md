@@ -16,7 +16,9 @@ function User(name, location, username) {
   this.constructor = User
 }
 
-var user = new User("Don Quixote", "La Mancha", "don");
+var user = new User(
+  "Don Quixote", "La Mancha", "don"
+);
 
 {% endhighlight %}
 
@@ -44,7 +46,9 @@ You can specify the access to the object's attributes individually, using the st
 
 {% highlight javascript %}
 
-Object.defineProperty(user, "username", {writable: false}) // Object may not have the username attribute changed.
+Object.defineProperty(user,
+    "username", {writable: false}
+) // Object may not have the username attribute changed.
 
 user.propertyIsEnumerable("username");
 
@@ -64,6 +68,7 @@ Object.defineProperties(user, {
 });
 
 {% endhighlight %}
+
 
 ## Persistence
 
@@ -98,6 +103,7 @@ Object.isExtensible(user); // false
 
 {% endhighlight %}
 
+
 ## Meet seal()
 
 You may want to create a class, an object and prevent any deletion and/or addition of properties, there is the static <span class="small_code">seal()</span> for that:
@@ -117,7 +123,8 @@ prius.name = "Prius C"
 
 prius.name // Prius C
 
-// Mark that Car object as sealed, preventing property addition and remotion
+// Mark that Car object as sealed
+// preventing property addition and remotion
 
 Object.seal(prius);
 
