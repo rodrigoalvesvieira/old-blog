@@ -1,0 +1,252 @@
+/*
+ *  This is mine! Write yours!
+ *
+    // =========================== \\
+   ||     "Rodrigo Vieira"          ||
+   ||      Rodrigo Vieira           ||
+   ||   Designer: Rodrigo Vieira    ||
+   ||	 Front-end: Rodrigo Vieira    ||
+   ||   Dev: Rodrigo Vieira         ||
+    \\ =========================== //
+*/
+
+@import url('reset.css');
+@import url('tipography.css');
+@import url('highlight.css');
+
+/* Palettes
+ * http://kuler.adobe.com/index.cfm#themeID/1372133
+ *
+*/
+
+#disqus_thread{margin:0 auto;width:480px;}
+#disqus_thread h3{font-size:15px !important;}
+.dsq-avatar{position:absolute;left:10;margin-left:-20px;}
+#dsq-account-dropdown a{font-size:15px;}
+#dsq-subscribe li{font-size:14px !important;}
+body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Georgia;}
+#top {
+  border-top: 12px solid #222;
+  background: #fff;
+  width: 100%;
+  margin:0 auto;
+  height:100px;
+}
+
+#logo {
+  width:330px;
+  margin:0 auto;
+  position:relative;
+  text-transform: uppercase;
+  font-family: Georgia, sans-serif;
+  padding:11px 0 0;
+  font-size:34px;
+  line-height:62px;
+  font-weight:300;
+  letter-spacing:0.05em;
+}
+
+ul.archive_nav {
+  float: right;
+}
+
+.archive_nav:hover {
+  color: #fff;
+}
+
+header p {
+  color: #222;
+  font-weight: 100;
+  width: 540px;
+  margin: 0 0 4px 440px;
+  font-size: 72%;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+header nav {
+  display: inline-block;
+  margin: 35px 0 0 440px;
+}
+
+header nav ul{
+  font-family:Georgia;float:right;
+  margin:-25px 285px 0 0;list-style:none;
+  background: #FBFBFB;
+  border-top: 1px solid #EAEAEA;
+  border-bottom: 1px solid #EAEAEA;
+  width: 360px;
+  text-align:center;
+}
+
+header nav ul li{
+  padding-left:10px;display:inline;
+  font-size:16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header nav ul li a{color:#222;text-decoration:none;border-bottom:none;}
+header nav ul a:hover{color:#222;text-decoration:underline;}
+
+section {
+  border-bottom: 1px solid #333333;
+  width: 540px;
+  margin: 125px;
+  position: relative;
+  background: #fff;
+}
+
+section p {
+  margin: 21px 21px 18px 21px;
+  font-size: 18px;
+  font-weight:200;
+}
+
+article {background: #fff;margin-top:50px;}
+
+.drops {font-family: Georgia;display: inline;float: left;text-indent: 5px;margin: 0;padding: .25em .08em 0 0;line-height: .4em;text-transform: capitalize;color: #663F1B;font-size: 330%;
+}
+
+.apresentacao {font-family: Georgia;}
+#apresentacao {
+  background: #fff;
+  border: none;
+}
+
+article h1 {
+  margin: 0 auto;
+  font-family: Georgia;
+  font-weight: normal;
+  font-size: 28px;
+  text-align:center;
+  padding: 50px;
+  line-height: 34px;
+  padding-bottom: 23px;
+}
+
+article h1 a { color: #222;}
+#post p:last-child { padding-bottom: 20px;}
+
+
+time{font-weight:200;
+  width:100px;line-height:125px;
+  font-size:16px;font-family:Georgia;
+  font-style:italic;}
+
+#time_home {
+  float: left;
+  margin: 0 0 0 -115px;
+  width: 100px;
+  line-height: 130px;
+  font-size: 16px;
+  font-family: Georgia;
+  font-style: italic;
+}
+
+time a {
+  color: #333333;
+  border-bottom: none;
+}
+
+time a:hover {
+  color: #A53F1B;
+  background-color: #fff;
+}
+
+h2 {
+  margin: 0 0 25px 21px;
+  line-height: 20px;
+  font-size: 22px;
+  font-variant: none;
+  font-family: Georgia, sans-serif;
+  font-weight: normal;
+}
+
+.home {
+  margin: 0 0 25px 30px;
+  line-height: 40px;
+  padding-top: 47px;
+  font-size: 26px;
+  font-family: Georgia, sans-serif;
+  font-weight: 100;
+}
+
+.home a{font-size:24px;font-family:Georgia, sans-serif;font-variant:none;color:#222;border-bottom:1px #222 dotted}
+.home a:hover{color:#222;border-bottom:1px #222 solid;}
+h3{margin:0 0 25px 21px;line-height:20px;padding-top:7px;font-size:20px;font-family:Georgia, sans-serif;
+  font-weight:100;color:#222;}
+
+h4 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  font-family: Georgia, sans-serif;
+  color: #222;
+}
+
+p {
+  clear: both;
+  margin: 0 0 20px 0;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.code {font-size: 16px; margin: 0 auto;width: 560px;}
+.small_code{font-family:Monaco,monospace;font-size:14px;background:#F0F3F3;padding:2px;}
+.terminal {margin: 0 auto; width: 480px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
+
+img#left_picture{margin:8px 25px 25px 25px;float:left;}
+
+article img {
+  text-align: center;
+  max-width: 300px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+blockquote {
+  font-style: italic;
+  margin: 20px 20px 20px 20px;
+  padding: 0 0 0 20px;
+  border-left: 1px solid #ddd;
+  font-family: Georgia, sans-serif;
+  color: #333;
+}
+
+cite{color:#999;}
+small{font-size:12px;color: #999;}
+ul {
+  line-height: 25px;
+  font-size: 14px;
+  margin:0 0 20px 40px;
+  list-style:disc;}
+
+ul li{font-size:18px;}
+ol{line-height:20px;font-size:14px;margin:0 0 20px 40px;list-style:decimal;}
+header a{text-decoration:none;color:#a53f1b;}
+header a:hover, a:active{color:#fff;background:none;text-decoration:none;border-bottom:none;}
+a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
+a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
+address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Georgia;font-style:italic;}
+#address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Georgia;font-style:italic;}
+#post h1{font-weight:normal;}
+#post p{font-family:Georgia,;line-height:22px;font-weight:300}
+#post a:hover, a:active{color:#fff;background:#3B250E;}
+
+h1 a{border-bottom:none;text-decoration:none;color:#222;}
+
+h1 a:hover{color:#222;}
+article h1 a{color:#222;}
+article h2 a{color:#222;text-decoration:none;}
+article h2 a:hover, a:active{background-color:#fff;}
+form {margin: 21px 21px 21px 21px;}
+article a{background:none;text-decoration:none;border-bottom:none;color:#663f1b;}
+article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color:#fff;}
+::selection{color:#fff;background:#b5864c;}
+footer{font-family:Georgia,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
+footer span{display:none;}
+footer p{font-size:15px;}
