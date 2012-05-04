@@ -44,6 +44,8 @@ body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helve
   letter-spacing:0.05em;
 }
 
+article {background: #fff;margin-top:30px;}
+
 article h1 {
   margin: 0 auto;
   font-family: Helvetica;
@@ -53,11 +55,10 @@ article h1 {
   padding: 50px;
   line-height: 34px;
   padding-bottom: 23px;
+  margin-left:-20px;
 }
 
 article h1 a { color: #222;}
-
-article {background: #fff;margin-top:50px;}
 
 
 article h2 a{color:#222;text-decoration:none;}
@@ -92,12 +93,12 @@ header p {
   font-style: italic;
 }
 
-header nav {
+nav {
   display: inline-block;
   margin: 30px 0 0 -25px;
 }
 
-header nav ul{
+nav ul{
   font-family:Helvetica;
   float:right;
   margin:-25px 285px 0 0;
@@ -109,14 +110,14 @@ header nav ul{
   text-align:center;
 }
 
-header nav ul li{
+nav ul li{
   padding-left:10px;
   font-size: 16px;
   text-align: left;
 }
 
-header nav ul li a{color:#222;text-decoration:none;border-bottom:none;}
-header nav ul a:hover{color:#222;text-decoration:underline;}
+nav ul li a{color:#222;text-decoration:none;border-bottom:none;}
+nav ul a:hover{color:#222;text-decoration:underline;}
 
 section {
   border-bottom: 1px solid #333333;
@@ -145,7 +146,7 @@ section p {
 #post p:last-child { padding-bottom: 20px;}
 
 time {
-  margin: 0 0 0 20px;
+  margin: 0 0 0 30px;
   width: 100px;
   font-size: 15px;
   font-family: Helvetica;
