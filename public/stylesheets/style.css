@@ -128,10 +128,13 @@ article h1 a { color: #222;}
 #post p:last-child { padding-bottom: 20px;}
 
 
-time{font-weight:200;
-  width:100px;line-height:125px;
-  font-size:16px;font-family:Georgia;
-  font-style:italic;}
+time{
+  margin:0 0 0 250px;
+  width:100px;
+  line-height:125px;
+  font-size:16px;
+  font-family:Helvetica;
+}
 
 #time_home {
   float: left;

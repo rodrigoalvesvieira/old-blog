@@ -2,12 +2,10 @@
 layout: base
 ---
 <article id="post">
-  <header>
     <h1>{{ page.title }}</h1>
     <time datetime="{{page.date | date: '%Y-%m-%d'}}" pubdate><a href="{{page.url}}" class="permalink">{{ page.date | date_to_string }}</a></time>
-  </header>
-  {{ content }}
-  <address>
+    {{ content }}
+    <address>
     <p id="address"><a href="http://twitter.com/#!/robotwrong" title="Follow Rodrigo Vieira on Twitter">Rodrigo Vieira</a> is a 18 years old guy from <a href="http://bit.ly/say02T" title="Paulista, Brazil">Paulista, Brazil</a>. He <a href="https://github.com/rodrigoalvesvieira" title="Rodrigo Vieira's GitHub profile">develops</a> for the Web at <a href="http://www.atela.com.br" title="Bemind website">Bemind</a>. Read more <a href="/about" title="About Rodrigo Vieira">about him</a>.</p>
   </address>
 </article>
