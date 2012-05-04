@@ -19,9 +19,10 @@
  *
 */
 
-#disqus_thread{margin:0 auto;width:480px;}
+#disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
+padding: 20px;}
 #disqus_thread h3{font-size:15px !important;}
-.dsq-avatar{position:absolute;left:10;margin-left:-20px;}
+.dsq-avatar{position:absolute;left:10;}
 #dsq-account-dropdown a{font-size:15px;}
 #dsq-subscribe li{font-size:14px !important;}
 body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helvetica;}
