@@ -69,20 +69,21 @@ header nav {
 }
 
 header nav ul{
-  font-family:Georgia;float:right;
-  margin:-25px 285px 0 0;list-style:none;
+  font-family:Helvetica;
+  float:right;
+  margin:-25px 285px 0 0;
+  list-style:none;
   background: #FBFBFB;
   border-top: 1px solid #EAEAEA;
   border-bottom: 1px solid #EAEAEA;
-  width: 360px;
+  width: 60px;
   text-align:center;
 }
 
 header nav ul li{
-  padding-left:10px;display:inline;
-  font-size:16px;
-  text-align: center;
-  text-transform: uppercase;
+  padding-left:10px;
+  font-size: 16px;
+  text-align: left;
 }
 
 header nav ul li a{color:#222;text-decoration:none;border-bottom:none;}
