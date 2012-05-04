@@ -21,6 +21,7 @@ Write in http://dillinger.io/
 === Typography
   
   * Blog title: Fanwood
+  * <mark></mark>
   * Headers: League Gothic
   * Tagline and ate indicators: Open Sans Light Italic
   * Normal text: Georgia

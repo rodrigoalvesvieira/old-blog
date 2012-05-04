@@ -249,12 +249,8 @@ address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Helvet
 h1 a{border-bottom:none;text-decoration:none;color:#222;}
 
 h1 a:hover{color:#222;}
-
-
-
 form {margin: 21px 21px 21px 21px;}
-
 ::selection{color:#fff;background:#b5864c;}
-footer{font-family:Helvetica,serif;color:#0b0b0b;text-align:center;width:640px;margin:0 auto;margin-top:15px;position:relative;color:#777;}
+footer{font-family:Helvetica,serif;color:#0b0b0b;text-align:center;width:640px;margin-left:-40px;margin-top:15px;position:relative;color:#777;}
 footer span{display:none;}
 footer p{font-size:15px;}
