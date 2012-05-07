@@ -3,7 +3,7 @@ layout: base
 ---
 <article id="post">
     <h1>{{ page.title }}</h1>
-    <time datetime="{{page.date | date: '%Y-%m-%d'}}" pubdate><a href="{{page.url}}" class="permalink">{{ page.date | date_to_long_string }}</a></time>
+    <time datetime="{{page.date | date: '%Y-%m-%d'}}" pubdate><a href="{{page.url}}" class="permalink">{{ page.date | date: "%B %d, %Y" }}</a></time>
     {{ content }}
     <address>
     <p id="address"><mark><a href="http://twitter.com/#!/rodrigoavie" title="Follow Rodrigo Vieira on Twitter">Rodrigo Alves Vieira</a> is a 18 years old guy from <a href="http://bit.ly/say02T" title="Paulista, Brazil">Paulista, Brazil</a>. He <a href="https://github.com/rodrigoalvesvieira" title="Rodrigo Vieira's GitHub profile">develops</a> Software at <a href="http://www.atela.com.br" title="Bemind website">Bemind</a>. Read more <a href="/about" title="About Rodrigo Vieira">about him</a>.</mark></p>
