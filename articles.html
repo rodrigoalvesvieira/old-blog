@@ -1,0 +1,27 @@
+---
+layout: base
+title: Archive
+---
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"</script>
+<script src="/public/javascripts/jquery-tapir.min.js"></script>
+
+<article>
+  <h1 id="intro">Blog Archive</h1>
+  <h2>Browse all of this Blog's {{ site.posts.size }} Posts.</h2>
+
+  <form action="/search" method="get">
+    <input type="search" name="query" placeholder="Search blog"/>
+    <input type="submit" value="Search">
+  </form>
+
+  <h2 id="low_line">Recent Articles</h2>
+  
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a><p>{{ post.date | date: "%b %d, %Y"  }}</p>
+    </li>
+  {% endfor %}
+  </ul>
+</article>
