@@ -96,6 +96,7 @@ header p {
 }
 
 nav {
+  position: fixed;
   float: left;
   margin-left: 9px;
   width: 10px;
