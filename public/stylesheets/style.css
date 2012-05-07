@@ -47,7 +47,7 @@ body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helve
 
 article {background: #fff;margin-top:30px;}
 
-article h1, .home a {
+article h1, .home a, .home a:hover {
   margin: 0 auto;
   font-family: Helvetica;
   font-weight: normal;
