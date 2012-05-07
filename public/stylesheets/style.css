@@ -61,7 +61,7 @@ article h1 {
 
 article h1 a { color: #222;}
 
-
+article h2 {margin-top: 10px;}
 article h2 a{color:#222;text-decoration:none;}
 article h2 a:hover, a:active{background-color:#fff;}
 article a{background:none;text-decoration:none;border-bottom:none;color:#663f1b;}
