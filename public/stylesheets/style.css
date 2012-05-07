@@ -27,6 +27,7 @@ padding: 20px;}
 #dsq-subscribe li{font-size:14px !important;}
 body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helvetica;}
 #top {
+  padding-bottom: 12px;
   border-top: 12px solid #222;
   background: #fff;
   width: 100%;
@@ -102,7 +103,7 @@ nav {
 
 nav ul{
   font-family:Helvetica;
-  margin:-95px 285px 0 0;
+  margin:-112px 285px 0 0;
   list-style:none;
   background: #FBFBFB;
   border-top: 1px solid #EAEAEA;
