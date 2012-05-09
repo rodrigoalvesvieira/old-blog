@@ -58,7 +58,8 @@ article h1, .home a, .home a:hover {
   line-height: 34px;
   padding-bottom: 23px;
   margin-left:-20px;
-  background-color: none;
+  background: none !undefined;
+  color: #222;
 }
 
 article h1 a { color: #222;}
