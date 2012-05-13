@@ -33,6 +33,6 @@ for (var i=0; size = modelListings.length; i < size; i++) {
 
 {% endhighlight %}
 
-Depending on the task you're performing, you may notice significative performance improvements by using this method. Additionally, this method does not leave the code less readable and may be should be always used. 
+Depending on the task you're performing, you may notice significative performance improvements by using this method. Additionally, this method does not leave the code less readable and perhaps should be always used. 
 
 
