@@ -33,7 +33,9 @@ awards = %w(grammy echo billboard)
 
 albums.zip(songs, years, awards) 
 
-# => [["californication", "scar_tissue", 1999, "grammy"], ["blood_sugar", "give_it_away", 1991, "echo"], ["by_the_way", "cant_stop", 2003, "billboard"]]
+# => [["californication", "scar_tissue", 1999, "grammy"], 
+["blood_sugar", "give_it_away", 1991, "echo"], 
+["by_the_way", "cant_stop", 2003, "billboard"]]
 
 {% endhighlight %}
 
@@ -43,9 +45,12 @@ You can also convert your zipped arrays to hashes, by passing them to the <span 
 
 {% highlight ruby %}
 
-Hash[albums.zip(years)] # => => {"californication"=>1999, "blood_sugar"=>1991, "by_the_way"=>2003}
+Hash[albums.zip(years)]
+# => {"californication"=>1999, "blood_sugar"=>1991, 
+"by_the_way"=>2003}
 
-Hash[albums.zip(songs)] # => {"californication"=>"scar_tissue", "blood_sugar"=>"give_it_away", "by_the_way"=>"cant_stop"}
+Hash[albums.zip(songs)]
+# => {"californication"=>"scar_tissue", "blood_sugar"=>"give_it_away", "by_the_way"=>"cant_stop"}
 
 {% endhighlight %}
 
