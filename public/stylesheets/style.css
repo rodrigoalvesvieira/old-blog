@@ -67,8 +67,8 @@ article h1 a { color: #222;}
 article h2 {margin-top: 10px;}
 article h2 a{color:#222;text-decoration:none;}
 article h2 a:hover;{background-color: none; text-decoration:underline;}
-article a{background:none;text-decoration:none;border-bottom:none;color:#663f1b;}
-article a:hover{background:#663f1b;text-decoration:none;border-bottom:none;color:#fff;}
+article a{background:none;text-decoration:none;border-bottom:none;color:#663F1B;}
+article a:hover{background:none;text-decoration:none;border-bottom:none;color:#fff;}
 article img {
   text-align: center;
   max-width: 300px;
