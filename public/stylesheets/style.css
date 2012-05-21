@@ -1,13 +1,9 @@
 /*
- *  This is mine! Write yours!
+ *  You shouln't really copy my stylesheets
  *
-    // =========================== \\
-   ||     "Rodrigo Vieira"          ||
-   ||      Rodrigo Vieira           ||
-   ||   Designer: Rodrigo Vieira    ||
-   ||	 Front-end: Rodrigo Vieira    ||
-   ||   Dev: Rodrigo Vieira         ||
-    \\ =========================== //
+   ||         "Rodrigo Alves Vieira"             ||
+   ||     http://www.rodrigoalvesvieira.com      ||
+   ||  Copyright 2011-201 - All Rights Reserved  ||
 */
 
 @import url('reset.css');
@@ -164,8 +160,8 @@ time {
 
 
 #time_home {
-  float: left;
-  margin: 0 0 0 -115px;
+  float: right;
+  margin: 14px 0 0 0;
   width: 100px;
   line-height: 130px;
   font-size: 16px;
