@@ -13,10 +13,10 @@
 @import url('reset.css');
 @import url('tipography.css');
 @import url('highlight.css');
+/*
 
-/* Palettes
- * http://kuler.adobe.com/index.cfm#themeID/1372133
- *
+Green #2f6f20
+
 */
 
 #disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
@@ -36,9 +36,10 @@ body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helve
 }
 
 #logo {
+  text-transform: uppercase;
   margin:0 0 0 100px;
   position:relative;
-  font-family: Helvetica, sans-serif;
+  font-family: "Century Gothic", Helvetica, sans-serif;
   padding:11px 0 0;
   font-size:34px;
   line-height:62px;
@@ -67,8 +68,8 @@ article h1 a { color: #222;}
 article h2 {margin-top:10px;}
 article h2 a{color:#222;text-decoration:none;}
 article h2 a:hover;{background-color: none; text-decoration:underline;}
-article a{background:none;text-decoration:underline;border-bottom:none;color:#2f6f20;text-align:left;}
-article a:hover{background:none;text-decoration:none;border-bottom:none;color:#fff;}
+article a{background:none;text-decoration:none;border-bottom:none;color:#2f6f20;text-align:left;}
+article a:hover{background:#2f6f20;text-decoration:underline;border-bottom:none;color:#fff;}
 article img {
   text-align: center;
   max-width: 300px;
@@ -192,6 +193,7 @@ h2 {
 }
 
 .home {
+  margin-left: -6px;
   line-height: 40px;
   padding-top: 47px;
 }
@@ -255,10 +257,6 @@ ul {
 
 ul li p {
   display: inline;
-}
-
-#articles_listing {
-  /**/
 }
 
 ul li{font-size:18px;}
