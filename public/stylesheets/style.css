@@ -158,17 +158,6 @@ time {
   line-height: 40px;
 }
 
-
-#time_home {
-  float: right;
-  margin: 14px 0 0 0;
-  width: 100px;
-  line-height: 130px;
-  font-size: 16px;
-  font-family: Helvetica;
-  font-style: italic;
-}
-
 time a {
   color: #333333;
   border-bottom: none;
