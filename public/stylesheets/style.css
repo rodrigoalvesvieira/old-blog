@@ -148,6 +148,7 @@ section p {
   border: none;
 }
 
+#post h1{margin-left:-25px;}
 #post p:last-child { padding-bottom: 20px;}
 
 time {
