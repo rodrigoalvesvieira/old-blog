@@ -18,6 +18,7 @@ The blog is built upon a series of technologies:
 ### Up & Running
 
   `$ jekyll`
+  
   `$ jekyll --server`
 
 
