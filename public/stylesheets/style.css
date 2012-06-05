@@ -3,16 +3,15 @@
  *
    ||         "Rodrigo Alves Vieira"             ||
    ||     http://www.rodrigoalvesvieira.com      ||
-   ||  Copyright 2011-201 - All Rights Reserved  ||
+   ||  Copyright 2011-2012 - All Rights Reserved  ||
 */
 
 @import url('reset.css');
 @import url('tipography.css');
 @import url('highlight.css');
 /*
-
 Green #2f6f20
-
+Green #CDEDAA
 */
 
 #disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
@@ -110,13 +109,18 @@ nav ul li {
   text-align: left;
 }
 
+nav ul li:hover {
+  color: #fff;
+  background: #CDEDAA;
+}
+
 nav ul li a {
   color: #222;
   text-decoration: none;
   border-bottom: none;
 }
 
-nav ul li a:hover{color:#222;text-decoration:none;}
+nav ul li a:hover{color:#fff;text-decoration:none !important;}
 
 section {
   border-bottom: 1px solid #2F6F20;

@@ -3,11 +3,11 @@ layout: post
 title: Deploying Noir to Heroku
 ---
 
-<span class="small_code">I</span>'ve been writing small apps with Noir for a while and, being Noir a web framework, deploying it is a step in the development flow.
+<span class="drops">I</span>'ve been writing small apps with Noir for a while and, being Noir a web framework, deploying it is a step in the development flow.
 
-In this post I'm going to guide you through deploying Noir apps to [Heroku].
+In this post I'm going to guide you through deploying Noir apps to Heroku (1).
 
-First, <span class="small_code">cd</span> into the project and run
+First, <span class="small_code">cd</span> into the project and run:
 
 <pre class="terminal">
   $ heroku create --stack cedar
@@ -15,9 +15,9 @@ First, <span class="small_code">cd</span> into the project and run
 
 This will create the app on Heroku for you and also add this remote repo to your Git config for your use, later.
 
-Note: if it doesn't work, then that's probably because you don't have the [Heroku gem/toolbelt].
+Note: if it doesn't work, then that's probably because you don't have the Heroku gem/toolbelt (2).
 
-You should now create a file called <span class="small_code">Procfile</span>...[yes, I know], this is for telling Heroku how to run the server for your app:
+You should now create a file called <span class="small_code">Procfile</span>...yes, I know (3), this is for telling Heroku how to run the server for your app:
 
 {% highlight sh %}
 
@@ -25,7 +25,7 @@ web: lein run -m my-noir-app.server
 
 {% endhighlight %}
 
-Remember that you should replace my-noir-app.server with the actual namespace of your app.
+Remember that you should replace <span class="small_code">my-noir-app.server</span> with the actual namespace of your app.
 
 The Actual Deploy
 -----------------
@@ -46,7 +46,7 @@ Now you must specify on which port your app will run:
   $ heroku config:add PORT=8080
 </pre>
 
-Note: Use 8080 or whatever, notice that Noir defines the in <span class="small_code">src/my-noir-app/server.clj file.)
+Note: Use 8080 or whatever, notice that Noir defines the in <span class="small_code">src/my-noir-app/server.clj</span> file.
 
 Then, ask Heroku to launch your app:
 
@@ -56,8 +56,11 @@ Then, ask Heroku to launch your app:
 
 And that's it!
 
-[Leiningen]: https://github.com/technomancy/leiningen
-[Heroku gem/toolbelt]: https://toolbelt.herokuapp.com/osx
-[Heroku]: http://heroku.com
-[yes, I know]: http://blog.hasmanythrough.com/2011/12/1/i-heard-you-liked-files
+[1]
+[2]
+[3]
+
+[2]: https://toolbelt.herokuapp.com/osx
+[1]: http://heroku.com
+[3]: http://blog.hasmanythrough.com/2011/12/1/i-heard-you-liked-files
 

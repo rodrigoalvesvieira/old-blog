@@ -15,7 +15,7 @@ To illustrate <span class="small_code">xargs</span> in action, I show you the fo
 
 Suppose your computer is got two running instances of Emacs, <span class="small_code">pidof</span> will list them and <span class="small_code">xargs</span> will handle the passing properly to <span class="small_code">kill</span>.
 
-What happens there is that every output member of the first command is passed individually as argument to the second one. <span class="small_code">xargs</span> is <span class="small_code">stdio</span>'s playtool.
+What happens there is that every output member of the first command is passed individually as argument to the second one. <span class="small_code">xargs</span> is <span class="small_code">stdio</span>'s best friend.
 
 This very command makes <span class="small_code">kill</span> raise a "not enough arguments" exception if you omit <span class="small_code">xargs</span>.
 
