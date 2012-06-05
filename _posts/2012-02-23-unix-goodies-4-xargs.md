@@ -15,6 +15,8 @@ To illustrate <span class="small_code">xargs</span> in action, I show you the fo
 
 Suppose your computer is got two running instances of Emacs, <span class="small_code">pidof</span> will list them and <span class="small_code">xargs</span> will handle the passing properly to <span class="small_code">kill</span>.
 
+What happens there is that every output member of the first command is passed individually as argument to the second one. <span class="small_code">xargs</span> is <span class="small_code">stdio</span>'s playtool.
+
 This very command makes <span class="small_code">kill</span> raise a "not enough arguments" exception if you omit <span class="small_code">xargs</span>.
 
 Favorite Snippet
@@ -28,4 +30,4 @@ There is this one command that I find very useful and use in a regular basis in 
 
 This passes all deleted files from the current repo to <span class="small_code">git rm</span> thus letting you avoid removing each file individually from the Git index. We could call it <span class="small_code">git rm .</span>.
 
-That's it, hope I have clearly showed you how xargs can help you during your day-to-day tasks in the console. For more info on the program, consult its manual page.
+That's it, hope I have clearly showed you how <span class="small_code">xargs</span> can help you during your day-to-day tasks in the console. For more info on the program, consult its manual page.
