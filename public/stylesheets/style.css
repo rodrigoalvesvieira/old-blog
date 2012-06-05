@@ -111,7 +111,11 @@ nav ul li {
 
 nav ul li:hover {
   color: #fff;
-  background: #CDEDAA;
+  background: #2F6F20;
+}
+
+#navigation ul li a:hover {
+  color: #fff;
 }
 
 #navigation ul li a {
