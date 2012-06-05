@@ -114,7 +114,7 @@ nav ul li:hover {
   background: #CDEDAA;
 }
 
-nav ul li a {
+#navigation ul li a {
   color: #222 !important;
   text-decoration: none !important;
   border-bottom: none !important;
