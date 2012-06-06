@@ -15,7 +15,7 @@ Participation in Open Source also helps you grow your communication skills. Ever
 
 ## Technical Growth
 
-One of the most compelling reasons to give back to Open Source is that **it makes you learn to code better*. Reading the Ruby on Rails (1) source code makes me learn a lot about Metaprogramming. Learning the inner gears of jQuery (2) will surely help a front-end developer leverage his capabilities of dealing with the DOM and Event Driven Development, and there's no better way to learn to code something than getting your hands dirty with it.
+One of the most compelling reasons to give back to Open Source is that **it makes you learn to code better*. Reading the Ruby on Rails <a href="#foot-link-1">(1)</a> source code makes me learn a lot about Metaprogramming. Learning the inner gears of jQuery <a href="#foot-link-2">(2)</a> will surely help a front-end developer leverage his capabilities of dealing with the DOM and Event Driven Development, and there's no better way to learn to code something than getting your hands dirty with it.
 
 ## Visibility & Reputation Growth
 
@@ -27,20 +27,23 @@ As you're in the Software Industry an you know it's a very competitive market, y
 
 I suggest that you allocate a given number of hours weekly, in a defined date, for grouping everyone together to develop a project of interest or contribute to an existing one. Preferably, the one that everybody works more with.
 
-Or, if possible within your limitations, you can create a regular Dojo/Kata (3)/(4) and even invite developers from other organizations to yours. Great ideas may grow when talented hackers get together to build something.
+Or, if possible within your limitations, you can create a regular Dojo/Kata <a href="#foot-link-3">(3)</a>/<a href="#foot-link-4">(4)</a> and even invite developers from other organizations to yours. Great ideas may grow when talented hackers get together to build something.
 
 I am sure that engaging in Open Source is totally healthy for your company. There's so much profit for your team to benefit from when investing in OS. And we have Google, GitHub, Twitter, PlataformaTec and many more as evidences.
 
-[1], the Ruby on Rails framework.
+<p id="foot-link-1">[1], the Ruby on Rails framework.</p>
 
-[2], the jQuery JavaScript framework.
+<p id="foot-link-2">[2], the jQuery JavaScript framework.</p>
 
-[3], Coding Dojos and Katas
+<p id="foot-link-3">[3], Coding Dojos</p>
+
+<p id="foot-link-4">[4], Code Kata</p>
 
 [1]: http://rubyonrails.org
 [2]: http://jquery.com
-[3]: en.wikipedia.org/wiki/Coding_Dojo
-[4]: en.wikipedia.org/wiki/Coding_Kata
+[3]: http://codingdojo.org/
+[4]: http://en.wikipedia.org/wiki/Kata_(programming)
+
 
 
 
