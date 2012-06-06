@@ -19,7 +19,7 @@ One of the most compelling reasons to give back to Open Source is that **it make
 
 ## Visibility & Reputation Growth
 
-Many companies have - happifully - already learned that: **OSS engagement grows the company's reputation in the market**. This is specially notable for consulting companies. Often, these are hired by other tech companies, with good technically-backgrounded people who'll be more confident in the delivery efficiency of your team if they can see good OS code written by it. It is almost a deal-maker.
+Many companies have - happily - already learned that: **OSS engagement grows the company's reputation in the market**. This is specially notable for consulting companies. Often, these are hired by other tech companies, with good technically-backgrounded people who'll be more confident in the delivery efficiency of your team if they can see good OS code written by it. It is almost a deal-maker.
 
 ## Feasibility & Final Notes
 
@@ -31,13 +31,13 @@ Or, if possible within your limitations, you can create a regular Dojo/Kata <a h
 
 I am sure that engaging in Open Source is totally healthy for your company. There's so much profit for your team to benefit from when investing in OS. And we have Google, GitHub, Twitter, PlataformaTec and many more as evidences.
 
-<p id="foot-link-1">[1], the Ruby on Rails framework.</p>
+<p id="foot-link-1">([1]), the Ruby on Rails framework.</p>
 
-<p id="foot-link-2">[2], the jQuery JavaScript framework.</p>
+<p id="foot-link-2">([2]), the jQuery JavaScript framework.</p>
 
-<p id="foot-link-3">[3], Coding Dojos</p>
+<p id="foot-link-3">([3]), Coding Dojos</p>
 
-<p id="foot-link-4">[4], Code Kata</p>
+<p id="foot-link-4">([4]), Code Kata</p>
 
 [1]: http://rubyonrails.org
 [2]: http://jquery.com
