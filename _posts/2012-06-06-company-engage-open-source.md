@@ -31,13 +31,13 @@ Or, if possible within your limitations, you can create a regular Dojo/Kata <a h
 
 I am sure that engaging in Open Source is totally healthy for your company. There's so much profit for your team to benefit from when investing in OS. And we have Google, GitHub, Twitter, PlataformaTec and many more as evidences.
 
-<p id="foot-link-1">([1]), the Ruby on Rails framework.</p>
+<p id="foot-link-1">(<a href="http://rubyonrails.org">1</a>), the Ruby on Rails framework.</p>
 
-<p id="foot-link-2">([2]), the jQuery JavaScript framework.</p>
+<p id="foot-link-2">(<a href="http://jquery.com">2</a>), the jQuery JavaScript framework.</p>
 
-<p id="foot-link-3">([3]), Coding Dojos</p>
+<p id="foot-link-3">(<a href="http://codingdojo.org/">3</a>), Coding Dojos</p>
 
-<p id="foot-link-4">([4]), Code Kata</p>
+<p id="foot-link-4">(<a href="http://en.wikipedia.org/wiki/Kata_(programming)">4</a>), Code Kata</p>
 
 [1]: http://rubyonrails.org
 [2]: http://jquery.com
