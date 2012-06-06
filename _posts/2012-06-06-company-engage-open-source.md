@@ -43,10 +43,3 @@ I am sure that engaging in Open Source is totally healthy for your company. Ther
 [2]: http://jquery.com
 [3]: http://codingdojo.org/
 [4]: http://en.wikipedia.org/wiki/Kata_(programming)
-
-
-
-
-
-
-
