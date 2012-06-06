@@ -23,7 +23,7 @@ Many companies have - happily - already learned that: **OSS engagement grows the
 
 ## Feasibility & Final Notes
 
-As you're in the Software Industry an you know it's a very competitive market, you must think about the feasibilty of OS contribution in your company. How many work hours will it take? How much energy and resources will we have to allocate for it? These are important questions.
+As you're in the Software Industry an you know it's a very competitive market, you must think about the feasibilty of OS contribution in your company. How many work hours will it take? How much energy and resources will we have to allocate for it? These are important questions whose answers differ from one group to another.
 
 I suggest that you allocate a given number of hours weekly, in a defined date, for grouping everyone together to develop a project of interest or contribute to an existing one. Preferably, the one that everybody works more with.
 
