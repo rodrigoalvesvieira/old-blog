@@ -132,6 +132,15 @@ nav ul li a {
 
 nav ul li a:hover{color:#fff;text-decoration:none !important;}
 
+.drops {
+  font-family: Helvetica;display: inline;
+  float: left;text-indent: 5px;margin: 0;
+  padding: .25em .08em 0 0;line-height: .4em;
+  text-transform: capitalize;
+  color: #2f6f20;
+  font-size: 330%;
+}
+
 section {
   border-bottom: 1px solid #2F6F20;
   width: 560px;
@@ -146,15 +155,10 @@ section p {
   font-weight:200;
 }
 
-
-.drops {
-  font-family: Helvetica;display: inline;
-  float: left;text-indent: 5px;margin: 0;
-  padding: .25em .08em 0 0;line-height: .4em;
-  text-transform: capitalize;
-  color: #2f6f20;
-  font-size: 330%;
+.foot-link {
+  font-size: 14px;
 }
+
 
 .apresentacao {font-family: Helvetica;}
 #apresentacao {

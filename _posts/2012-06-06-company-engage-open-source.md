@@ -15,7 +15,7 @@ Participation in Open Source also helps you grow your communication skills. Ever
 
 ## Technical Growth
 
-One of the most compelling reasons to give back to Open Source is that **it makes you learn to code better*. Reading the Ruby on Rails <a href="#foot-link-1">(1)</a> source code makes me learn a lot about Metaprogramming. Learning the inner gears of jQuery <a href="#foot-link-2">(2)</a> will surely help a front-end developer leverage his capabilities of dealing with the DOM and Event Driven Development, and there's no better way to learn to code something than getting your hands dirty with it.
+One of the most compelling reasons to give back to Open Source is that **it makes you learn to code better**. Reading the Ruby on Rails <a href="#foot-link-1">(1)</a> source code makes me learn a lot about Metaprogramming. Learning the inner gears of jQuery <a href="#foot-link-2">(2)</a> will surely help a front-end developer leverage his capabilities of dealing with the DOM and Event Driven Development, and there's no better way to learn to code something than getting your hands dirty with it.
 
 ## Visibility & Reputation Growth
 
@@ -31,13 +31,13 @@ Or, if possible within your limitations, you can create a regular Dojo/Kata <a h
 
 I am sure that engaging in Open Source is totally healthy for your company. There's so much profit for your team to benefit from when investing in OS. And we have Google, GitHub, Twitter, PlataformaTec and many more as evidences.
 
-<p id="foot-link-1">(<a href="http://rubyonrails.org">1</a>), the Ruby on Rails framework.</p>
+<p class="foot-link" id="foot-link-1">(<a href="http://rubyonrails.org">1</a>), the Ruby on Rails framework.</p>
 
-<p id="foot-link-2">(<a href="http://jquery.com">2</a>), the jQuery JavaScript framework.</p>
+<p class="foot-link" id="foot-link-2">(<a href="http://jquery.com">2</a>), the jQuery JavaScript framework.</p>
 
-<p id="foot-link-3">(<a href="http://codingdojo.org/">3</a>), Coding Dojos</p>
+<p class="foot-link" id="foot-link-3">(<a href="http://codingdojo.org/">3</a>), Coding Dojos</p>
 
-<p id="foot-link-4">(<a href="http://en.wikipedia.org/wiki/Kata_(programming)">4</a>), Code Kata</p>
+<p class="foot-link" id="foot-link-4">(<a href="http://en.wikipedia.org/wiki/Kata_(programming)">4</a>), Code Kata</p>
 
 [1]: http://rubyonrails.org
 [2]: http://jquery.com
