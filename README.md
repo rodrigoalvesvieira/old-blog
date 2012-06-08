@@ -32,6 +32,7 @@ The blog is built upon a series of technologies:
 
 * [Jekyll] - Static Ruby blog engine by Tom Preston-Werner
 * [Markdown] - Markup language by John Gruber
+* [Pygments] - For syntax highlighting
 
 ### Up & Running
 
@@ -52,3 +53,5 @@ Copyright © 2011-2012 Rodrigo Alves Vieira. All Rights Reserved.
 [7]: http://0to255.com/FF9
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
+[Pygments]: http://pygments.org/
+
