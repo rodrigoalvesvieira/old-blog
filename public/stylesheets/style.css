@@ -249,7 +249,7 @@ blockquote {
   border-left: 1px solid #ddd;
   font-family: Helvetica, sans-serif;
   color: #333;
-  background: url(/public/images/quotation-marks.gif/) no-repeat;
+  background: url(/public/images/quotation-marks.gif) no-repeat;
 }
 
 cite{color:#999;}
