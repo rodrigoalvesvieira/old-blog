@@ -31,7 +31,7 @@ Or, if possible within your limitations, you can create a regular Dojo/Kata <a h
 
 I am sure that engaging in Open Source is totally healthy for your company. There's so much profit for your team to benefit from when investing in OS. And we have Google, GitHub, Twitter, PlataformaTec and many more as evidences.
 
-<p class="foot-link" id="foot-link-1">(<a href="http://rubyonrails.org">1</a>), the Ruby on Rails framework.</p>
+<p class="foot-link" id="foot-link-1">(<a href="http://rubyonrails.org">1</a>), the Ruby on Rails framework for Web Application development.</p>
 
 <p class="foot-link" id="foot-link-2">(<a href="http://jquery.com">2</a>), the jQuery JavaScript framework.</p>
 

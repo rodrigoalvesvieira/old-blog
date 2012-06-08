@@ -35,11 +35,11 @@ Object.isExtensible(user); // true
 By default, all objects in JavaScript are fully modifiable. We can add, alter and remove any of its properties:
 
 {% highlight javascript %}
-  
+
   user.name = 1;
-  
+
   user.name; // 1, name was set to 1
-  
+
 {% endhighlight %}
 
 You can specify the access to the object's attributes individually, using the static <span class="small_code">Object.defineProperty</span> method:
@@ -58,13 +58,13 @@ Similarly, you can define settings for several attributes at once using the <spa
 
 {% highlight javascript %}
 
-Object.defineProperties(user, {  
-    "name": {  
-      writable: true 
+Object.defineProperties(user, {
+    "name": {
+      writable: true
     },
-    "username": {  
-      configurable: false  
-    }  
+    "username": {
+      configurable: false
+    }
 });
 
 {% endhighlight %}
@@ -72,7 +72,7 @@ Object.defineProperties(user, {
 
 ## Persistence
 
-In OO, we're used to create objects that have a given behavior, and we further create other objects that inherit behavior/state from that original one. 
+In OO, we're used to create objects that have a given behavior, and we further create other objects that inherit behavior/state from that original one.
 
 All object properties access definitions are persistent across that object prototypes. It means that if object Apartment is prototype of object House, and the latter has a protected maxAvailableSize property, that property won't be alterable from the Apartment object.
 
@@ -94,7 +94,7 @@ user.bio // undefined
 
 {% endhighlight %}
 
-NOTE: if you're adding a new property to an object, you may - in our code - be relying upon that property. If the object is locked for extensions, you'd be badly surprised! The  <span class="small_code">Object.preventExtensions() method reveals whether a given object may be extended or not:
+NOTE: if you're adding a new property to an object, you may - in our code - be relying upon that property. If the object is locked for extensions, you'd be badly surprised! The  <span class="small_code">Object.preventExtensions()</span> method reveals whether a given object may be extended or not:
 
 {% highlight javascript %}
 
@@ -110,7 +110,7 @@ You may want to create a class, an object and prevent any deletion and/or additi
 
 {% highlight javascript %}
 
-function Car(name, year) {  
+function Car(name, year) {
   this.year = year;
   this.name = name;
 }
