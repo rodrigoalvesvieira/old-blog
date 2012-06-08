@@ -1,26 +1,65 @@
 /*
- *  You shouln't really copy my stylesheets
- *
-   ||         "Rodrigo Alves Vieira"             ||
-   ||     http://www.rodrigoalvesvieira.com      ||
-   ||  Copyright 2011-2012 - All Rights Reserved  ||
+  ||         Rodrigo Alves Vieira              ||
+  ||    http://www.rodrigoalvesvieira.com      ||
+  || Copyright 2011-2012 - All Rights Reserved ||
 */
+
+/* Imports */
 
 @import url('reset.css');
 @import url('tipography.css');
 @import url('highlight.css');
-/*
-Green #2f6f20
-Green #CDEDAA
-*/
 
-#disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
-padding: 20px;}
-#disqus_thread h3{font-size:15px !important;}
-.dsq-avatar{position:absolute;left:10;}
-#dsq-account-dropdown a{font-size:15px;}
-#dsq-subscribe li{font-size:14px !important;}
-body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helvetica;}
+/* Basics */
+
+body{
+  padding: 0;
+  background: #fff;
+  line-height: 20px;
+  font-size: 20px;
+  font-family: Helvetica;
+}
+
+::selection{color:#fff;background:#2F6F20;}
+
+/* Headers */
+
+h1 a{border-bottom:none;text-decoration:none;color:#222;}
+h1 a:hover{color:#222;}
+
+h2 {
+  margin: 0 0 25px 21px;
+  line-height: 20px;
+  font-size: 22px;
+  font-variant: none;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0 0 25px 21px;
+  line-height:20px;
+  padding-top: 7px;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight:100;
+  color: #222;
+}
+
+h4 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  font-family: Helvetica, sans-serif;
+  color: #222;
+}
+
+.home {
+  margin-left: -6px;
+  line-height: 40px;
+  padding-top: 47px;
+}
+
 #top {
   padding-bottom: 12px;
   border-top: 12px solid #2f6f20;
@@ -42,7 +81,6 @@ body{padding:0;background:#fff;line-height:20px;font-size:20px;font-family:Helve
   letter-spacing:0.05em;
 }
 
-article {background: #fff;margin-top:30px;}
 
 article h1, .home a, .home a:hover {
   margin: 0 auto;
@@ -60,31 +98,34 @@ article h1, .home a, .home a:hover {
 
 article h1 a { color: #222;}
 
+#post h1{margin-left:-20px;}
+
+/* Sections */
+
+section {
+  border-bottom: 1px solid #2F6F20;
+  width: 560px;
+  margin: -80px 0 0 75px;
+  position: relative;
+  background: #fff;
+}
+
+section p {
+  margin: 21px 21px 18px 21px;
+  font-size: 18px;
+  font-weight:200;
+}
+
+/* Articles */
+
+article {background: #fff;margin-top:30px;}
 article a{background:none;text-decoration:none;border-bottom:none;color:#2f6f20;text-align:left;}
 article a:hover{background:#2f6f20;text-decoration:underline;border-bottom:none;color:#fff;}
-article img {
-  text-align: center;
-  max-width: 300px;
-  border: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -10px;
-}
 article h2 {margin-top:10px;}
 article h2 a{color:#222;text-decoration:none;}
 article h2 a:hover;{background: none; text-decoration:underline;}
 
-
-header p {
-  color: #222;
-  font-weight: 100;
-  width: 540px;
-  margin: 0 0 4px 440px;
-  font-size: 72%;
-  font-family: Helvetica;
-  font-style: italic;
-}
+/* Navigation */
 
 nav {
   position: fixed;
@@ -92,6 +133,8 @@ nav {
   margin-left: 9px;
   width: 10px;
 }
+
+/* Lists */
 
 nav ul{
   font-family:Helvetica;
@@ -132,6 +175,43 @@ nav ul li a {
 
 nav ul li a:hover{color:#fff;text-decoration:none !important;}
 
+ul {
+  line-height: 25px;
+  font-size: 14px;
+  margin:0 0 20px 40px;
+  list-style:none;
+}
+
+ul li p {
+  display: inline;
+}
+
+ul li{font-size:18px;}
+
+ol {
+  line-height: 20px;
+  font-size: 14px;
+  margin: 0 0 20px 40px;
+  list-style: decimal;
+}
+
+/* Links */
+
+a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
+a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
+h1 a{border-bottom:none;text-decoration:none;color:#222;}
+h1 a:hover{color:#222;}
+
+.home a:hover {background-color: none !important;}
+.home a{border-bottom:none;}
+
+.foot-link {
+  width: 300px;
+  font-size: 14px;
+}
+
+/* Others */
+
 .drops {
   font-family: Helvetica;display: inline;
   float: left;text-indent: 5px;margin: 0;
@@ -141,34 +221,27 @@ nav ul li a:hover{color:#fff;text-decoration:none !important;}
   font-size: 330%;
 }
 
-section {
-  border-bottom: 1px solid #2F6F20;
-  width: 560px;
-  margin: -80px 0 0 75px;
-  position: relative;
-  background: #fff;
+header a {
+  text-decoration: none;
+  color: #a53f1b;
 }
 
-section p {
-  margin: 21px 21px 18px 21px;
-  font-size: 18px;
-  font-weight:200;
+header a:hover, a:active{color:#fff;background:none;text-decoration:none;border-bottom:none;}
+
+address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Helvetica;font-style:italic;}
+#address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Helvetica;font-style:italic;}
+
+header p {
+  color: #222;
+  font-weight: 100;
+  width: 540px;
+  margin: 0 0 4px 440px;
+  font-size: 72%;
+  font-family: Helvetica;
+  font-style: italic;
 }
 
-.foot-link {
-  width: 300px;
-  font-size: 14px;
-}
-
-
-.apresentacao {font-family: Helvetica;}
-#apresentacao {
-  background: #fff;
-  border: none;
-}
-
-#post h1{margin-left:-20px;}
-#post p:last-child { padding-bottom: 20px;}
+/* Time */
 
 time {
   margin: 0 0 0 30px;
@@ -188,47 +261,7 @@ time a:hover {
   background-color: #fff;
 }
 
-h2 {
-  margin: 0 0 25px 21px;
-  line-height: 20px;
-  font-size: 22px;
-  font-variant: none;
-  font-family: Helvetica, sans-serif;
-  font-weight: normal;
-}
-
-.home {
-  margin-left: -6px;
-  line-height: 40px;
-  padding-top: 47px;
-}
-
-/*.home a:hover {
-  font-family: Helvetica;
-  font-weight: normal;
-  font-size: 20px;
-  text-align:left;
-  padding: 20px;
-  line-height: 34px;
-  padding-bottom: 23px;
-  margin-left:-20px;
-  border-bottom:1px #222 solid;
-}*/
-
-.home a:hover {background-color: none !important;}
-.home a{border-bottom:none;}
-
-
-h3{margin:0 0 25px 21px;line-height:20px;padding-top:7px;font-size:20px;font-family:Helvetica, sans-serif;
-  font-weight:100;color:#222;}
-
-h4 {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 14px;
-  font-family: Helvetica, sans-serif;
-  color: #222;
-}
+/* Text */
 
 p {
   clear: both;
@@ -237,11 +270,36 @@ p {
   line-height: 23px;
 }
 
-.code {font-size: 16px; margin: 0 auto;width: 560px;}
-.small_code{font-family:Monaco,monospace;font-size:14px;background:#F0F3F3;padding:2px;}
-.terminal {margin: 0 auto; width: 480px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
+#post p{font-family:Helvetica,;line-height:22px;font-weight:300}
+#post p:last-child { padding-bottom: 20px;}
 
-img#left_picture{margin:8px 25px 25px 25px;float:left;}
+#post p a:hover, a:active{color:#fff;}
+
+
+/* Code */
+
+.code { font-size: 16px; margin: 0 auto;width: 560px;}
+.small_code{ font-family:Monaco,monospace;font-size:14px;background:#F0F3F3;padding:2px;}
+.terminal { margin: 0 auto; width: 480px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
+
+/* Images */
+
+article img {
+  text-align: center;
+  max-width: 300px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+}
+
+img#left_picture{
+  margin: 8px 25px 25px 25px;
+  float:left;
+}
+
+/* Quotes */
 
 blockquote {
   font-style: italic;
@@ -262,35 +320,36 @@ blockquote .quote_author {
   margin-top: 4px;
   float: right;
 }
+
 cite{color:#999;}
+
 small{font-size:12px;color: #999;}
-ul {
-  line-height: 25px;
-  font-size: 14px;
-  margin:0 0 20px 40px;
-  list-style:none;
-}
 
-ul li p {
-  display: inline;
-}
+/* Forms */
 
-ul li{font-size:18px;}
-ol{line-height:20px;font-size:14px;margin:0 0 20px 40px;list-style:decimal;}
-header a{text-decoration:none;color:#a53f1b;}
-header a:hover, a:active{color:#fff;background:none;text-decoration:none;border-bottom:none;}
-a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
-a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
-address{margin:25px 21px 21px 21px;text-align:left;color:#333;font-family:Helvetica;font-style:italic;}
-#address{font-size:18px;text-align:left;color:#333;line-height:10px;font-family:Helvetica;font-style:italic;}
-#post p{font-family:Helvetica,;line-height:22px;font-weight:300}
-#post p a:hover, a:active{color:#fff;}
-
-h1 a{border-bottom:none;text-decoration:none;color:#222;}
-
-h1 a:hover{color:#222;}
 form {margin: 21px 21px 21px 21px;}
-::selection{color:#fff;background:#2F6F20;}
-footer{font-family:Helvetica,serif;color:#0b0b0b;text-align:center;width:640px;margin-left:-18px;margin-top:15px;position:relative;color:#777;}
-footer span{display:none;}
-footer p{font-size:15px;}
+
+/* Comments */
+
+#disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
+padding: 20px;}
+#disqus_thread h3{font-size:15px !important;}
+.dsq-avatar{position:absolute;left:10;}
+#dsq-account-dropdown a{font-size:15px;}
+#dsq-subscribe li{font-size:14px !important;}
+
+/* Footer */
+
+footer {
+  font-family: Helvetica, serif;
+  color: #0b0b0b;
+  text-align: center;
+  width: 640px;
+  margin-left: -18px;
+  margin-top: 15px;
+  position: relative;
+  color: #777;
+}
+
+footer span { display:none; }
+footer p { font-size:15px; }
