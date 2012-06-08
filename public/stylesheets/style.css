@@ -253,11 +253,11 @@ blockquote {
 }
 
 blockquote p {
-  float: right;
+  float: left;
   font-size: 14px;
 }
 
-blockquote #quote_author {
+blockquote .quote_author {
   margin-top: 4px;
   float: right;
 }
