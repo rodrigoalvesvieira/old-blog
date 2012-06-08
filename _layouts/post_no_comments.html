@@ -2,8 +2,8 @@
 layout: base
 ---
 <article id="post">
-    <h1>{{ page.title }}</h1>
-    <time datetime="{{page.date | date: '%Y-%m-%d'}}" pubdate><a href="{{page.url}}" class="permalink">{{ page.date | date: "%B %d, %Y" }}</a></time>
-    {{ content }}
-    {% include address.html %}
+  <h1>{{ page.title }}</h1>
+  <time datetime="{{page.date | date: '%Y-%m-%d'}}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time>
+  {{ content }}
+  {% include address.html %}
 </article>
