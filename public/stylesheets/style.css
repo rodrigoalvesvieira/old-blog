@@ -253,7 +253,6 @@ blockquote {
 }
 
 blockquote p {
-  background: url(/public/images/quotation-marks.gif) no-repeat;
   float: left;
   font-size: 14px;
 }
