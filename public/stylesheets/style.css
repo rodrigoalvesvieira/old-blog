@@ -252,6 +252,15 @@ blockquote {
   background: url(/public/images/quotation-marks.gif) no-repeat;
 }
 
+blockquote p {
+  float: right;
+  font-size: 14px;
+}
+
+blockquote #quote_author {
+  margin-top: 4px;
+  float: right;
+}
 cite{color:#999;}
 small{font-size:12px;color: #999;}
 ul {
