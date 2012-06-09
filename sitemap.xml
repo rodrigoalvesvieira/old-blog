@@ -4,17 +4,217 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
   <loc>http://www.rodrigoalvesvieira.com/</loc>
-  <lastmod>2011-06-28T19:53:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>1.0</priority>
+  <priority>1.0000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
 </url>
-
-<!--<url>
-  <loc></loc>
-  <lastmod></lastmod>
-  <changefreq></changefreq>
-  <priority></priority>
-</url>-->
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/about</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/contact</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/articles</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/projects</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/academia</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/company-engage-open-source/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/fun-with-hashes-arrays/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/caching-javascript-loops/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/controlling-access-to-js-objects/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/add-require-relative-to-irb/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/deploying-noir-to-heroku/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/archive</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/unix-goodies-4-xargs/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/unix-goodies-3-head/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/factorial-function-clojure/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/unix-goodies-2-cal/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/to-i-for-instances-trueclass-falseclass/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/developing-web-apps-clojure-noir/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/unix-goodies-1-cat/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/getting-started-with-clojure/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/my-chiefs-anwser-to-my-post-on-generalism/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/on-software-and-generalism/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/now-at-the-university/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/mutate-method-visibility-on-the-go-ruby/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/turning-file-into-array-lines-ruby/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/the-most-beautiful-factorial-method/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/ruby-method-visibility-alt-notation/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/generating-xls-files-in-rails/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/ruby-to-find-out-file-encoding/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/how-to-contribute-open-source/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/adding-http-basic-auth-rails/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/developing-json-api-rails-rabl/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/por-dentro-rails-31-active-record/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/inside-rails-31-active-record/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/por-dentro-rails-31-gerais/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/inside-rails-31-generals/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/melhorias-simples-para-irb/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/wirble-a-small-addition-to-irb/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/creating-contact-form-rails-3/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.rodrigoalvesvieira.com/formulario-contato-rails/</loc>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
