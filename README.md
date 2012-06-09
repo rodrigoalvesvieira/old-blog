@@ -22,6 +22,11 @@ Colors:
   * Gray (for borders): #EAEAEA [6]
   * Yellow: #FF9 [7]
 
+Diagrams
+
+  * Web Sequence Diagrams: http://www.websequencediagrams.com/
+
+
 ## Technical Details
 
 This is my personal blog made with Jekyll, marked up with Markdown & hosted on GitHub pages. Browse at http://www.rodrigoalvesvieira.com
