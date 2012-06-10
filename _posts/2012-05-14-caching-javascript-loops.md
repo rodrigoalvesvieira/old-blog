@@ -7,7 +7,7 @@ title: Caching JavaScript Loops
 
 JavaScript lets you cache <span class="small_code">for</span> loops in a simple way.
 
-Let's think of a scenario, in which we have a great many <span class="small_code">&lt;li&gt;</span> tags representing car models in our documents. Each of these elements have a HTML5 <span class="small_code:">data-name</span> attribute that contains the model name of the vehicle. In the following algorithm we iterate over all <span class="small_code">&lt;li&gt;</span> on the document, fetching their model names and storing it in an array of names, defined blank, before the loop:
+Let's think of a scenario, in which we have a great many <span class="small_code">&lt;li&gt;</span> tags representing car models in our documents. Each of these elements have a HTML5 <span class="small_code">data-name</span> attribute that contains the model name of the vehicle. In the following algorithm we iterate over all <span class="small_code">&lt;li&gt;</span> on the document, fetching their model names and storing it in an array of names, defined blank, before the loop:
 
 {% highlight js %}
 
