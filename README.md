@@ -4,6 +4,8 @@
 
 Writings on Software Engineering, Team Management, Startups, Entrepreneurship, Technology & Culture.
 
+Since July 7, 2011.
+
 ## Colophon
 
 Fonts:
