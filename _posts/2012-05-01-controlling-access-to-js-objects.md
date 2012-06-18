@@ -80,7 +80,7 @@ Be aware that none of these methods operate on inherited properties. They're all
 
 You may observed that, till now, we've been only controlling access to specific attributes of our objects, but what if we really want to lock them up?
 
-## Meet preventExtensions()
+## Meet <span class="small_code">preventExtensions()</span>
 
 <span class="small_code">Object.preventExtensions()</span> does exactly what its name suggests: it locks an object so it becomes impossible to add new properties to it:
 
@@ -104,7 +104,7 @@ Object.isExtensible(user); // false
 {% endhighlight %}
 
 
-## Meet seal()
+## Meet <span class="small_code">seal()</span>
 
 You may want to create a class, an object and prevent any deletion and/or addition of properties, there is the static <span class="small_code">seal()</span> for that:
 
@@ -136,7 +136,7 @@ prius.seats // undefined
 
 You may have already observed that all unsuccessful assignments fail silently. No JS exception is thrown at you. In the sealing case, you can use <span class="small_code">Object.isSealed()</span> to find out if the object is sealed.
 
-## Meet freeze()
+## Meet <span class="small_code">freeze()</span>
 
 Finally, you can also lock the object entirely, preventing any further change to it, using <span class="small_code">Object.freeze()</span> and <span class="small_code">Object.isFrozen()</span> for checking if an object is frozen.
 
