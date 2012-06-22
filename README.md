@@ -61,4 +61,3 @@ Copyright © 2011-2012 Rodrigo Alves Vieira. All Rights Reserved.
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Pygments]: http://pygments.org/
-
