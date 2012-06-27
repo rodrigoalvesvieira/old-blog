@@ -289,6 +289,10 @@ article img {
   margin-top: -10px;
 }
 
+#intro img {
+  max-width: 480px;
+}
+
 img#left_picture{
   margin: 8px 25px 25px 25px;
   float:left;
