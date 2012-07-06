@@ -43,6 +43,12 @@
   <changefreq>daily</changefreq>
 </url>
 <url>
+  <loc>http://www.rodrigoalvesvieira.com/thanks</loc>
+  <priority>0.5000</priority>
+  <lastmod>2012-06-09T06:13:00+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
   <loc>http://www.rodrigoalvesvieira.com/company-engage-open-source/</loc>
   <lastmod>2012-06-09T06:13:00+00:00</lastmod>
   <changefreq>weekly</changefreq>
