@@ -2,7 +2,7 @@
 
 **www.rodrigoalvesvieira.com**
 
-Writings on Software Engineering, Team Management, Startups, Entrepreneurship, Technology & Culture.
+Writings on Software, Team Management, Startups, Entrepreneurship, Technology & Culture.
 
 Since July 7, 2011.
 
