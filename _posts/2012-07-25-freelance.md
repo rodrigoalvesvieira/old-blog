@@ -15,7 +15,7 @@ All this process of going to work and coming back is very stressful and I want t
 
 ## College
 
-In a few months I'll be starting my Computer Science classes at CIn <a href="#foot-link-1">[1] and - from now on - I'm reservating some time daily to prepate myself to it. I want to know very well at least basic stuff I'll face in the first disciplines.
+In a few months I'll be starting my Computer Science classes at CIn <a href="#foot-link-1">[1]</a> and - from now on - I'm reservating some time daily to prepate myself to it. I want to know very well at least basic stuff I'll face in the first disciplines.
 
 When I joined the last company I thought I could work there and study in the same day, but then I realized that this wouldn't be possible. I can **either** work full time **or** study plainly.
 
