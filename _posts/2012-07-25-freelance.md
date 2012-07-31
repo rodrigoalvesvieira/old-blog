@@ -3,6 +3,8 @@ layout: post
 title: Going Freelance
 ---
 
+[![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
+
 <span class="drops">I</span>'m going to work as a freelancer programmer now, I took this decision about a month ago and rapidly asked my boss to dismiss me, here I separate what caused me the decision in sections:
 
 ## Time & Stress
