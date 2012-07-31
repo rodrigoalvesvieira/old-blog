@@ -3,8 +3,6 @@ layout: post
 title: Going Freelance
 ---
 
-[![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
-
 <span class="drops">I</span>'m going to work as a freelancer programmer now, I took this decision about a month ago and rapidly asked my boss to dismiss me, here I separate what caused me the decision in sections:
 
 ## Time & Stress
@@ -26,6 +24,10 @@ When I joined the last company I thought I could work there and study in the sam
 I'll also have more time to focus on personal projects, including open source ones and other projects that may - eventually - become a product and earn me money. And more time to read my books, too.
 
 After all, I'll ocasionally be able to take a day off and enjoy my time better.
+
+[![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
+
+My home office.
 
 <p class="foot-link" id="foot-link-1">[1]: [Informatics Center], Federal University of Pernambuco.</p>
 
