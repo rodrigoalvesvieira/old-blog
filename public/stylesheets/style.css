@@ -331,6 +331,8 @@ blockquote .quote_author {
 
 .product_item p:last-child {
 	background: #FF9;
+	margin-top: -10px;
+	width: 260px;
 }
 
 cite{color:#999;}
