@@ -320,6 +320,19 @@ blockquote .quote_author {
   float: right;
 }
 
+.product_item {
+	width: 500px;
+}
+
+.product_item h3 {
+	margin-bottom: -8px;
+	font-weight: bold;
+}
+
+.product_item p:last-child {
+	background: #FF9;
+}
+
 cite{color:#999;}
 
 small{font-size:12px;color: #999;}
