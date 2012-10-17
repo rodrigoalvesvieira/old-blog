@@ -25,9 +25,10 @@ I'll also have more time to focus on personal projects, including open source on
 
 After all, I'll ocasionally be able to take a day off and enjoy my time better.
 
-[![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
-
-My home office.
+<figure>
+  [![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
+  <figcaption>My home office</figcaption>
+</figure>
 
 <p class="foot-link" id="foot-link-1">[1]: [Informatics Center], Federal University of Pernambuco.</p>
 
