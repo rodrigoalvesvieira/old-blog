@@ -1,6 +1,6 @@
 ---
 layout: post_no_comments
-title: Leverage your Ruby code with OpenStruct
+title: OpenStruct for rapid object prototyping in Ruby
 ---
 
 <span class="drops">W</span>hat if we can quickly build custom data structures and prototype them with no effort? Ruby's <span class="small_code">OpenStruct</span> class is here to help.
