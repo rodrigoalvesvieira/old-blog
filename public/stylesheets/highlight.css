@@ -1,6 +1,8 @@
 .highlight {
   margin: 0 0 0 18px;
-  width: 510px;
+  border: none;
+  border-left: 1px solid #222;
+  width: 800px;
 }
 
 .highlight{

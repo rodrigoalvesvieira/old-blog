@@ -36,19 +36,17 @@ class CitiesController < ApplicationController
     @city = City.find params[:id]
     t = Time.now.strftime("%d-%m-%Y")
     
-    file = @city.reports.to_xls(
-      columns: 
-        [:created_at, :author, :subject, :urgent, :text],
-      headers: 
-        ["Date", "Author Info", "Subject", "Urgent?", "Text"]
-    )
+    document_columns = [:created_at, :author, :subject, :urgent, :text]
+    document_headers = ["Date", "Author Info", "Subject", "Urgent?", "Text"]
+    
+    file = @city.reports.to_xls(columns: document_columns, headers: document_headers)
     
     respond_to do |format|
       format.html
-      format.xls { 
+      format.xls do
         send_data file,
         filename: "#{@city.name}-reports-#{t}.xls"
-      }
+      end
     end
   end
 

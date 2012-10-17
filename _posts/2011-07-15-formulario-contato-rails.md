@@ -53,11 +53,10 @@ class PagesController < ApplicationController
     if ContactMailer.send_email(user_info).deliver
       flash[:notice] = "Mensagem enviada."
     else
-      flash[:notice] = "Oops. Houve algum problema, sua mensagem não pôde ser enviada."
+      flash[:notice] = "Oops. Sua mensagem não pôde ser enviada."
     end
     redirect_to contact_url
   end
-
 end
 
 {% endhighlight %}
@@ -146,4 +145,3 @@ Read [this article in English].
 [sendmail]: http://www.sendmail.com/sm/open_source/
 [outros parâmetros]: http://api.rubyonrails.org/classes/ActionMailer/Base.html
 [this article in English]: /creating-contact-form-rails-3
-
