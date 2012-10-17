@@ -27,8 +27,9 @@ After all, I'll ocasionally be able to take a day off and enjoy my time better.
 
 <figure>
   [![My home office](/public/images/home-office.jpeg)](http://coderwall.com/p/1ebydw/)
-  <figcaption>My home office</figcaption>
 </figure>
+
+<span class="image_caption">My home office</span>
 
 <p class="foot-link" id="foot-link-1">[1]: [Informatics Center], Federal University of Pernambuco.</p>
 
