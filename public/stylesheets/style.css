@@ -230,9 +230,7 @@ h1 a:hover{color:#222;}
 }
 
 .image_caption {
-  margin: -2px 0 20px 0;
-  font-style: italic;
-  float:right;
+  display:none;
 }
 
 header a {
@@ -293,6 +291,12 @@ article img {
   margin-left: auto;
   margin-right: auto;
   margin-top: -10px;
+}
+
+article .image_caption {
+  margin: -2px 0 20px 0;
+  font-style: italic;
+  float:right;
 }
 
 #intro img {
