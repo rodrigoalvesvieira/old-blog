@@ -13,6 +13,8 @@ car = OpenStruct.new brand: "Ford", model: "Phusion", year: 2013, owner_id: 1
 
 {% endhighlight %}
 
+The [Ruby Quicktips] blog has another good example on how we can use it.
+
 <figure>
   ![Abandoned train](/public/images/abandoned_train.jpeg "Abandoned train")
 </figure>
@@ -27,4 +29,5 @@ More bad news about it is that it is not as extensible as <span class="small_cod
 
 <span class="small_code">OpenStruct</span> is Ruby's metaprogramming magic all across the pond.
 
+[Ruby Quicktips]: http://rubyquicktips.com/post/1718141794/use-openstruct-for-application-configuration-variables
 [demonstrably slower]: http://stackoverflow.com/questions/1177594/ruby-struct-vs-openstruct
