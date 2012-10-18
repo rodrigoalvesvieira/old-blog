@@ -13,7 +13,9 @@ car = OpenStruct.new brand: "Ford", model: "Phusion", year: 2013, owner_id: 1
 
 {% endhighlight %}
 
-The [Ruby Quicktips] blog has another good example on how we can use it.
+The [Ruby Quicktips] blog has another good example on how we can use it for app configuration variables.
+
+Jake Scruggs [has also] made a point about using <span class="small_code">OpenStruct</span> for mocking.
 
 <figure>
   ![Abandoned train](/public/images/abandoned_train.jpeg "Abandoned train")
@@ -29,5 +31,6 @@ More bad news about it is that it is not as extensible as <span class="small_cod
 
 <span class="small_code">OpenStruct</span> is Ruby's metaprogramming magic all across the pond.
 
+[has also]: http://jakescruggs.blogspot.com.br/2007/03/using-openstruct-to-enhance-your-mocks.html
 [Ruby Quicktips]: http://rubyquicktips.com/post/1718141794/use-openstruct-for-application-configuration-variables
 [demonstrably slower]: http://stackoverflow.com/questions/1177594/ruby-struct-vs-openstruct
