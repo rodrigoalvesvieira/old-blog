@@ -135,7 +135,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: #2F6F20;
+  color: #2F6F20 !important;
 }
 
 nav {
