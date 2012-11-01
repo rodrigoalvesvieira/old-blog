@@ -129,6 +129,15 @@ article h2 a:hover;{background: none; text-decoration:underline;}
 
 /* Navigation */
 
+nav ul li {
+  padding-right: 13px;
+  display: inline-block;
+}
+
+nav {
+  margin: -20px 0 90px 120px;
+}
+
 /*nav {
   display:none;
   position: fixed;
