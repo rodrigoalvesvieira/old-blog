@@ -7,7 +7,7 @@ title: Web Inspector and Firebug element selection trick
 
 Normally what you'd do is record the element's class name or id and use jQuery (let's assume you're using jQuery for brevity's sake) to select it, like this:
 
-{% highlight sh %}
+{% highlight javascript %}
 
 $(".github-logo-4x-hover")
 
@@ -27,6 +27,14 @@ Now it can be accessed via the Console through the <span class="small_code">$0</
 
 <span class="small_code">$0</span> exactly corresponds the last selected element. <span class="small_code">$1</span>, <span class="small_code">$2</span>, <span class="small_code">$3</span> and <span class="small_code">$4</span> correspond to the other previously selected elements in reverse other.
 
+jQuery, for example, can deal with these variables just well:
+
+{% highlight javascript %}
+
+$($0).click(function () {
+    alert("You clicked it!");
+});
+
+{% endhighlight %}
+
 This is a simple trick, but can really help us during our day-to-day software craftsmanship.
-
-
