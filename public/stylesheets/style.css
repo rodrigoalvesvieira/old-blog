@@ -84,6 +84,10 @@ h4 {
   color: #2f6f20;
 }
 
+#logo a:hover {
+  text-decoration: none;
+}
+
 article h1, .home a, .home a:hover {
   margin: 0 auto;
   font-family: Helvetica;
@@ -207,6 +211,10 @@ ul li p {
 }
 
 ul li{font-size:18px;}
+
+#articles_listing {
+  margin-left: 40px;
+}
 
 #articles_listing li {
   line-height: 27px;
