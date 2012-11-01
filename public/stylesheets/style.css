@@ -134,6 +134,10 @@ nav ul li {
   display: inline-block;
 }
 
+nav ul li:hover {
+  color: #2F6F20;
+}
+
 nav {
   margin: -20px 0 90px 120px;
 }
