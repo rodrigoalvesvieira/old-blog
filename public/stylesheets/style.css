@@ -98,9 +98,14 @@ article h1, .home a, .home a:hover {
   color: #222;
 }
 
-article h1 a { color: #222;}
+article h1 a {
+  color: #222;
+}
 
-#post h1{margin-left:-20px;}
+#post h1 {
+  width: 700px;
+  margin-left: -20px;
+}
 
 /* Sections */
 
