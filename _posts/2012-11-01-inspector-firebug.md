@@ -25,7 +25,7 @@ Now it can be accessed via the Console through the <span class="small_code">$0</
 
 [![Fetching the last selected element on the Web Inspector](/public/images/element_selection1.png "Fetching the last selected element on the Web Inspector")](http://www.rodrigoalvesvieira.com/public/images/element_selection1.png)
 
-<span class="small_code">$0</span> exactly corresponds the last selected element. <span class="small_code">$1</span>, <span class="small_code">$2</span>, <span class="small_code">$3</span> and <span class="small_code">$4</span> correspond to the other previously selected elements in reverse other.
+<span class="small_code">$0</span> exactly corresponds the last selected element. <span class="small_code">$1</span>, <span class="small_code">$2</span>, <span class="small_code">$3</span> and <span class="small_code">$4</span> correspond to the other previously selected elements in reverse order.
 
 jQuery, for example, can deal with these variables just well:
 
