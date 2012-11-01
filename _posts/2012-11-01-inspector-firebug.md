@@ -9,7 +9,7 @@ Normally what you'd do is record the element's class name or id and use jQuery (
 
 {% highlight javascript %}
 
-$(".github-logo-4x-hover")
+$(".github-logo-4x-hover");
 
 {% endhighlight %}
 
@@ -32,7 +32,7 @@ jQuery, for example, can deal with these variables just well:
 {% highlight javascript %}
 
 $($0).click(function () {
-    alert("You clicked it!");
+    alert("You have clicked it!");
 });
 
 {% endhighlight %}
