@@ -85,7 +85,8 @@ h4 {
 }
 
 #logo a:hover {
-  text-decoration: none;
+  text-decoration: none !important;
+  border-bottom: none;
 }
 
 article h1, .home a, .home a:hover {
@@ -331,6 +332,10 @@ article .image_caption {
 img#left_picture{
   margin: 8px 25px 25px 25px;
   float:left;
+}
+
+article ul {
+  margin-left: 40px;
 }
 
 /* Quotes */
