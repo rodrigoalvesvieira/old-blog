@@ -19,11 +19,11 @@ See the example:
 
 Here I select the element:
 
-![Selecting an element on the Web Inspector](/public/images/element_selection.png "Selecting an element on the Web Inspector")
+[![Selecting an element on the Web Inspector](/public/images/element_selection.png "Selecting an element on the Web Inspector")](http://www.rodrigoalvesvieira.com/public/images/element_selection.png)
 
 Now it can be accessed via the Console through the <span class="small_code">$0</span> variable:
 
-![Fetching the last selected element on the Web Inspector](/public/images/element_selection1.png "Fetching the last selected element on the Web Inspector")
+[![Fetching the last selected element on the Web Inspector](/public/images/element_selection1.png "Fetching the last selected element on the Web Inspector")](http://www.rodrigoalvesvieira.com/public/images/element_selection1.png)
 
 <span class="small_code">$0</span> exactly corresponds the last selected element. <span class="small_code">$1</span>, <span class="small_code">$2</span>, <span class="small_code">$3</span> and <span class="small_code">$4</span> correspond to the other previously selected elements in reverse other.
 
