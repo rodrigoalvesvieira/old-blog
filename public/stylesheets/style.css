@@ -218,6 +218,7 @@ ul li p {
 }
 
 #articles_listing {
+  width: 700px;
   margin-left: 40px;
 }
 
