@@ -9,6 +9,7 @@ title: The Most Beautiful Ruby Factorial Method
 
 
 def factorial(n)
+  return 1 if n.zero?
   1.upto(n).inject(:*)
 end
 
