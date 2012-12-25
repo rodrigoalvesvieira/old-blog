@@ -1,4 +1,4 @@
-// Copyright 2011-2012 Rodrigo Alves Vieira
+// Copyright 2011-2013 Rodrigo Alves Vieira
 
 require(["zepto.min"], function (util) {
 });
