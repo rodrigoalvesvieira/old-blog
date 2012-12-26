@@ -49,7 +49,7 @@ Default scope
 
 Scopes are handy stuff in Rails models, Rails 3.1 brings a new addition related to them named <span class="small_code">default_scope</span>, which - as you may have guessed - lets you define a scope and set it as default (thus returning the scoped items when calling <span class="small_code">User.all</span>, instead of all actual items).
 
-Let me demonstrate: 
+Let me demonstrate:
 
 {% highlight ruby %}
 
@@ -105,11 +105,10 @@ end
 
 {% endhighlight %}
 
-There seem to have been the greatest changes in ActiveRecord 3.1 until now, be aware that more stuff may come before the final release, planned for the end of this month. 
+There seem to have been the greatest changes in ActiveRecord 3.1 until now, be aware that more stuff may come before the final release, planned for the end of this month.
 
-Anyway, I''ll update this post if I find more news. [Follow me on Twitter] and [subscribe to the blog's feed] to get them, freshly.
+Anyway, I''ll update this post if I find more news.
 
 [ActiveRecord Query Interface by Patrik Naik]: http://m.onkey.org/active-record-query-interface
 [post on the general changes]: /inside-rails-31-generals
-[Follow me on Twitter]: http://twitter.com/#!/rdrgov
 [subscribe to the blog's feed]: http://www.rodrigoalvesvieira.com/atom.xml

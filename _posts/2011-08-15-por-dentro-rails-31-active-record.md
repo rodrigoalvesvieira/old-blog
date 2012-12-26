@@ -3,7 +3,7 @@ layout: post
 title: Por Dentro do Rails 3.1 - ActiveRecord
 ---
 
-<span class="drops">H</span>á duas semanas comecei uma série de posts explicando as novidades no Ruby on Rails com [um post sobre mudanças gerais]. Nesse novo post estarei mergulhando no que há de novo com o ActiveRecord 3.1.  
+<span class="drops">H</span>á duas semanas comecei uma série de posts explicando as novidades no Ruby on Rails com [um post sobre mudanças gerais]. Nesse novo post estarei mergulhando no que há de novo com o ActiveRecord 3.1.
 
 Pluralizacão de nome do Model
 -----------------------------
@@ -34,7 +34,7 @@ update_collumn
 --------------
 
 
-Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a tabela da classe onde ele é chamado) e o valor a ser salvo. 
+Esse novo método toma dois argumentos: o primeiro o nome do campo (referente a tabela da classe onde ele é chamado) e o valor a ser salvo.
 
 {% highlight ruby %}
 
@@ -48,7 +48,7 @@ Importante: esse método ignora todos os callbacks, incluindo validacões. Tome 
 Default scope
 -------------
 
-Escopos (<span class="small_code">scope</span>) são uma mão na roda para o programador no Rails, a versão 3.1 traz* uma funcionalidade chamada <span class="small_code">default_scope</span>, demonstrada a seguir: 
+Escopos (<span class="small_code">scope</span>) são uma mão na roda para o programador no Rails, a versão 3.1 traz* uma funcionalidade chamada <span class="small_code">default_scope</span>, demonstrada a seguir:
 
 {% highlight ruby %}
 
@@ -104,10 +104,8 @@ end
 
 {% endhighlight %}
 
-Essas parecem ter sido as maiores mudanças no ActiveRecord 3.1 até agora, sabendo que mais coisas podem vir até a final release, pensada pro final desse mês de Agosto. 
+Essas parecem ter sido as maiores mudanças no ActiveRecord 3.1 até agora, sabendo que mais coisas podem vir até a final release, pensada pro final desse mês de Agosto.
 
-De qualquer forma, atualizarei esse post se descobrir mais algo importante. [Me siga no Twitter] e assine o [feed do blog] para ficar por dentro.
 
 [um post sobre mudanças gerais]: /por-dentro-rails-31-gerais/
-[Me siga no Twitter]: http://twitter.com/#!/rdrgov
 [feed do blog]: http://www.rodrigoalvesvieira.com/atom.xml
