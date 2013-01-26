@@ -332,6 +332,7 @@ article .image_caption {
 }
 
 #about img {
+  text-align: none;
   float: left;
   margin-left: 20px;
 }
