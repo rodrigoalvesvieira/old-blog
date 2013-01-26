@@ -332,18 +332,13 @@ article .image_caption {
 }
 
 #about img {
-  text-align: none;
   float: left;
-  margin-left: 20px;
-}
-
-#intro img {
-  max-width: 160px;
-  float: left;
+  margin-left: 0 0 -20px 20px;
 }
 
 p#indroduction {
-  margin: -90px 21px 22px 191px;
+  margin: -130px 21px 22px 191px;
+  display: inline-block;
 }
 
 img#left_picture{
