@@ -332,7 +332,8 @@ article .image_caption {
 }
 
 #intro img {
-  max-width: 480px;
+  max-width: 160px;
+  float: left;
 }
 
 img#left_picture{
