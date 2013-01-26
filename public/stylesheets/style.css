@@ -337,10 +337,8 @@ article .image_caption {
 }
 
 p#indroduction {
-  margin: -130px 21px 22px 191px;
-display: inline-block;
-
-  margin: -90px 21px 22px 191px;
+  display: inline-block;
+  margin: -90px 21px 8px 191px;
 }
 
 img#left_picture{
