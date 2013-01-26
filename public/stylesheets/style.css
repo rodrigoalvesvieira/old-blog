@@ -333,12 +333,7 @@ article .image_caption {
 
 #about img {
   float: left;
-  margin-left: 0 0 -20px 20px;
-}
-
-#intro img {
-  max-width: 160px;
-  float: left;
+  margin: 0 0 -20px 20px;
 }
 
 p#indroduction {
