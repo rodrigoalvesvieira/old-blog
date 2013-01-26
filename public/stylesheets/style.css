@@ -331,13 +331,18 @@ article .image_caption {
   float:right;
 }
 
+#about img {
+  float: left;
+  margin-left: 20px;
+}
+
 #intro img {
   max-width: 160px;
   float: left;
 }
 
 p#indroduction {
-  margin: 21px 21px 18px 41px;
+  margin: -90px 21px 22px 191px;
 }
 
 img#left_picture{
