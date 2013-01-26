@@ -336,9 +336,16 @@ article .image_caption {
   margin-left: 0 0 -20px 20px;
 }
 
+#intro img {
+  max-width: 160px;
+  float: left;
+}
+
 p#indroduction {
   margin: -130px 21px 22px 191px;
-  display: inline-block;
+display: inline-block;
+
+  margin: -90px 21px 22px 191px;
 }
 
 img#left_picture{
