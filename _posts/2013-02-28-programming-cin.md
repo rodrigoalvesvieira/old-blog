@@ -50,4 +50,4 @@ So, what do you think of the approach at CIn/UFPE? How do they teach programming
 You can [join the discussion] on Hacker News.
 
 [CIn/UFPE]: http://www2.cin.ufpe.br/site/index.php
-[join the discussion]:
+[join the discussion]: http://news.ycombinator.com/item?id=5302042
