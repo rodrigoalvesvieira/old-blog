@@ -13,7 +13,7 @@ title: How Computer Programming is taught at CIn/UFPE
 
 First, the program is composed by exams, exercise lists and finally, a project.
 
-The program is pretty intensive for they assume the alum  ni have no previous experience in programming (which is a great assumption to make, of course).
+The program is pretty intensive for they assume the alumni have no previous experience in programming (which is a great assumption to make, of course).
 
 They give preference to the Object Oriented paradigm and use Java. For me, there is no inherent problem here. I think it's preferable to teach programming with OO first (if you have to choose the paradigm) and I don't think Java is a bad choice (well, not anymore).
 
@@ -47,4 +47,7 @@ I think the approach at CIn is fairly reasonable except for the written exams. A
 
 So, what do you think of the approach at CIn/UFPE? How do they teach programming at your University?
 
+You can [join the discussion] on Hacker News.
+
 [CIn/UFPE]: http://www2.cin.ufpe.br/site/index.php
+[join the discussion]:
