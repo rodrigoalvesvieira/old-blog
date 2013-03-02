@@ -36,16 +36,12 @@ You may have noticed - and wondered why - that I define the range list using <sp
 </div>
 
 <div class="math">
-  |x| =
 
-  \left\{
-          \begin{array}{ll}
-                  n & \mbox{if } n \geq 0 \\
+  n! =  \begin{array}{ll}
+            n & \mbox{if } n \geq 0 \\
 
-                  (n-1)! & \mbox{if } n > 0
-          \end{array}
-  \right.
-
+            (n-1)! & \mbox{if } n > 0
+        \end{array}
 </div>
 
 [1]
