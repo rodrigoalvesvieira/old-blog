@@ -40,19 +40,12 @@ You may have noticed - and wondered why - that I define the range list using <sp
 
   \left\{
           \begin{array}{ll}
-                  x & \mbox{if } x \geq 0 \\
-                  -x & \mbox{if } x < 0
+                  n & \mbox{if } n \geq 0 \\
+
+                  (n-1)! & \mbox{if } n > 0
           \end{array}
   \right.
 
-</div>
-
-<div class="math">
-  \ begin { equation *}
-
-  $\fx[f]{x} = x * fx[f]{x-1}$
-
-  \ end { equation *}
 </div>
 
 [1]
