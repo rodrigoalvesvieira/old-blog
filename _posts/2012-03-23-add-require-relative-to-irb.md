@@ -24,7 +24,7 @@ So, I needed this an implemented this method and added it to the <span class="sm
 
 module Kernel
   def require_relative(file)
-    $:.push Dir.pwd
+    $:.unshift Dir.pwd
     require file
   end  
 end
