@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Add require_relative to IRB
+title: Adding require_relative to IRB
 ---
 
 <span class="drops">R</span>uby 1.9 brought <span class="small_code">require_relative</span> to the rubyists' life and it's a nice thing. If you like it, you probably would like to use it in the interactive console.
