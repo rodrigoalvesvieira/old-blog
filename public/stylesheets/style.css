@@ -400,6 +400,10 @@ blockquote .quote_author {
 	font-weight: bold;
 }
 
+.product_item span {
+  font-style: italic;
+}
+
 .product_item p:last-child {
 	background: #FF9;
 	margin-top: -10px;
