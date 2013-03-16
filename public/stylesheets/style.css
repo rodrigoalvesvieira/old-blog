@@ -396,6 +396,7 @@ blockquote .quote_author {
 }
 
 .product_item h3 {
+  margin-bottom: 0px !important;
 	font-weight: bold;
 }
 
