@@ -237,8 +237,8 @@ ol {
 /* Tables */
 
 table {
-  margin: 21px 21px 18px 21px;
-  font-size: 18px;
+  margin: 21px 21px 18px 50px;
+  font-size: 14px;
 }
 
 table td {
