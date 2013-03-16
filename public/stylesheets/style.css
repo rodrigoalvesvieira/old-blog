@@ -237,8 +237,16 @@ ol {
 /* Tables */
 
 table {
-  margin: 21px 21px 18px 50px;
+  /*margin: 21px 21px 18px 50px;*/
   font-size: 16px;
+}
+
+table thead {
+    margin: 21px 21px 18px 31px;
+}
+
+table tbody {
+    margin: 21px 21px 18px 50px;
 }
 
 table td {
