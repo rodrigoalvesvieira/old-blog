@@ -9,7 +9,10 @@ title: OpenStruct for rapid object prototyping in Ruby
 
 require "ostruct"
 
-car = OpenStruct.new brand: "Ford", model: "Phusion", year: 2013, owner_id: 1
+car = OpenStruct.new(
+        brand: "Ford", model: "Phusion",
+        year: 2013, owner_id: 1
+      )
 
 {% endhighlight %}
 
