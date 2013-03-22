@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Inside Rails 3.1 ActiveRecord
 ---
 
