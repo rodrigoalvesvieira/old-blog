@@ -46,9 +46,9 @@ You can specify the access to the object's attributes individually, using the st
 
 {% highlight javascript %}
 
-/* Disabling updates to the ``username``
-   property of the ``user`` object
-*/
+// Disabling updates to the username
+// property of the user object
+
 Object.defineProperty(user,
     "username", {writable: false}
 )
