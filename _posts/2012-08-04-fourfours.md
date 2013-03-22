@@ -3,9 +3,9 @@ layout: post
 title: The Four Fours in Ruby
 ---
 
-<span class="drops">W</span>hen I was 10, I won a gift from my godfather that was a collection of mathematical puzzles and curiosities by Malba Tahan <a href="#foot-link-1">[1]</a>, a brazillian Math professor who spent part os his life trying to demonstrate to kids that Math is not hard and is as fundamental for humans as the ability to talk.
+<span class="drops">W</span>hen I was 10, I won a gift from my godfather that was a collection of mathematical puzzles and curiosities by Malba Tahan <a href="#foot-link-1">[1]</a>, a brazillian professor who spent part os his life trying to demonstrate to kids that Math is not hard and is as fundamental for humans as the ability to talk.
 
-In the collection there was this puzzle called The Four Fours, in which the author explained that any number from 0 to 100 can be represented by four 4 numerals combined together, through many different operations.
+In the collection there was this puzzle called The Four Fours, in which the author explained that any number from 0 to 100 can be represented by four 4 numerals combined together, through many different operations like factorials and square roots.
 
 Having nothing more urgent to do, I decided to write them down, in Ruby code:
 
@@ -25,13 +25,13 @@ puts 4-4+4-4}
 puts 44/44
 puts 4/4 + 4/4
 puts (4 + 4 + 4)/4
-puts "4  - #{(4-4)/4 + 4}"
-puts "5  - #{(4*4+4)/4}"
-puts "6  - #{4 + (4+4)/4}"
-puts "7  - #{4-4/4 + 4}"
-puts "8  - #{(4+4)/4 * 4}"
-puts "9  - #{4 + 4 + (4/4)}"
-puts "10 - #{(44-4)/4}"
+puts (4-4)/4 + 4
+puts (4*4+4)/4}
+puts 4 + (4+4)/4
+puts 4-4/4 + 4
+puts (4+4)/4 * 4
+puts 4 + 4 + (4/4)
+puts "10 - #{(44-4)/4
 puts "11 - #{(Math.log2(4+4) + 4 + 4).to_i}"
 puts "12 - #{(44+4)/4}"
 puts "13 - #{(Math.fac(4)) - 44/4}"
@@ -54,8 +54,8 @@ puts "29 - #{Math.fac(4) + 4 + 4/4}"
 puts "30 - #{(Math.fac(4) + Math.sqrt(4) + Math.sqrt(4) + Math.sqrt(4)).to_i}"
 puts "31 - #{(Math.fac(4) + 4)/4 + Math.fac(4)}"
 puts "32 - #{4 * 4 + 4 * 4}"
-puts "33 - "
-puts "34 - #{(4 * 4 * Math.sqrt(4) + Math.sqrt(4)).to_i}"
+puts 33
+puts (4 * 4 * Math.sqrt(4) + Math.sqrt(4)).to_i
 puts "35 - #{Math.fac(4)+44/4}"
 puts "36 - #{Math.fac(4) + 4 *Math.sqrt(4).to_i + 4}"
 puts "37 - #{Math.fac(4) + ((Math.fac(4) + Math.sqrt(4))/Math.sqrt(4)).to_i} "
@@ -81,7 +81,7 @@ puts "56 - #{(Math.fac(4) + Math.fac(4) + Math.sqrt(4)*4).to_i}"
 puts "57 - #{Math.exp(4).to_i + 4 - (4/4)}"
 puts "58 - #{Math.exp(4).to_i + 4+4-4}"
 puts "59 - "
-puts "60 - #{4*4*4 - 4}"
+puts 4*4*4 - 4
 puts "61 - "
 puts "62 - "
 puts "63 - "
@@ -89,13 +89,13 @@ puts "64 - "
 puts "65 - "
 puts "66 - #{Math.exp(4).to_i + 4+4+4}"
 puts "67 - #{Math.exp(4+4).to_i / 44}"
-puts "68 - #{4*4*4 + 4}"
+puts 4*4*4 + 4
 puts "69 - "
-puts "70 - #{(Math.fac(4) + Math.fac(4) + Math.fac(4) - Math.sqrt(4)).to_i}"
+puts (Math.fac(4) + Math.fac(4) + Math.fac(4) - Math.sqrt(4)).to_i
 puts "71 - "
 puts "72 - "
 puts "73 - "
-puts "74 - #{(Math.fac(4) + Math.fac(4) + Math.fac(4) + Math.sqrt(4)).to_i}"
+puts (Math.fac(4) + Math.fac(4) + Math.fac(4) + Math.sqrt(4)).to_i
 puts "75 - "
 puts "76 - "
 puts "77 - "
@@ -109,19 +109,19 @@ puts "84 - "
 puts "85 - "
 puts "86 - "
 puts "87 - "
-puts "88 - #{44 + 44}"
+puts 44 + 44
 puts "89 - "
 puts "90 - "
 puts "91 - "
-puts "92 - #{44 + Math.fac(4) + Math.fac(4)}"
+puts Math.fac(4) + Math.fac(4)
 puts "93 - "
-puts "94 - #{Math.log2(4.4 ** 44).floor}"
-puts "95 - #{Math.fac(4) * 4 - 4/4 }"
-puts "96 - #{Math.fac(4) * 4 + (4-4)}"
-puts "97 - #{Math.fac(4) * 4 + 4/4 }"
+puts Math.log2(4.4 ** 44).floor
+puts Math.fac(4) * 4 - 4/4
+puts Math.fac(4) * 4 + (4-4)
+puts Math.fac(4) * 4 + 4/4
 puts "98 - "
-puts "99 - "
-puts "100 - #{Math.fac(4) * 4 + Math.sqrt(4).to_i * Math.sqrt(4).to_i}"
+puts 99
+puts Math.fac(4) * 4 + Math.sqrt(4).to_i * Math.sqrt(4).to_i
 
 {% endhighlight %}
 
