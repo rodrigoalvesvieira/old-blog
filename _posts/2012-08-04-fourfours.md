@@ -127,4 +127,4 @@ puts Math.fac(4) * 4 + Math.sqrt(4).to_i * Math.sqrt(4).to_i
 
 As you can see, my resolution is far from being complete, but I'll be pasting them here as soon as I solve them. I accept suggestions for new solutions or for making existing ones better.
 
-<p class="foot-link" id="foot-link-1">1 - <a title="Malba Tahan article on Wikipedia" href="http://en.wikipedia.org/wiki/Malba_Tahan">Malba Tahan</a>, Brazilian author and professor.</p>
+<p class="foot-link" id="foot-link-1">1: <a title="Malba Tahan article on Wikipedia" href="http://en.wikipedia.org/wiki/Malba_Tahan">Malba Tahan</a>, Brazilian author and professor.</p>
