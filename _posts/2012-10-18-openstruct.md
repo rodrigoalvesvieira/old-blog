@@ -28,12 +28,15 @@ Jake Scruggs [has also] made a point about using <span class="small_code">OpenSt
 
 I believe this class is more for rapid prototyping purposes. <span class="small_code">OpenStruct</span> is [demonstrably slower] than <span class="small_code">Struct</span> and probably not very reliable to go for production code.
 
-More bad news about it is that it is not as extensible as <span class="small_code">Struct</span>. There is no way for adding methods to it as it remains solely of the <span class="small_code">OpenStruct</span> class itself.
+More bad news about it is that it is not as extensible as <span class="small_code">Struct</span>. There is no way for adding methods to it as it relies solely of the <span class="small_code">OpenStruct</span> class itself.
 
 <span class="small_code">OpenStruct</span> is one of Ruby's proof of its own simplicity and dynamism. Hashes that behave like classes? That's definitely cool.
 
 <span class="small_code">OpenStruct</span> is Ruby's metaprogramming magic all across the pond.
 
+Have an opinion about this article? [Discuss on Hacker News].
+
 [has also]: http://jakescruggs.blogspot.com.br/2007/03/using-openstruct-to-enhance-your-mocks.html
 [Ruby Quicktips]: http://rubyquicktips.com/post/1718141794/use-openstruct-for-application-configuration-variables
 [demonstrably slower]: http://stackoverflow.com/questions/1177594/ruby-struct-vs-openstruct
+[Discuss on Hacker News]: https://news.ycombinator.com/item?id=5366968

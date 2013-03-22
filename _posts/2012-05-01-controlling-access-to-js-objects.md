@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Controlling access to your JavaScript Objects properties
 ---
 
@@ -46,9 +46,12 @@ You can specify the access to the object's attributes individually, using the st
 
 {% highlight javascript %}
 
+/* Disabling updates to the ``username``
+   property of the ``user`` object
+*/
 Object.defineProperty(user,
     "username", {writable: false}
-) // Object may not have the username attribute changed.
+)
 
 user.propertyIsEnumerable("username");
 
@@ -141,3 +144,7 @@ You may have already observed that all unsuccessful assignments fail silently. N
 Finally, you can also lock the object entirely, preventing any further change to it, using <span class="small_code">Object.freeze()</span> and <span class="small_code">Object.isFrozen()</span> for checking if an object is frozen.
 
 That's it for today, I hope this post was clear enough. I plan to go on writing about JavaScript. Leave your comments!
+
+[See the topic] for this article on Hacker News
+
+[See the topic]: https://news.ycombinator.com/item?id=4823884

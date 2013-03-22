@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Factorial function in Clojure
+layout: post_no_comments
+title: Non-recursive factorial function in Clojure
 ---
 
-<span class="drops">O</span>n later 2011 I wrote a small article [1] on what I think is the most beautiful implementation of a factorial method in Ruby. Recently, I did that in Clojure without recursion and the implementation also turned out to look very pretty to me. So here it goes:
+<span class="drops">O</span>n later 2011 I wrote a small article [1] on what I think is the most beautiful implementation of a factorial method in Ruby, in a non-recursive way. Recently, I did that in Clojure and the implementation also turned out to look very pretty to me. So here it is:
 
 {% highlight clojure %}
 
