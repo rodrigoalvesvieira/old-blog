@@ -31,55 +31,55 @@ puts 4 + (4+4)/4
 puts 4-4/4 + 4
 puts (4+4)/4 * 4
 puts 4 + 4 + (4/4)
-puts "10 - #{(44-4)/4
-puts "11 - #{(Math.log2(4+4) + 4 + 4).to_i}"
-puts "12 - #{(44+4)/4}"
-puts "13 - #{(Math.fac(4)) - 44/4}"
-puts "14 - #{(Math.fac(4)/4) + 4 + 4}"
-puts "15 - #{(44/4) + 4}"
-puts "16 - #{4*4 - (4-4)}"
-puts "17 - #{4*4 + 4/4}"
-puts "18 - #{4 * 4 + 4/Math.sqrt(4).to_i}"
-puts "19 - #{Math.fac(4) - 4 - 4/4}"
-puts "20 - #{4 * (4 + (4/4))}"
-puts "21 - #{Math.fac(4) - 4 + 4/4}"
-puts "22 - #{Math.fac(4) - (4+4)/4}"
-puts "23 - #{(Math.fac(4) * 4 - 4)/4}"
-puts "24 - #{4*4 - (-4-4)}"
-puts "25 - #{Math.sqrt(444).to_i + 4 }"
-puts "26 - #{Math.fac(4) + (4+4)/4}"
-puts "27 - #{Math.fac(4) + 4 - 4/4}"
-puts "28 - #{44 - 4*4}"
-puts "29 - #{Math.fac(4) + 4 + 4/4}"
-puts "30 - #{(Math.fac(4) + Math.sqrt(4) + Math.sqrt(4) + Math.sqrt(4)).to_i}"
-puts "31 - #{(Math.fac(4) + 4)/4 + Math.fac(4)}"
-puts "32 - #{4 * 4 + 4 * 4}"
+puts 10 - #{(44-4)/4
+puts (Math.log2(4+4) + 4 + 4).to_i
+puts (44+4)/4
+puts "13 - #{(Math.fac(4)) - 44/4
+puts "14 - #{(Math.fac(4)/4) + 4 + 4
+puts (44/4) + 4
+puts 4*4 - (4-4)
+puts 4*4 + 4/4
+puts 4 * 4 + 4/Math.sqrt(4).to_i
+puts Math.fac(4) - 4 - 4/4
+puts 4 * (4 + (4/4))
+puts Math.fac(4) - 4 + 4/4
+puts Math.fac(4) - (4+4)/4
+puts (Math.fac(4) * 4 - 4)/4
+puts 4*4 - (-4-4)
+puts Math.sqrt(444).to_i + 4
+puts Math.fac(4) + (4+4)/4
+puts Math.fac(4) + 4 - 4/4
+puts {44 - 4*4
+puts Math.fac(4) + 4 + 4/4
+puts (Math.fac(4) + Math.sqrt(4) + Math.sqrt(4) + Math.sqrt(4)).to_i
+puts (Math.fac(4) + 4)/4 + Math.fac(4)
+puts 4 * 4 + 4 * 4
 puts 33
 puts (4 * 4 * Math.sqrt(4) + Math.sqrt(4)).to_i
-puts "35 - #{Math.fac(4)+44/4}"
-puts "36 - #{Math.fac(4) + 4 *Math.sqrt(4).to_i + 4}"
-puts "37 - #{Math.fac(4) + ((Math.fac(4) + Math.sqrt(4))/Math.sqrt(4)).to_i} "
-puts "38 - #{44 - Math.fac(4)/4}"
+puts Math.fac(4)+44/4
+puts Math.fac(4) + 4 *Math.sqrt(4).to_i + 4
+puts Math.fac(4) + ((Math.fac(4) + Math.sqrt(4))/Math.sqrt(4)).to_i
+puts 44 - Math.fac(4)/4
 puts "39 - "
-puts "40 - #{Math.fac(4) - 4 + Math.fac(4) - 4}"
+puts Math.fac(4) - 4 + Math.fac(4) - 4
 puts "41 - "
-puts "42 - #{44 - 4 + Math.sqrt(4).to_i}"
-puts "43 - #{44 - (4/4)}"
-puts "44 - #{44 + 4 - 4}"
-puts "45 - #{44 + (4/4)}"
+puts 44 - 4 + Math.sqrt(4).to_i
+puts 44 - (4/4)
+puts 44 + 4 - 4
+puts 44 + (4/4)
 puts "46 - "
-puts "47 - #{Math.fac(4) + Math.fac(4) - (4/4)}"
-puts "48 - #{4 * (4+4+4)}"
-puts "49 - #{Math.fac(4) + Math.fac(4) + 4/4}"
-puts "50 - #{Math.exp(4).to_i + 4-4-4}"
-puts "51 - #{Math.exp(4).to_i + (4/4)- 4}"
-puts "52 - #{(Math.fac(4) + Math.fac(4) + Math.sqrt(4) + Math.sqrt(4)).to_i}"
+puts Math.fac(4) + Math.fac(4) - (4/4)
+puts 4 * (4+4+4)
+puts Math.fac(4) + Math.fac(4) + 4/4
+puts Math.exp(4).to_i + 4-4-4
+puts Math.exp(4).to_i + (4/4)- 4
+puts (Math.fac(4) + Math.fac(4) + Math.sqrt(4) + Math.sqrt(4)).to_i
 puts "53 - "
-puts "54 - #{Math.fac(4) + Math.fac(4) + 4 + Math.sqrt(4).to_i}"
-puts "55 - #{(Math.log(44, 4) ** 4).floor}"
-puts "56 - #{(Math.fac(4) + Math.fac(4) + Math.sqrt(4)*4).to_i}"
-puts "57 - #{Math.exp(4).to_i + 4 - (4/4)}"
-puts "58 - #{Math.exp(4).to_i + 4+4-4}"
+puts Math.fac(4) + Math.fac(4) + 4 + Math.sqrt(4).to_i
+puts (Math.log(44, 4) ** 4).floor
+puts (Math.fac(4) + Math.fac(4) + Math.sqrt(4)*4).to_i
+puts Math.exp(4).to_i + 4 - (4/4)
+puts Math.exp(4).to_i + 4+4-4
 puts "59 - "
 puts 4*4*4 - 4
 puts "61 - "
@@ -87,8 +87,8 @@ puts "62 - "
 puts "63 - "
 puts "64 - "
 puts "65 - "
-puts "66 - #{Math.exp(4).to_i + 4+4+4}"
-puts "67 - #{Math.exp(4+4).to_i / 44}"
+puts Math.exp(4).to_i + 4+4+4
+puts Math.exp(4+4).to_i / 44
 puts 4*4*4 + 4
 puts "69 - "
 puts (Math.fac(4) + Math.fac(4) + Math.fac(4) - Math.sqrt(4)).to_i
@@ -127,4 +127,4 @@ puts Math.fac(4) * 4 + Math.sqrt(4).to_i * Math.sqrt(4).to_i
 
 As you can see, my resolution is far from being complete, but I'll be pasting them here as soon as I solve them. I accept suggestions for new solutions or for making existing ones better.
 
-<p class="foot-link" id="foot-link-1">[<a title="Malba Tahan article on Wikipedia" href="http://en.wikipedia.org/wiki/Malba_Tahan">1</a>]: Malba Tahan, Brazilian author and math professor.</p>
+<p class="foot-link" id="foot-link-1">1 - <a title="Malba Tahan article on Wikipedia" href="http://en.wikipedia.org/wiki/Malba_Tahan">Malba Tahan</a>, Brazilian author and professor.</p>
