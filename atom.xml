@@ -3,13 +3,13 @@ layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Rodrigo Vieira</title>
+ <title>Rodrigo Alves Vieira</title>
  <link href="http://www.rodrigoalvesvieira.com/atom.xml" rel="self"/>
  <link href="http://www.rodrigoalvesvieira.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://www.rodrigoalvesvieira.com/</id>
  <author>
-   <name>Rodrigo Vieira</name>
+   <name>Rodrigo Alves Vieira</name>
    <email>rodrigovieira1994@gmail.com</email>
  </author>
  {% for post in site.posts limit:10 %}
@@ -20,7 +20,7 @@ layout: nil
    <id>http://www.rodrigoalvesvieira.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
    <author>
-     <name>Rodrigo Vieira</name>
+     <name>Rodrigo Alves Vieira</name>
      <uri>http://www.rodrigoalvesvieira.com/about</uri>
    </author>
  </entry>
