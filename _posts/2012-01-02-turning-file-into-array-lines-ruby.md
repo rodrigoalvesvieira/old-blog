@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Turning a File Into an Array of Lines in Ruby
 ---
 

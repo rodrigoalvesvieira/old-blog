@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Caching JavaScript Loops
 ---
 
@@ -11,24 +11,23 @@ Let's think of a scenario, in which we have a great many <span class="small_code
 
 {% highlight js %}
 
-var modelNames = [];
+var carNames = [],
+    carListings = document.getElementsByTagName("li");
 
-var modelListings = document.getElementsByTagName("li");
-
-for (var i=0; i < modelListings.length; i++) {
-  var listing = modelListings[i];
-  modelNames.push(listing.getAttribute("data-name"));
+for (var i=0; i < carListings.length; i++) {
+  var listing = carListings[i];
+  carNames.push(listing.getAttribute("data-name"));
 }
 
 {% endhighlight %}
 
-The problem with the approach in the algorithm above is that JavaScript will keep querying the <span class="small_code">modelListings</span> length while it is greater than <span class="small_code">i</span>. We can prevent that from happening by querying the <span class="small_code">modelListings</span> length only once and storing it in a variable so that this one variable would be queried by the running loop:
+The problem with the approach in the algorithm above is that JavaScript will keep querying the <span class="small_code">carListings</span> length while it is greater than <span class="small_code">i</span>. We can prevent that from happening by querying the <span class="small_code">carListings</span> length only once and storing it in a variable so that this one variable would be queried by the running loop:
 
 {% highlight js %}
 
-for (var i=0; size = modelListings.length; i < size; i++) {
-  var listing = modelListings[i];
-  modelNames.push(listing.getAttribute("data-name"));
+for (var i=0; size = carListings.length; i < size; i++) {
+  var listing = carListings[i];
+  carNames.push(listing.getAttribute("data-name"));
 }
 
 {% endhighlight %}
