@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Adding HTTP Basic Authentication in Rails 3
 ---
 
@@ -25,7 +25,7 @@ Now implement the actual code, fortunately, Rails itself already has a method ca
 class ApplicationController < ActionController::Base
   protect_from_forgery
   before_filter :require_http_basic_auth if Rails.env == "stage"
-  
+
   def require_http_basic_auth
     authenticate_or_request_with_http_basic do |login, password|
       if user = Admin.find_by_login(login)
@@ -35,7 +35,7 @@ class ApplicationController < ActionController::Base
       end
     end
   end
-  
+
   #...
 end
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Por dentro do Rails 3.1 - Novidades Gerais
 ---
 

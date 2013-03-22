@@ -3,7 +3,7 @@ layout: post
 title: The Four Fours in Ruby
 ---
 
-<span class="drops">W</span>hen I was 10, I won a gift from my godfather that was a collection of mathematical puzzles and curiosities by Malba Tahan <a href="#foot-link-1">[1]</a>, a brazillian Math professor who spent part os his life trying to demonstrate to kids that math is not hard and is as fundamental for humans as the ability to talk.
+<span class="drops">W</span>hen I was 10, I won a gift from my godfather that was a collection of mathematical puzzles and curiosities by Malba Tahan <a href="#foot-link-1">[1]</a>, a brazillian Math professor who spent part os his life trying to demonstrate to kids that Math is not hard and is as fundamental for humans as the ability to talk.
 
 In the collection there was this puzzle called The Four Fours, in which the author explained that any number from 0 to 100 can be represented by four 4 numerals combined together, through many different operations.
 
@@ -21,10 +21,10 @@ module Math
   end
 end
 
-puts "0  - #{4-4+4-4}"
-puts "1  - #{44/44}"
-puts "2  - #{4/4 + 4/4}"
-puts "3  - #{(4 + 4 + 4)/4}"
+puts 4-4+4-4}
+puts 44/44
+puts 4/4 + 4/4
+puts (4 + 4 + 4)/4
 puts "4  - #{(4-4)/4 + 4}"
 puts "5  - #{(4*4+4)/4}"
 puts "6  - #{4 + (4+4)/4}"

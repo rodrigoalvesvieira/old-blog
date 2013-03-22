@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Inside Rails 3.1 - General News
 ---
 
@@ -66,7 +66,7 @@ Somethings were deprecated in Rails 3.1 and you'll see warning messages while yo
 
 * Now it's definitive: _.rhtml_ templates (which hadn't been used since Rails 2.1) aren't accepted anymore.
 
-* For those who use Fixtures, the CSV format is gone. Well, not totally yet but it'll will totally removed from Rails 3.2 
+* For those who use Fixtures, the CSV format is gone. Well, not totally yet but it'll will totally removed from Rails 3.2
 
 * There is no more support for accessing attributes via <span class="small_code">has_and_belongs_to_many</span>, which has its use discouraged for a while. You should use <span class="small_code">has_many :through</span>, instead.
 

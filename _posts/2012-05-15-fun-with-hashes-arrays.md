@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Having fun with Ruby Arrays and Hashes
 ---
 
@@ -15,13 +15,14 @@ songs = %w(scar_tissue give_it_away cant_stop)
 
 albums = %w(californication blood_sugar by_the_way)
 
-songs.zip(albums) 
-# => [["scar_tissue", "californication"], ["give_it_away", "blood_sugar"],
+songs.zip(albums)
+# => [["scar_tissue", "californication"],
+# ["give_it_away", "blood_sugar"]
 # ["cant_stop", "by_the_way"]]
 
 {% endhighlight %}
 
-Amazing, eh? Way better than having to implement the algorithm yourself in your production code. 
+Amazing, eh? Way better than having to implement the algorithm yourself in your production code.
 
 Ruby <span class="small_code">Array#zip</span> takes any number of arguments (arrays), and zip them within the receiver object:
 
@@ -33,10 +34,10 @@ albums = %w(californication blood_sugar by_the_way)
 
 awards = %w(grammy echo billboard)
 
-albums.zip(songs, years, awards) 
+albums.zip(songs, years, awards)
 
-# => [["californication", "scar_tissue", 1999, "grammy"], 
-# ["blood_sugar", "give_it_away", 1991, "echo"], 
+# => [["californication", "scar_tissue", 1999, "grammy"],
+# ["blood_sugar", "give_it_away", 1991, "echo"],
 # ["by_the_way", "cant_stop", 2003, "billboard"]]
 
 {% endhighlight %}
@@ -48,11 +49,12 @@ You can also convert your zipped arrays to hashes, by passing them to the <span 
 {% highlight ruby %}
 
 Hash[albums.zip(years)]
-# => {"californication"=>1999, "blood_sugar"=>1991, 
+# => {"californication"=>1999, "blood_sugar"=>1991,
 # "by_the_way"=>2003}
 
 Hash[albums.zip(songs)]
-# => {"californication"=>"scar_tissue", "blood_sugar"=>"give_it_away", 
+# => {"californication"=>"scar_tissue",
+# "blood_sugar"=>"give_it_away",
 # "by_the_way"=>"cant_stop"}
 
 {% endhighlight %}

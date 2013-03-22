@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: post_no_comments
 title: Wirble a Small Addition to IRB
 ---
 
 <span class="drops">R</span>uby's Interactive Console - IRB- is the language programmer's playground, be on it's bare version or within the Rails _console_, if you're a Rubyist you probably spend a significant amount of your time inside it.
 
-The _irb_ prompt sometimes comes clumsy and prefixed by information that you don't want to see there. 
+The _irb_ prompt sometimes comes clumsy and prefixed by information that you don't want to see there.
 
 Now install the  instale o [Wirble], uma gem para habilitar highlighting de sintaxe no prompt.
 
@@ -21,8 +21,8 @@ require 'irb/completion'
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 
-# The following code assumes you are using Ruby 1.9 
-# (which already pushes RubyGems do $LOADPATH), if 
+# The following code assumes you are using Ruby 1.9
+# (which already pushes RubyGems do $LOADPATH), if
 # you're not with Ruby 1.9 the code falls back and
 # explicitly requires RubyGems
 
