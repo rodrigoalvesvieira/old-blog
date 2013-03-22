@@ -2,7 +2,7 @@
   margin: 0 0 0 18px;
   border: none;
   border-left: 1px solid #222;
-  width: 800px;
+  width: 540px;
 }
 
 .highlight{
@@ -27,13 +27,13 @@
 
 .highlight .c{color:#60a0b0;font-style:italic}
 
-.highlight .err{border:1px solid red}.highlight 
+.highlight .err{border:1px solid red}.highlight
 
-.k{color:#A53F32;font-weight:bold}.highlight 
+.k{color:#A53F32;font-weight:bold}.highlight
 
 .o{color:#666}
 
-.highlight 
+.highlight
 
 .cm{color:#60a0b0;font-style:italic}
 
@@ -49,14 +49,14 @@
 
 .highlight .gi{color:#00a000}.highlight
 .go{color:gray}
-.highlight 
+.highlight
 .gp{color:#c65d09;font-weight:bold}
 
 .highlight .gs{font-weight:bold}
 
 .highlight .gu{color:purple;font-weight:bold}
 
-.highlight .gt{color:#0040d0}.highlight 
+.highlight .gt{color:#0040d0}.highlight
 
 .kc,.highlight .kd,.highlight .kn{color:#A53F32;font-weight:bold}
 .highlight .kp{color:#A53F32}.highlight .kr{color:#A53F32;font-weight:bold}

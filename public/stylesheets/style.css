@@ -5,12 +5,10 @@
 */
 
 /* Imports */
-
 @import url('reset.css');
 @import url('highlight.css');
 
 /* Basics */
-
 body{
   padding: 0;
   background: #fff;
@@ -22,7 +20,6 @@ body{
 ::selection{color:#fff;background:#2F6F20;}
 
 /* Headers */
-
 h1 a{border-bottom:none;text-decoration:none;color:#222;}
 h1 a:hover{color:#222;}
 
@@ -114,7 +111,6 @@ article h1 a {
 }
 
 /* Sections */
-
 section {
   border-bottom: 1px solid #2F6F20;
   width: 560px;
@@ -130,7 +126,6 @@ section p {
 }
 
 /* Articles */
-
 article {background: #fff;margin-top:30px;}
 article a{background:none;text-decoration:none;border-bottom:none;color:#2f6f20;text-align:left;}
 article a:hover{background:#2f6f20;text-decoration:underline;border-bottom:none;color:#fff;}
@@ -139,7 +134,6 @@ article h2 a{color:#222;text-decoration:none;}
 article h2 a:hover;{background: none; text-decoration:underline;}
 
 /* Navigation */
-
 nav ul li {
   padding-right: 13px;
   display: inline-block;
@@ -153,54 +147,6 @@ nav {
   margin: -20px 0 90px 120px;
 }
 
-/*nav {
-  display:none;
-  position: fixed;
-  float: left;
-  margin-left: 9px;
-  width: 10px;
-}
-
-/* Lists */
-
-/*nav ul{
-  font-family:Helvetica;
-  margin:-96px 285px 0 0;
-  list-style:none;
-  background: #FBFBFB;
-  border-top: 1px solid #EAEAEA;
-  border-bottom: 1px solid #EAEAEA;
-  width: 60px;
-}
-
-nav ul li {
-  padding-left:7px;
-  font-size: 11px;
-  text-align: left;
-}
-
-nav ul li:hover {
-  color: #fff;
-  background: #2F6F20;
-}
-
-#navigation ul li a:hover {
-  color: #fff !important;
-}*/
-
-/*#navigation ul li a {
-  color: #222 !important;
-  text-decoration: none !important;
-  border-bottom: none !important;
-}
-
-nav ul li a {
-  color: #222;
-  text-decoration: none;
-  border-bottom: none;
-}*/
-
-*/
 ul {
   line-height: 25px;
   font-size: 14px;
@@ -254,7 +200,6 @@ table td {
 }
 
 /* Links */
-
 a{color:#484848;text-decoration:none;border-bottom:1px dotted #999892;}
 a:hover, a:active{color:#484848;border-bottom:1px solid #999892;}
 h1 a{border-bottom:none;text-decoration:none;color:#222;}
@@ -269,7 +214,6 @@ h1 a:hover{color:#222;}
 }
 
 /* Others */
-
 .drops {
   font-family: Helvetica;display: inline;
   float: left;text-indent: 5px;margin: 0;
@@ -301,7 +245,6 @@ header p {
 }
 
 /* Time */
-
 time {
   margin: 0 0 0 30px;
   width: 100px;
@@ -311,7 +254,6 @@ time {
 }
 
 /* Text */
-
 p {
   clear: both;
   margin: 0 0 20px 0;
@@ -319,20 +261,21 @@ p {
   line-height: 23px;
 }
 
-#post p{font-family:Helvetica,;line-height:22px;font-weight:300}
-#post p:last-child { padding-bottom: 20px;}
+#post p {
+  font-family: Helvetica, sans-serif;
+  line-height: 22px;
+  font-weight: 300
+}
 
+#post p:last-child { padding-bottom: 20px;}
 #post p a:hover, a:active{color:#fff;}
 
-
 /* Code */
-
-.code { font-size: 16px; margin: 0 auto;width: 560px;}
+.code { font-size: 14px; margin: 0 auto;width: 560px;}
 .small_code{ font-family:Monaco,monospace;font-size:14px;background:#F0F3F3;padding:2px;}
 .terminal { margin: 0 auto; width: 480px; font-family: Monaco; font-size: 13px; background: #1c1a1c; color: #42c218; padding: 15px;}
 
 /* Images */
-
 article img {
   text-align: center;
   max-width: 480px;
@@ -370,7 +313,6 @@ article ul {
 }
 
 /* Quotes */
-
 blockquote {
   font-style: italic;
   margin: 20px 20px 20px 32px;
@@ -417,11 +359,9 @@ cite{color:#999;}
 small{font-size:12px;color: #999;}
 
 /* Forms */
-
 form {margin: 21px 21px 21px 21px;}
 
 /* Comments */
-
 #disqus_thread{margin:0 auto;width:480px;background-color: #FF9;
 padding: 20px;}
 #disqus_thread h3{font-size:15px !important;}
@@ -430,7 +370,6 @@ padding: 20px;}
 #dsq-subscribe li{font-size:14px !important;}
 
 /* Footer */
-
 footer {
   font-family: Helvetica, serif;
   color: #0b0b0b;
