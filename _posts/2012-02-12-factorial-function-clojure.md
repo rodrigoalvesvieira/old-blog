@@ -34,4 +34,4 @@ n* (n-1)! & \mbox{if } n > 0
 \end{array} \right.
 </div>
 
-[small article](/the-most-beautiful-factorial-method/)
+[small article]: /the-most-beautiful-factorial-method/
