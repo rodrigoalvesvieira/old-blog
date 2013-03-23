@@ -25,4 +25,8 @@ I'll also have more time to focus on personal projects, including open source on
 
 After all, I hope I'll ocasionally be able to take a day off and enjoy my time better.
 
+You can [join the discussion] on Hacker News.
+
 <p class="foot-link" id="foot-link-1">1: <a href="http://www2.cin.ufpe.br/site/index.php" title="CIn/UFPE">CIn/UFPE</a>, the Informatics Center of the Federal University of Pernambuco.</p>
+
+[join the discussion]: https://news.ycombinator.com/item?id=5426020
