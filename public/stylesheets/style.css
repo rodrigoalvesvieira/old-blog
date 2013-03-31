@@ -60,15 +60,6 @@ h4 {
   color: #222;
 }
 
-.home {
-  width: 700px;
-  margin-left: -6px;
-  line-height: 40px;
-  padding-top: 47px;
-  font-size: 22px;
-  margin-left: -20px;
-}
-
 #top {
   padding-bottom: 12px;
   border-top: 12px solid #2f6f20;
@@ -103,12 +94,12 @@ article h1, .home a, .home a:hover {
   margin: 0 auto;
   font-family: Helvetica;
   font-weight: normal;
-  font-size: 26px;
+  font-size: 22px;
   text-align:left;
   padding: 50px;
   line-height: 34px;
   padding-bottom: 23px;
-  margin-left:-31px;
+  margin-left:-20px;
   background: none !important;
   color: #222;
 }
