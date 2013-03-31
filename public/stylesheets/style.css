@@ -114,7 +114,7 @@ article .home:first-child {
 
 #post h1 {
   width: 700px;
-  margin-left: -20px;
+  margin-left: 10px;
   font-size: 22px;
 }
 
@@ -175,7 +175,7 @@ nav ul li:hover {
 }
 
 nav {
-  margin: -20px 0 90px 80px;
+  margin: -20px 0 140px 80px;
 }
 
 ul {
