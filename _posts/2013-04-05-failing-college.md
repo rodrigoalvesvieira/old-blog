@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Failing in College - and what to do about it
 ---
 
