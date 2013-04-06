@@ -19,7 +19,7 @@ I've never studied really hard in high-school. In fact, thru all the years, I wa
 
 Today I think: how could I behave like that and still want to be a Computer Scientist? Guess I was just really dumb!
 
-Then I did the exam, and got accepted at the University.
+Then I did the exam, and got admitted at the University.
 
 ## The overcome
 
