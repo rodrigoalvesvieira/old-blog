@@ -17,7 +17,7 @@ The program is pretty intensive for they assume the alumni have no previous expe
 
 They give preference to the Object Oriented paradigm and use Java. For me, there is no inherent problem here. I think it's preferable to teach programming with OO first (if you have to choose the paradigm) and I don't think Java is a bad choice (well, not anymore).
 
- And although Java is pretty syntactically fat (thus making it harder for remembering language instructions), I think this verbosity helps too, when you need to visualize how things are supposed to behave and what data is supposed to be represented, and where.
+ And although Java is pretty syntactically fat (thus making it harder for remembering language instructions), I think this verbosity helps too when you need to visualize how things are supposed to behave and what data is supposed to be represented, and where.
 
 Some concepts are really well explained in the course: polymorphism, encapsulation, DRY principles, inheritance, modularity, project patterns and some basic principles for facilitating code maintenance and understanding between developers.
 
