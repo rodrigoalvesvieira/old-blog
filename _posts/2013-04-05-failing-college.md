@@ -29,4 +29,4 @@ The only way to solve my problem is to really be a good student and do the exam 
 
 ## New to Computer Science? Here is my advice
 
-If you are considering starting a CS graduation. Be careful. Consider focusing much more on Math than in programming itself. Specially, study fields like Calculus, Analytic Geometry, Linear Algebra, Discrete Math, Statistics and Algorithms. It will help you a lot.
+If you are considering starting a CS graduation. Be careful. Try focusing much more on Math than in programming itself. Specially, study fields like Calculus, Analytic Geometry, Linear Algebra, Discrete Math, Statistics and Algorithms. It will help you a lot.
