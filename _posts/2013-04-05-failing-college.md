@@ -1,6 +1,6 @@
 ---
 layout: post_no_comments
-title: Failing in College - and what to do about it
+title: Failing in College and what to do about it
 ---
 
 <span class="drops">L</span>ast year I started college and even having some pretty good experiencing in programming, I have failed a lot.
