@@ -361,6 +361,11 @@ article .image_caption {
   float:right;
 }
 
+#about h1 {
+  margin-left: 0px !important;
+  padding-top: 0px !important;
+}
+
 #about img {
   float: left;
   margin: 0 0 -20px 20px;
