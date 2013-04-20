@@ -15,7 +15,7 @@ Imagine yourself as the administer of some university. Let's say  there are 10 t
 
 There you have 200 bicycle, ready to be used and shared. Awesome, non-polluting, safe, healthy fuel-free transportation for everyone inside the university perimeter.
 
-All bicycle and other equipment would not be purchased by the customer and owned by the startup. All things rented, and payment done in the good pay-as-you-go fashion.
+All bicycle and other equipment would not be purchased by the customer and would be owned by the startup. All things rented, and payment done in the good pay-as-you-go fashion.
 
 How security would work for this idea I haven't thought much. But one way could be not only restricting the use within the perimeter of the place but also restricting to "verified" people.
 
