@@ -1,0 +1,24 @@
+---
+layout: post_no_comments
+title: What I like more in Java
+---
+
+<span class="drops">I</span>started programming in mid 2009 in Python. I wanted to be a hacker, yes. So when I got a PC I started crawling into the web to find out how could I become one.
+
+I'm glad to me it all started with Python, with which you can get started pretty fast and do something interesting right away. This is something very important for diminishing frustration.
+
+Then I started my graduation in Computer Science in a school where Java is used to teach programming and object orientation to students. I was a little worried it'd bore me to death, have to deal with a language so less "dynamic" than Ruby, Python or JavaScript.
+
+But hey, turns out my worries were nonsense. Learning Java is great for grasping more elementary insights about program structure and working. You kinda get to think more about the way everything is supposed to happen in the code.
+
+You start thinking more about memory consumption and management, although we all know that JVM runs a Garbage Collector just like Ruby, for example. But IMO, just the static typing characteristic already has the effect of making you more aware of how you allocated memory resources in a program, which is great.
+
+I plan to really dig into the language with time. I wanna learn everything that is necessary to be a good Java hacker.
+
+## What leaves me excited about the future
+
+I've head people saying that Java is becoming obsolete and I don't think that is happening. What I think is happening (and happening for quite a long time already) is that other languages have evolved to solve problems that people thought they could only solve with Java before (or they thought Java was more suited for when it wasn't), like small/medium web applications and web sites.
+
+Also, the Java community is big. You can find a ready, open source library for **a lot** of things.
+
+But what leaves me more excited, is how the JVM is becoming more and more popular and evolving in such a creative way, specially through Scala and Clojure. Knowing Java will help you a lot if you decide to become a Scala or Clojure hacker.
