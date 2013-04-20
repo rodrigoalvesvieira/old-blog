@@ -1,6 +1,6 @@
 ---
 layout: post_no_comments
-title: Startup idea: inward bike transportation service
+title: Startup idea&#58; inward bike transportation service
 ---
 
 <span class="drops">A</span>ll over the world we have these huge spaces like factories, construction sites, clubs, tech campuses and universities where people constantly need to move from a building to another and stuff like that.
