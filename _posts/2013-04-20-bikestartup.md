@@ -3,7 +3,7 @@ layout: post_no_comments
 title: Startup idea&#58; inward bicycle transportation service
 ---
 
-<img src="/public/images/bikes.jpg" title="Bikes" alt="Bikes" width="300">
+<img src="/public/images/bikes.jpg" title="Bikes" alt="Bikes" height="200">
 
 <span class="drops">A</span>ll over the world we have these huge spaces like factories, construction sites, clubs, tech campuses and universities where people constantly need to move from a building to another and stuff like that.
 
