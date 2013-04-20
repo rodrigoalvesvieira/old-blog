@@ -19,8 +19,8 @@ All bicycle and other equipment would not be purchased by the customer and would
 
 How security would work for this idea I haven't thought much. But one way could be not only restricting the use within the perimeter of the place but also restricting to "verified" people.
 
-Maybe the bicycle could be slightly customized with the subscribing company logo and color.
+Maybe the bicycles could be slightly customized with the subscribing company logo and color.
 
-The monthly subscription would be calculated for every customer. Based on the number of bicycle, parking stations and other equipment requested. Of course any damage done to any of the equipment would mean additional cost for the customer.
+The monthly subscription would be calculated for every customer. Based on the number of bicycles, parking stations and other equipment requested. Of course any damage done to any of the equipment would mean additional cost for the customer.
 
 Bicycle transportation is becoming more and more popular (not to mention cool) these days and this idea would make it way more practical for the possibly interested institutions to implement it.
