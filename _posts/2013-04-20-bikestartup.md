@@ -24,3 +24,7 @@ Maybe the bicycles could be slightly customized with the subscribing company log
 The monthly subscription would be calculated for every customer. Based on the number of bicycles, parking stations and other equipment requested. Of course any damage done to any of the equipment would mean additional cost for the customer.
 
 Bicycle transportation is becoming more and more popular (not to mention cool) - and represent the best alternative to transport in many situations - these days and this idea would make it way more practical for the possibly interested institutions to implement it.
+
+You can [join the discussion] on Hacker News.
+
+[join the discussion]: https://news.ycombinator.com/item?id=5582215
