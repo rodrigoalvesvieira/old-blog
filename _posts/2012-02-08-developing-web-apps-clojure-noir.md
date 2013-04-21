@@ -1,12 +1,11 @@
 ---
-layout: post
+layout: post_no_comments
 title: Developing for The Web With Clojure and Noir
 ---
 
 <span class="drops">N</span>oir is a small, neat, sinatra-based web application framework for Clojure written by [Chris Granger] that amazed me when I first tried to exercise my Clojure skills for Web Development. In this blog post I'm gonna help you get started with this library, already assuming that you're a [little familiar to the language's ecosystem].
 
-First Steps
------------
+## First Steps
 
 If you are into Clojure, you certainly have [Leiningen] installed, so you can simply use it to install _Noir_ in your local machine:
 
@@ -54,8 +53,7 @@ Now start the server with and visit _http://localhost:8080/_:
 
 <br/>
 
-Adding Dependencies
--------------------
+## Adding Dependencies
 
 If you need another library simple add it to your _project.clj_ as a dependency:
 
@@ -78,8 +76,7 @@ And run:
 
 Leiningen will install the new library - <span class="small_code">twitter-api</span> in this case - to the _lib_ folder.
 
-Creating Pages
-------------
+## Creating Pages
 
 Adding pages to the website is quite easy, just open the file at _src/my-app/views_ and define the route:
 
@@ -99,20 +96,17 @@ Adding pages to the website is quite easy, just open the file at _src/my-app/vie
 
 There's a plentiful of ways for creating your pages. Of course for any medium-sized app you'll want to set different pages, to be used via different request methods, using different templates, etc. The [Noir Documentation] covers very well this topic.
 
-Creating layouts
---------------
+## Creating layouts
 
 You may have observed that _Noir_ already ships with a nice layout when you create your app. This is located at <i>my_app/src/my_app/views</i>. Notice that it's the <i>my_app</i> directory (with a "_" underscore character) under _src_ that that hosts your templates, not <i>my-app</i> which will also be created by _Noir_.
 
 The initial template itself lives in the _common.clj_ file, where you write your HTML using the [Hiccup] template language, which is not obligatory, [enlive] is a good alternative.
 
-Managing Assets
----------------
+## Managing Assets
 
 _Noir_ is got a place for the static files of your web application. They are located at <i>my_app/resources/public</i>, _Noir_ gives each type of static files (CSS, JavaScript, Images) a directory, for you to place them.
 
-Conclusion
-----------
+## Conclusion
 
 Noir is very well designed and that's what makes it so nice to use. I can easily see myself writing my next web services with it! Hopefully this article helped you begin your _Noir_ fun and also got you excited with the framework like I got ;)
 

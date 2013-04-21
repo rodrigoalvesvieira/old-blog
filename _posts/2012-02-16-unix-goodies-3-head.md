@@ -3,7 +3,7 @@ layout: post_no_comments
 title: Unix Goodies 3&#58; head
 ---
 
-<span class="drops">W</span>e often need to quickly read the contents of files in the console. Sometimes the file is just too big and we want to read only the first lines so cal (1) ins't appropriate. When this is the case, **head** to the rescue!
+<span class="drops">W</span>e often need to quickly read the contents of files in the console. Sometimes the file is just too big and we want to read only the first lines so <span class="small_code">cal</span> ins't appropriate. When this is the case, **head** to the rescue!
 
 The _head_ tool does just this, tell us only the first lines of a given file.
 
@@ -11,7 +11,7 @@ The _head_ tool does just this, tell us only the first lines of a given file.
   $ head file.html
 </pre>
 
-Did you think about printing "heads" of multiple files?
+Did you think about printing the "heads" of multiple files?
 
 <pre class="terminal">
   $ cat file.html file.rb
@@ -24,7 +24,3 @@ Now, of course you may want to print only the first **number** lines of a file, 
 </pre>
 
 That's it, hope _head_ helps you! (It'll most likely do :) )
-
-[1]
-
-[1]: /unix-goodies-1-cat
