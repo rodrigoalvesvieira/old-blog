@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Unix Goodies 1&#58; cat
 ---
 
