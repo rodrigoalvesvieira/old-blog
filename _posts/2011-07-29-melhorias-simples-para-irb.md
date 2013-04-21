@@ -21,9 +21,9 @@ require 'irb/completion'
 
 IRB.conf[:PROMPT_MODE] = :SIMPLE
 
-# O código abaixo assume o Ruby 1.9 como default 
-# (que já tem o RubyGems no $LOAD_PATH), se não 
-# ele da um 'fallback' e requer o rubygems 
+# O código abaixo assume o Ruby 1.9 como default
+# (que já tem o RubyGems no $LOAD_PATH), se não
+# ele da um 'fallback' e requer o rubygems
 # explicitamente.
 
 begin

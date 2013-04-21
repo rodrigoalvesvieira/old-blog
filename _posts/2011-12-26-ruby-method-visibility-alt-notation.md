@@ -10,20 +10,20 @@ title: Ruby Method Visibility Alternative Notation
 class GreekAlphabet
   def alpha
   end
-  
-  protected 
-  
+
+  protected
+
   def beta
   end
-  
+
   def gamma
   end
-  
+
   private
-  
+
   def delta
   end
-  
+
   def epsilon
   end
 
@@ -38,22 +38,22 @@ There is nothing wrong with the approach taken in the <span class="small_code">G
 {% highlight ruby %}
 
 class GreekAlphabet
-  
+
   def alpha
-  end 
-  
+  end
+
   def beta
   end
-  
+
   def gamma
   end
-    
+
   def delta
   end
-  
+
   def epsilon
   end
-  
+
   protected :beta, :gamma
   private :delta, :epsilon
 

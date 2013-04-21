@@ -27,7 +27,7 @@ Bicycle transportation is becoming more and more popular (not to mention cool) -
 
 You can [join the discussion] on Hacker News.
 
-UPDATE: viacycle seems to be doing just that. However, we need this in Brazil too!
+UPDATE: [viacycle] seems to be doing just that. However, we need this in Brazil too!
 
 [join the discussion]: https://news.ycombinator.com/item?id=5582215
 [viacycle]: http://www.viacycle.com/

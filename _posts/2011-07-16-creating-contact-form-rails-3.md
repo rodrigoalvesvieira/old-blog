@@ -76,7 +76,7 @@ Now open the _routes.rb_ file and map the <span class="small_code">dispatch_emai
 
 MyApp::Application.routes.draw do
   match "contact", to: "pages#contact", as: "contact"
-  match "dispatch_email", to: "pages#dispatch_email", 
+  match "dispatch_email", to: "pages#dispatch_email",
   as: "dispatch_email", method: :post
 end
 
@@ -129,7 +129,7 @@ Now, write the mail template that's going to be sent:
 
 {% endhighlight %}
 
-Name it <span class="small_code">send_email.html.erb</span>. 
+Name it <span class="small_code">send_email.html.erb</span>.
 
 You still need to tweak some configuration lines in your production environment (and change the host to test in development mode):
 

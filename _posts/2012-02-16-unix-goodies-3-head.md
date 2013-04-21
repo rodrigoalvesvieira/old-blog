@@ -28,6 +28,3 @@ That's it, hope _head_ helps you! (It'll most likely do :) )
 [1]
 
 [1]: /unix-goodies-1-cat
-
-
-

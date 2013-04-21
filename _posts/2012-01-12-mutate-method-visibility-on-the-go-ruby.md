@@ -10,7 +10,7 @@ Look at the following code snippet:
 {% highlight ruby %}
 
 class Father
-  
+
   def bank_account
     "called from #{self}"
   end
@@ -21,7 +21,7 @@ end
 tom = Father.new
 tom.bank_account
 
-# => NoMethodError: protected method `bank_account' 
+# => NoMethodError: protected method `bank_account'
 # called for #<Father:0x007fed0d05c128>
 
 class ShamelessSon < Father
@@ -37,4 +37,4 @@ dillinger.bank_account
 
 In the <span class="small_code">ShamelessSon</span> class, we told Ruby to mark the <span class="small_code">bank_account</span> method as public, making it available to this class' instances to use, in this case, <span class="small_code">dillinger</span>.
 
-Needless to say, this technique is dangerous. Use it wisely, only redefining visibility of the methods from the classes that you **know** and **trust**. 
+Needless to say, this technique is dangerous. Use it wisely, only redefining visibility of the methods from the classes that you **know** and **trust**.

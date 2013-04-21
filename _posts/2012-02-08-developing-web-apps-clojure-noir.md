@@ -17,7 +17,7 @@ If you are into Clojure, you certainly have [Leiningen] installed, so you can si
 And then generate the app's structure with:
 
 <pre class="terminal">
-  $ lein noir new my-app &amp; &amp; cd my-app 
+  $ lein noir new my-app &amp; &amp; cd my-app
 </pre>
 
 This command generates a simple but ready-to-go code structure for the app as a _Git_ repository, creates its README and _project.clj_ file among the directories for the dependencies, tests, views, assets, etc. The generated directory for the app will be like this:
@@ -90,9 +90,9 @@ Adding pages to the website is quite easy, just open the file at _src/my-app/vie
 (defpage "/welcome" []
          (common/layout
            [:p "Welcome to tweet-noir"]))
-           
+
 ;; Specifying request method:
-    
+
 (defpage [:get "/hello"] [] "Hello, via get HTTP verb")
 
 {% endhighlight %}
@@ -109,7 +109,7 @@ The initial template itself lives in the _common.clj_ file, where you write your
 Managing Assets
 ---------------
 
-_Noir_ is got a place for the static files of your web application. They are located at <i>my_app/resources/public</i>, _Noir_ gives each type of static files (CSS, JavaScript, Images) a directory, for you to place them. 
+_Noir_ is got a place for the static files of your web application. They are located at <i>my_app/resources/public</i>, _Noir_ gives each type of static files (CSS, JavaScript, Images) a directory, for you to place them.
 
 Conclusion
 ----------
@@ -126,4 +126,3 @@ I'll write more about _Noir_ in the upcoming weeks, [subscribe to the blog feed]
 [Clojars]: http://clojars.org
 [little familiar to the language's ecosystem]: /getting-started-with-clojure
 [Leiningen]: https://github.com/technomancy/leiningen
-

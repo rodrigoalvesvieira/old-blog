@@ -31,16 +31,16 @@ Now we start having fun. In the <span class="small_code">reports</span> method, 
 
 class CitiesController < ApplicationController
   #...
-  
-  def reports    
+
+  def reports
     @city = City.find params[:id]
     t = Time.now.strftime("%d-%m-%Y")
-    
+
     document_columns = [:created_at, :author, :subject, :urgent, :text]
     document_headers = ["Date", "Author Info", "Subject", "Urgent?", "Text"]
-    
+
     file = @city.reports.to_xls(columns: document_columns, headers: document_headers)
-    
+
     respond_to do |format|
       format.html
       format.xls do
@@ -73,6 +73,6 @@ Now let's go to our view and add a link to download the report:
 
 {% endhighlight %}
 
-Done! Now go generate some XLS! 
+Done! Now go generate some XLS!
 
 [to_xls]: https://github.com/splendeo/to_xls

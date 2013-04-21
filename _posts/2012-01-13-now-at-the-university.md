@@ -5,10 +5,10 @@ title: Now at the University
 
 <span class="drops">I</span>'ve been programming for almost 3 years now. Until now, it was all about "autodidactism", as I never participated in any course related to programming. Actually, no course at all.
 
-TL;DR 
+TL;DR
 -----
 
-This is not a technical post. 
+This is not a technical post.
 
 Why am I so excited for Computer Science
 ----------------------------------------
@@ -24,4 +24,3 @@ I think the University is going to help me. Filling my knowledge gaps, at least 
 [UFPE]: http://www.ufpe.br/ufpenova
 [Atela]: http://atela.com.br
 [André Braga]: http://twitter.com/#!/abbraga
-

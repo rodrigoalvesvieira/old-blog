@@ -30,4 +30,3 @@ So, I encourage you to use the Three-phase Validation in any and every web appli
 <p class="foot-link" id="foot-link-1">(1), I am pretty sure this concept is not any new but I like the idea of naming names anyway.</p>
 
 <p class="foot-link" id="foot-link-1">(<a href="https://twitter.com/fnando/status/210878053239373824">2</a>), That is quite easy to find people doing Rails without adding proper validators in the migrations, for example.</p>
-

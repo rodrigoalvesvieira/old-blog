@@ -9,7 +9,7 @@ For some reason I don't yet know for sure, <span class="small_code">require_rela
 
 {% highlight sh %}
 
->> require_relative "doom" 
+>> require_relative "doom"
 LoadError: cannot infer basepath
 	from (irb):2:in `require_relative'
 	from (irb):2
@@ -26,7 +26,7 @@ module Kernel
   def require_relative(file)
     $:.unshift Dir.pwd
     require file
-  end  
+  end
 end
 
 {% endhighlight %}

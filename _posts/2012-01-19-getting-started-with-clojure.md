@@ -29,7 +29,7 @@ Leiningen
 
 There's a build and automation tool for Clojure projects called [Leiningen], or _lein_. Leiningen may be used for open source and private code. It's widely adopted throughout the community and is very mature.
 
-Clojure open source projects are often shared as Java Archives in the [Clojars] repository. 
+Clojure open source projects are often shared as Java Archives in the [Clojars] repository.
 
 A project using _lein_ must have its specification defined within a file called _project.clj_ similar to a _package.json_ in Node.js projects or to a _.gemspec_ file in a Ruby Gem.
 
@@ -76,7 +76,7 @@ Clojure has some good ORMs, at the time of this writing, there are already  matu
 * [clj-redis] and [redis-clojure] - for Redis
 * [clutch] - for CouchDB
 
-Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the [riak-java-client] by Basho. 
+Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the [riak-java-client] by Basho.
 
 Concurrency
 -----------
@@ -104,7 +104,7 @@ If you read this post until here, then I assume you're kind of excited with Cloj
 * [planet clojure] - A blog that indexes many posts on Clojure from all over the Internet
 * [Clojure Blog] - The Clojure official blog
 
-I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure! 
+I hope this blog post not only left you enthusiastic about Clojure but also helped you get started with the language and its ecosystem. See you in the next posts, I'll write more about Clojure!
 
 [The Ruby Toolbox]: https://www.ruby-toolbox.com/
 [Clojure is also featured]: https://github.com/languages/Clojure
