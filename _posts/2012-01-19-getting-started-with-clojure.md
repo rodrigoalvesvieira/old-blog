@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Getting Started With Clojure
 ---
 
@@ -9,8 +9,7 @@ title: Getting Started With Clojure
 
 First, Clojure runs on the JVM. Yes, it means you can use Java libraries (including the standard library) from inside your Clojure projects, pack them as _jars_, etc.
 
-REPL
-----
+## REPL
 
 Clojure comes with a read/eval/print loop tool called <span class="small_code">clj</span> that lets you evaluate code instantly. Unfortunately, the _REPL_ doesn't come with some handy features like historic and tab completion by default, but you can add these via [IClojure].
 
@@ -24,8 +23,7 @@ alias clojure="java -jar ~/Library/iclojure-1.0-SNAPSHOT.jar"
 
 <br/>
 
-Leiningen
----------
+## Leiningen
 
 There's a build and automation tool for Clojure projects called [Leiningen], or _lein_. Leiningen may be used for open source and private code. It's widely adopted throughout the community and is very mature.
 
@@ -48,8 +46,7 @@ Here is a sample _project.clj_ from Leiningen's README:
 
 There was also another build tool for Clojure called [cake]. But apparently it has been discontinued.
 
-ClojureScript
--------------
+## ClojureScript
 
 ClojureScript is a compiler for JavaScript, it's intended to generate highly optimized JS code, based on Google Closure compiler. It can also target other JavaScript environments other than browsers like Node.js.
 
@@ -57,8 +54,7 @@ The project's GitHub Wiki has a [Start Guide] with detailed information about th
 
 A more in-depth look at ClojureScript is provided by [this blog post] by Stuart Sierra on the Clojure Blog.
 
-Web Development
----------------
+## Web Development
 
 The current _de facto_ web framework for Clojure is [Noir]. Noir is very straightforward and easy to use, it also seems to be inspired in Ruby's [Sinatra] so if you come from Ruby you'll have a good time using it.
 
@@ -66,8 +62,7 @@ Alternatively, [composure] is another web framework that apparently was inspired
 
 Also, there is [clj-http], a HTTP library with a very concise API. If you want to send request to web pages, get response and etc, I highly recommend you to use it.
 
-ORMs
-----
+## ORMs
 
 Clojure has some good ORMs, at the time of this writing, there are already  mature libraries for connection to many databases:
 
@@ -78,24 +73,20 @@ Clojure has some good ORMs, at the time of this writing, there are already  matu
 
 Of all these, Korma is the one that amazes me more. What a beautiful API it provides! Anyway, if you think that some adapters are missing, remember that you can use a library written for Java such as the [riak-java-client] by Basho.
 
-Concurrency
------------
+## Concurrency
 
 You may already have heard about how Clojure approaches concurrency. You may have heard good things ;). In fact, one of the goals of the language is to offer full multi-threaded  programming ability, via its functional programming techniques and other features like [Atoms] and [Refs].
 IBM is got a [very complete article] on Clojure's concurrency model.
 
-Deployment
-----------
+## Deployment
 
 [Heroku announced], several months ago, that it runs Clojure apps. Also, remember that Clojure projects can be easily packed as <span class="small_code">jars</span> thus it can easily run on Google App Engine. In fact, whenever JVM is available, Clojure may run.
 
-Finding Libraries
------------------
+## Finding Libraries
 
 There are known places where the community hosts open source Clojure code, one of them is the already mentioned [Clojars] and the other is [The Clojure Toolbox], which is organized by sections/categories...reminding me of [The Ruby Toolbox]. Also, don't forget that GitHub keeps a directory for listing repos by their dominant language, and [Clojure is also featured]!
 
-More
-----
+## More
 
 If you read this post until here, then I assume you're kind of excited with Clojure, too. So I have here some links to resources on the Internet that will help you:
 

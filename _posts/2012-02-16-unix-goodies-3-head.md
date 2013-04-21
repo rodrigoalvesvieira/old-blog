@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Unix Goodies Part 3 - Head
+layout: post_no_comments
+title: Unix Goodies 3&#58; head
 ---
 
 <span class="drops">W</span>e often need to quickly read the contents of files in the console. Sometimes the file is just too big and we want to read only the first lines so cal (1) ins't appropriate. When this is the case, **head** to the rescue!

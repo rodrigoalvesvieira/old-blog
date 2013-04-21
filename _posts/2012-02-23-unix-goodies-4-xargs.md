@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unix Goodies Part 4 - xargs
+title: Unix Goodies 4&#58; xargs
 ---
 
 ![Terminal](/public/images/computer_terminal.jpg "Terminal")
@@ -19,8 +19,7 @@ What happens there is that every output member of the first command is passed in
 
 This very command makes <span class="small_code">kill</span> raise a "not enough arguments" exception if you omit <span class="small_code">xargs</span>.
 
-Favorite Snippet
-----------------
+## Favorite Snippet
 
 There is this one command that I find very useful and use in a regular basis in my <span class="small_code">Git</span> workflow.
 

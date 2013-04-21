@@ -1,9 +1,9 @@
 ---
-layout: post
-title: Instances of TrueClass and FalseClass need to_i, right?
+layout: post_no_comments
+title: Instances of TrueClass and FalseClass could have to_i
 ---
 
-<span class="drops">T</span>oday, in a Rails app, I needed to represent a boolean attribute coming from the database as either 1 or 0, then I called the <span class="small_code">to_i</span> method on this attribute and boom! <span class="small_code">NoMethodError</span>. There's the obvious implementation of these methods:
+<span class="drops">T</span>oday, in a Rails app, I needed to represent a boolean attribute coming from the database as either 1 or 0, then I called the <span class="small_code">to_i</span> method on this attribute and boom! <span class="small_code">NoMethodError</span>. Here's the obvious implementation of these methods:
 
 {% highlight ruby %}
 

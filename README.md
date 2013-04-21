@@ -2,7 +2,7 @@
 
 **www.rodrigoalvesvieira.com**
 
-Writings on Software, Team Management, Startups, Entrepreneurship, Technology & Culture.
+Writings on Software Development, Programming Languages, Team Management, Startups, Entrepreneurship & Technology.
 
 Since July 7, 2011.
 
@@ -27,7 +27,6 @@ Colors:
 Diagrams
 
   * Web Sequence Diagrams: http://www.websequencediagrams.com/
-
 
 ## Technical Details
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Mutate Method Visibility on the Go in Ruby
 ---
 

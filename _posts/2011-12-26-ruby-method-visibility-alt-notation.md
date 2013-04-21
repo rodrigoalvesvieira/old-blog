@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_no_comments
 title: Ruby Method Visibility Alternative Notation
 ---
 
