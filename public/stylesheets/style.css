@@ -187,7 +187,7 @@ ul {
 
 ul li {
   line-height: 24px;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 ul li p {
@@ -454,7 +454,7 @@ form {
   font-size: 15px;
 }
 #dsq-subscribe li {
-  font-size:14px !important;
+  font-size: 14px !important;
 }
 .dsq-avatar{
   position: absolute;
