@@ -1,0 +1,29 @@
+# How to know if GitHub projects are mature?
+
+When we are searching for open source projects to base our work on, one of the most important characteritics that we wanna figure out is whether a project is mature or not. Because not all the times our software projects can run dependent of immature code, this risk might be too bad to take.
+
+Human developers have their ways of figuring out the maturity of open source projects. We browse forums and discussion topics, we talk to other developers who know that particular project of our interest, we look for how old the project is or how many other projects depend on that particular project and we also look for the version number of the project in question [1].
+
+But when you are developing an automated tool that analyzes projects how can you define the heuristics for successfully classifying the maturity of projects?
+
+This analysis is highly subjected to the generation of false positives and negatives.
+
+Most of the ways that we - humans developers - know, involve methods that are quite subjective and thus are too hard to implement algorithmically and unambiguously.
+
+The way Groundhog works is by crawling the databases of code forges for open source code that
+
+But first we need to define what constitutes a mature project? What particular features a project should have in order to be classified mature?
+
+1. API Stability
+
+This means that a project is enough stable so that
+
+2. Age
+
+Very subjective. A new project may be stable (although it's rare) and an old project may be unstable (not so rare).
+
+
+[1] Many projects adopt very straightforward and intelligent versioning policies. See Semver for example.
+
+
+Thanks to Professor Fernando Castor and my friend Danilo Neves for reviewing and giving feedback this article.
