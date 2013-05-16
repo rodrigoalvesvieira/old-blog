@@ -18,6 +18,7 @@ Focused in the blackberry market
 * display AppJuicer Analytics data
 * display website analytics data
 * use great charts (d3.js ftw)
+* social integration analysis
 
 ### AppJuicer Support Center
 
@@ -63,7 +64,14 @@ Get your app done fast!
 * pedro dias
 * delio lustosa cantarelli
 
-References:
+## Players
+
+* parse (acquired by facebook)
+* StackMob
+* anypresence
+* kinvey
+
+## References
 
 [1]\: http://blackberrydeveloper.com.br/categorias/html5/quer-criar-apps-built-for-blackberry-com-html5-comece-por-aqui/
 [2]\: http://techcrunch.com/2013/05/15/google-launches-android-studio-a-development-tool-for-apps/
