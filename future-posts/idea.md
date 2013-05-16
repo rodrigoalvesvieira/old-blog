@@ -44,9 +44,11 @@ A set of tools for testing security issues. For the future..
 
 ## Pricing
 
-## Copy
+## Copy & Marketing
 
 Over 12.000 apps launched with AppJuicer
+
+Get your app done fast!
 
 ## People to talk to
 
@@ -64,4 +66,4 @@ Over 12.000 apps launched with AppJuicer
 References:
 
 [1]\: http://blackberrydeveloper.com.br/categorias/html5/quer-criar-apps-built-for-blackberry-com-html5-comece-por-aqui/
-[2]\:
+[2]\: http://techcrunch.com/2013/05/15/google-launches-android-studio-a-development-tool-for-apps/
