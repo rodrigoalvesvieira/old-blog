@@ -71,6 +71,14 @@ Get your app done fast!
 * anypresence
 * kinvey
 
+### related
+
+* Payvia
+
+### Media
+
+* http://crackberry.com/
+
 ## References
 
 [1]\: http://blackberrydeveloper.com.br/categorias/html5/quer-criar-apps-built-for-blackberry-com-html5-comece-por-aqui/
