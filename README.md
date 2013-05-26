@@ -1,4 +1,4 @@
-# Rodrigo Alves Vieira
+# Rodrigo Alves
 
 **www.rodrigoalvesvieira.com**
 
@@ -48,7 +48,7 @@ The blog is built upon a series of technologies:
 
 ## Copyright
 
-Copyright © 2011-2013 Rodrigo Alves Vieira. All Rights Reserved.
+Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
 
 [1]: http://0to255.com/2F6F20
 [2]: http://0to255.com/222
