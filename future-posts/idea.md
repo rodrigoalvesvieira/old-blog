@@ -70,10 +70,13 @@ Get your app done fast!
 * StackMob
 * anypresence
 * kinvey
+* app.io
 
 ### related
 
 * Payvia
+* burstly
+* https://www.lookout.com/
 
 ### Media
 
@@ -83,3 +86,4 @@ Get your app done fast!
 
 [1]\: http://blackberrydeveloper.com.br/categorias/html5/quer-criar-apps-built-for-blackberry-com-html5-comece-por-aqui/
 [2]\: http://techcrunch.com/2013/05/15/google-launches-android-studio-a-development-tool-for-apps/
+[3]\: http://techcrunch.com/2013/05/28/kickfolio-becomes-app-io-raises-1-million-to-bring-mobile-apps-to-the-browser-and-now-the-facebook-news-feed-too/
