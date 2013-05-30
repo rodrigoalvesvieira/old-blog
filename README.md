@@ -1,36 +1,36 @@
 # Rodrigo Alves
 
-**www.rodrigoalvesvieira.com**
+Writings on Software Development, Startups, Entrepreneurship & my personal life
 
-Writings on Software Development, Programming Languages, Team Management, Startups, Entrepreneurship & Technology.
+## Design
 
-Since July 7, 2011.
+### Colophon
 
-## Colophon
-
-Fonts:
+#### Fonts:
 
   * Century Gothic
-  * Helvetica (with varying weights)
+  * Helvetica
   * Monaco
 
-Colors:
+#### Colors:
 
-  * Green: #2f6f20 [1]
-  * Black: #222 [2]
-  * White: #fff [3]
-  * Gray (for backgrounds): #FBFBFB [4]
-  * Gray (for text): ##777 [5]
-  * Gray (for borders): #EAEAEA [6]
-  * Yellow: #FF9 [7]
+  * Green: #2f6f20
+  * Black: #222
+  * White: #fff
+  * Gray (for backgrounds): #FBFBFB
+  * Gray (for text): ##777
+  * Gray (for borders): #EAEAEA
+  * Yellow: #FF9
 
-Diagrams
+## Content
+
+### Diagrams
 
   * Web Sequence Diagrams: http://www.websequencediagrams.com/
 
 ## Technical Details
 
-This is my personal blog made with Jekyll, marked up with Markdown & hosted on GitHub pages. Browse at http://www.rodrigoalvesvieira.com
+This is my personal blog made with Jekyll, marked up with Markdown & hosted on GitHub pages.
 
 ### Dependencies
 
@@ -42,21 +42,14 @@ The blog is built upon a series of technologies:
 
 ### Up & Running
 
-  `$ jekyll`
-
-  `$ jekyll --server`
+`$ bundle install`       - Install dependencies
+`$ jekyll serve --watch` - Start the local server
 
 ## Copyright
 
 Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
+www.rodrigoalvesvieira.com - Since July 7, 2011
 
-[1]: http://0to255.com/2F6F20
-[2]: http://0to255.com/222
-[3]: http://0to255.com/fff
-[4]: http://0to255.com/FBFBFB
-[5]: http://0to255.com/777
-[6]: http://0to255.com/EAEAEA
-[7]: http://0to255.com/FF9
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Pygments]: http://pygments.org/
