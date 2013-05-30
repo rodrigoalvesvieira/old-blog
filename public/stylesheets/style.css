@@ -484,3 +484,8 @@ footer {
 
 footer span { display:none; }
 footer p { font-size:15px; }
+
+.elsewhere {
+  font-weight: bold;
+  font-size: 19px;
+}
