@@ -5,7 +5,7 @@ title: Page not found
 
 <article id="404">
   <h1>Error 404 - Page not found</h1>
-  <p>Try finding what you want in the <a href="/archive" title="Blog Archive">Blog Archive</a>, go to the <a href="/" title="Home Page">Home Page</a> or try searching</p>
+  <p>Try finding what you want in the <a href="/archive" title="Blog Archive">Blog Archive</a> or go to the <a href="/" title="Home Page">Home Page</a>
 
   <ul>
   {% for post in site.posts limit:5 %}
@@ -14,9 +14,4 @@ title: Page not found
     </li>
   {% endfor %}
   </ul>
-
-  <form action="/search" method="get">
-    <input type="search" name="query" placeholder="Search post"/>
-    <input type="submit" value="Search">
-  </form>
 <article>
