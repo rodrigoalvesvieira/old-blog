@@ -39,4 +39,4 @@ These are just a few examples. Currently, Microtext.js features 10 functions [1]
 
 [Microtext.js]: https://github.com/rodrigoalvesvieira/microtext.js
 [send me]: mailto:rodrigovieira1994@gmail.com
-[1]\: You can see their full demonstration and documentation in the [README](https://github.com/rodrigoalvesvieira/microtext.js/blob/master/README.md)
+[1]: You can see their full demonstration and documentation in the [README](https://github.com/rodrigoalvesvieira/microtext.js/blob/master/README.md)
