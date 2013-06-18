@@ -24,10 +24,6 @@ Writings on software development, startups, entrepreneurship & personal life sin
 
   * Web Sequence Diagrams: http://www.websequencediagrams.com/
 
-## Technical Details
-
-This is my personal blog made with Jekyll, marked up with Markdown & hosted on GitHub pages.
-
 #### Dependencies
 
 The blog is built upon a series of technologies:
@@ -35,6 +31,7 @@ The blog is built upon a series of technologies:
 * [Jekyll] - Static Ruby blog engine by Tom Preston-Werner
 * [Markdown] - Markup language by John Gruber
 * [Pygments] - For syntax highlighting
+* [GitHub Pages] - hosting for static websites from GitHub
 
 #### Up & Running
 
@@ -49,3 +46,4 @@ Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Pygments]: http://pygments.org/
+[GitHub Pages]: http://pages.github.com/

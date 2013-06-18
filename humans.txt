@@ -12,6 +12,4 @@ Tool: Jekyll Ruby http://jekyllrb.com/
 Markup: Markdown
 Code highlight: Pygments
 
-Copyright
-
-© 2011-2013 Rodrigo Alves Vieira. All Rights Reserved.
+copyright 2011-2013 Rodrigo Alves. All Rights Reserved.
