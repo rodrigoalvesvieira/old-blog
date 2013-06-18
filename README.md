@@ -1,10 +1,8 @@
-# Rodrigo Alves
+# rodrigo alves' blog
 
-Writings on Software Development, Startups, Entrepreneurship & my personal life
+Writings on Software Development, Startups, Entrepreneurship & my personal life since July 7, 2011
 
 ## Design
-
-### Colophon
 
 #### Fonts:
 
@@ -24,7 +22,7 @@ Writings on Software Development, Startups, Entrepreneurship & my personal life
 
 ## Content
 
-### Diagrams
+#### Diagrams
 
   * Web Sequence Diagrams: http://www.websequencediagrams.com/
 
@@ -32,7 +30,7 @@ Writings on Software Development, Startups, Entrepreneurship & my personal life
 
 This is my personal blog made with Jekyll, marked up with Markdown & hosted on GitHub pages.
 
-### Dependencies
+#### Dependencies
 
 The blog is built upon a series of technologies:
 
@@ -48,7 +46,6 @@ The blog is built upon a series of technologies:
 ## Copyright
 
 Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
-www.rodrigoalvesvieira.com - Since July 7, 2011
 
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
