@@ -1,7 +1,25 @@
 /*
-  ||         Rodrigo Alves Vieira              ||
+  ||               Rodrigo Alves               ||
   ||    http://www.rodrigoalvesvieira.com      ||
   || Copyright 2011-2013 - All Rights Reserved ||
+*/
+
+/*
+Fonts:
+
+Century Gothic
+Helvetica
+Monaco
+
+Colores
+
+Green: #2f6f20
+Black: #222
+White: #fff
+Gray (for backgrounds): #FBFBFB
+Gray (for text): ##777
+Gray (for borders): #EAEAEA
+Yellow: #FF9
 */
 
 /* Imports */
@@ -75,7 +93,7 @@ h4 {
   position: relative;
   font-family: "Century Gothic", Helvetica, sans-serif;
   padding: 11px 0 0;
-  font-size: 34px;
+  font-size: 44px;
   line-height: 62px;
   font-weight: 300;
   letter-spacing: 0.05em;

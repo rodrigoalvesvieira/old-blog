@@ -4,26 +4,6 @@ Writings on software development, startups, entrepreneurship & personal life sin
 
 ## Info
 
-#### Fonts:
-
-  * Century Gothic
-  * Helvetica
-  * Monaco
-
-#### Colors:
-
-  * Green: #2f6f20
-  * Black: #222
-  * White: #fff
-  * Gray (for backgrounds): #FBFBFB
-  * Gray (for text): ##777
-  * Gray (for borders): #EAEAEA
-  * Yellow: #FF9
-
-#### Diagrams
-
-  * Web Sequence Diagrams: http://www.websequencediagrams.com/
-
 #### Dependencies
 
 The blog is built upon a series of technologies:
