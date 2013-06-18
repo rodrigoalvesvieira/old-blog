@@ -1,8 +1,8 @@
 # rodrigo alves' blog
 
-Writings on Software Development, Startups, Entrepreneurship & my personal life since July 7, 2011
+Writings on software development, startups, entrepreneurship & personal life since July 7, 2011
 
-## Design
+## Info
 
 #### Fonts:
 
@@ -20,8 +20,6 @@ Writings on Software Development, Startups, Entrepreneurship & my personal life 
   * Gray (for borders): #EAEAEA
   * Yellow: #FF9
 
-## Content
-
 #### Diagrams
 
   * Web Sequence Diagrams: http://www.websequencediagrams.com/
@@ -38,9 +36,10 @@ The blog is built upon a series of technologies:
 * [Markdown] - Markup language by John Gruber
 * [Pygments] - For syntax highlighting
 
-### Up & Running
+#### Up & Running
 
 `$ bundle install`       - Install dependencies
+
 `$ jekyll serve --watch` - Start the local server
 
 ## Copyright
