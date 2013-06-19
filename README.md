@@ -12,6 +12,7 @@ The blog is built upon a series of technologies:
 * [Markdown] - Markup language by John Gruber
 * [Pygments] - For syntax highlighting
 * [MathJax] - For displaying Math formulas
+* [D3.js] - For data visualization
 * [GitHub Pages] - hosting for static websites from GitHub
 
 #### Up & Running
@@ -28,4 +29,5 @@ Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
 [Markdown]: http://daringfireball.net/projects/markdown/
 [Pygments]: http://pygments.org/
 [MathJax]: http://www.mathjax.org/
+[D3.js]: http://d3js.org/
 [GitHub Pages]: http://pages.github.com/
