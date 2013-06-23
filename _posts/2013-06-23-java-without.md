@@ -27,7 +27,7 @@ And suppose the JSON document your're parsing is like:
 {% highlight json %}
 {
   "title": "Under My Thumb",
-  "author": "The Rolling Stones",
+  "author": "The Rolling Stones"
 }
 {% endhighlight %}
 
