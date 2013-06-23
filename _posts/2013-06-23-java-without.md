@@ -11,7 +11,7 @@ JSON has became the de-facto standard for data representation in the Web. As I'm
 
 Gson also lets you be briefer with your code by being able to build an object directly from the JSON input. For example, suppose you have the following class with two attributes in your program:
 
-```java
+{% highlight java %}
 
 public class Song {
   private String title;
@@ -19,22 +19,26 @@ public class Song {
 
   ...
 }
-```
+
+{% endhighlight %}
 
 And suppose the JSON document your're parsing is like:
 
-```json
+{% highlight json %}
 {
   "title": "Under My Thumb",
   "author": "The Rolling Stones",
 }
-```
+{% endhighlight %}
+
 
 Then you can build your `Song` object directly (without having to set each attribute) from the JSON like this:
 
-```java
+{% highlight java %}
+
 Song u = gson.fromJson(element, Song.class);
-```
+
+{% endhighlight %}
 
 ## [async-http-client] from Ning
 
