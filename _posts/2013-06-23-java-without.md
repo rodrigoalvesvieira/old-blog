@@ -40,11 +40,11 @@ Song u = gson.fromJson(element, Song.class);
 
 {% endhighlight %}
 
-## [async-http-client] from Ning
+### [async-http-client] from Ning
 
 If you need to perform HTTP request in your Java program, then this is the lib for you. Besides the ability to easily perform asynchronous HTTP requests `async-http-client` allows you to easily set your request headers.
 
-## [junit]
+### [junit]
 
 Testing is an important step in the process of writing good, maintainable software. Whether you follow or not the TDD <a href="#foot-link-1">[1]</a> practices, this lib is probably the right one for your unit tests. Junit offers an immense set of assertion methods and matchers. Another plus is that Junit is very mature (in fact, Junit is believed to be the first TDD lib to exist!) and thus there are a lot of IDE plugins and such helper tools to make our lives easier.
 
