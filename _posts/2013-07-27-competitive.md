@@ -13,8 +13,8 @@ These programs offer a unique way of learning by doing and a great opportunity f
 
 So I started learning C++ in early this year and I'm enjoying it so far while ending my Introduction to Algorithms course.
 
-To make me get going faster I bought a book called [Competitive Programming 3](https://sites.google.com/site/stevenhalim/), by two authors called Felix and Steven Halim and started doing some exercises from my favorite judge: [UVa](http://uva.onlinejudge.org/) and I am placing my solved problems in https://github.com/rodrigoalvesvieira/UVa
+To make me get going faster I bought a book called [Competitive Programming 3](https://sites.google.com/site/stevenhalim/), by two authors called Felix and Steven Halim and started doing some exercises from my favorite judge: [UVa](http://uva.onlinejudge.org/) and I am placing my solved problems in [github.com/rodrigoalvesvieira/UVa](https://github.com/rodrigoalvesvieira/UVa)
 
 For the next 3 or 4 years my main goal is to learn as much Computer Science as my brain supports. I guess this will help me a lot, specially with my Algorithms and problem-solving skills.
 
-By the end of the year I'll attempt to become a member of the department
+By the end of the year I'll attempt to become a member of the department team!
