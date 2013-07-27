@@ -1,6 +1,6 @@
 ---
 layout: post_no_comments
-title: Competitive Programming: Getting Started
+title: Competitive Programming - Getting Started
 ---
 
 <span class="drops">C</span>ompetitive programming is something very worth doing in my opinion. The whole idea of spending time solving problems (ideally, complex ones) with a team, in a short amount of time is amazing.
