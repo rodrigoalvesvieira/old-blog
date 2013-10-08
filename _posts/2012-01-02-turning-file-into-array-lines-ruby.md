@@ -5,6 +5,7 @@ title: Turning a File Into an Array of Lines in Ruby
 
 <span class="drops">G</span>etting lines of a file stored in an array might be something very useful. In Ruby you can do this with admirable ease with the basic <span class="small_code">IO</span> class:
 <br/>
+
 {% highlight ruby %}
 
 lines_array = IO.readlines("/usr/share/dict/words")
