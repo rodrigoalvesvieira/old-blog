@@ -5,7 +5,7 @@ title: Java libs hard to live without
 
 <span class="drops">S</span>ince late 2012 I'm creating software with Java and there's quite a few libs which I can't forget anymore, because I'm constantly in need of them. Here they are listed, each with a brief explanation of what they're for:
 
-### [Google Gson]
+### [gson] from Google
 
 JSON has became the de-facto standard for data representation in the Web. As I'm always having to parse documents and build my Java objects with data coming from a JSON files this lib is the best for the job I've encountered so far.
 
@@ -44,11 +44,15 @@ Song u = gson.fromJson(element, Song.class);
 
 If you need to perform HTTP request in your Java program, then this is the lib for you. Besides the ability to easily perform asynchronous HTTP requests `async-http-client` allows you to easily set your request headers.
 
+### [guava] from Google
+
+
+
 ### [junit]
 
 Testing is an important step in the process of writing good, maintainable software. Whether you follow or not the TDD <a href="#foot-link-1">[1]</a> practices, this lib is probably the right one for your unit tests. Junit offers an immense set of assertion methods and matchers. Another plus is that Junit is very mature (in fact, Junit is believed to be the first TDD lib to exist!) and thus there are a lot of IDE plugins and such helper tools to make our lives easier.
 
-[Google Gson]:https://sites.google.com/site/gson/
+[gson]:https://sites.google.com/site/gson/
 [async-http-client]:https://github.com/asynchttpclient/async-http-client/
 [google-guice]: https://code.google.com/p/google-guice/
 [junit]: http://junit.org/
