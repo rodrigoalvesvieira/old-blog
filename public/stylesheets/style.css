@@ -379,6 +379,7 @@ article img {
   max-height: 340px;
   border: none;
   display: block;
+  /*margin-bottom: -10px;*/
   margin-left: auto;
   margin-right: auto;
   margin-top: -10px;
@@ -515,4 +516,16 @@ footer p { font-size:15px; }
   display: inline-block;
   float: right;
   margin: -70px 200px -300px 120px;
+}
+
+section article .picture-legend {
+  display: none;
+}
+
+#post .picture-legend {
+  display: block;
+  font-size: 15px;
+  color: #48443b;
+  margin: 10px 0 20px auto;
+  text-align: center;
 }
