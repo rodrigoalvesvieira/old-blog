@@ -12,7 +12,7 @@ categories: travel
 
 ## The City
 
-Porto Alegre is a very green city. You get to see trees everywhere, _all-around_ 100 feet pine trees. People are generally very polite and (the girls) beautiful. Traffic is not so chaotic but drivers aren't usually very respectful with pedestrians either.
+Porto Alegre is a very green city. You get to see trees everywhere, _all-around_ 100 feet pine trees. People are generally very polite. Traffic is not so chaotic but drivers aren't usually very respectful with pedestrians either.
 
 ![Farroupilha Park](/public/images/poa/SDC14241.JPG "Farroupilha Park")
 <span class="picture-legend">Farroupilha Park</span>
