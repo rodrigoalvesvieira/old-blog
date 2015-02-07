@@ -13,7 +13,6 @@ public/bpas/*
 public/aihs/*
 public/tiss/*
 public/abramge/*
-Gemfile.lock
 .autotest
 capybara201*
 config/database.yml
@@ -24,4 +23,3 @@ public/uploads/**
 prepare
 rotas.txt
 public/fichas/*
-*.lock
