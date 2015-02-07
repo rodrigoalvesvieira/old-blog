@@ -23,7 +23,7 @@ The blog is built upon a series of technologies:
 
 ## Copyright
 
-Copyright © 2011-2013 Rodrigo Alves. All Rights Reserved.
+Copyright © 2011-2015 Rodrigo Alves. All Rights Reserved.
 
 [Jekyll]: https://github.com/mojombo/jekyll
 [Markdown]: http://daringfireball.net/projects/markdown/
